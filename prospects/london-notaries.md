@@ -182,195 +182,103 @@ Analyzed 10 notary public websites across London boroughs. Most are severely out
 
 ---
 
-## Demo Sites Built (January 2026)
+## Demo Sites Built for REAL Prospects (January 2026)
 
-Modern Next.js websites built as demos/pitches for potential clients in uncovered London boroughs:
+Modern Next.js demo websites built based on REAL researched prospects. These demos show what their websites COULD look like with a modern redesign.
 
-### 1. Notary Public Westminster - James Thornton
+### Kuddus Solicitors Network (4 Sites - Bulk Deal Opportunity)
+
+All sites use real Kuddus Solicitors contact details:
+- Phone: 020 7247 5476
+- Email: reception@kuddussolicitors.com
+
+#### 1. Kuddus Notary Camden
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/notary-public-westminster |
-| Target Borough | Westminster, Mayfair |
-| Color Scheme | Navy (#0a1628) / Royal Blue (#1a365d) / Gold (#d69e2e) |
-| Demo Address | 45 Piccadilly, Mayfair, London W1J 0DS |
-| Demo Phone | 020 7629 8800 |
-| Demo Email | james@thorntonnotary.co.uk |
-| Target Market | Corporate clients, embassies, high-net-worth individuals |
-| Features | Premium pricing (£95+), same-day appointments |
+| Demo Site | sites/kuddus-notary-camden |
+| Target Website | notarypubliccamden.com |
+| Color Scheme | Navy (#1e3a5f) / Blue (#2d5a87) / Red (#dc2626) |
+| Areas | Camden Town, King's Cross, Kentish Town, Hampstead |
+| Pitch | Show them a modern site that would convert more of their #1 ranking traffic |
 
-### 2. Notary Public Greenwich - Sarah Mitchell
+#### 2. Kuddus Notary Hackney
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/notary-public-greenwich |
-| Target Borough | Greenwich, Blackheath, SE London |
-| Color Scheme | Teal (#0d4f4f) / Dark Teal (#134e4a) / Coral (#f97316) |
-| Demo Address | 28 Greenwich High Road, Greenwich, London SE10 8NA |
-| Demo Phone | 020 8858 7200 |
-| Demo Email | sarah@greenwichnotary.co.uk |
-| Target Market | Residential clients, families |
-| Features | Evening/weekend appointments, home visits |
+| Demo Site | sites/kuddus-notary-hackney |
+| Target Website | notarypublichackney.com |
+| Color Scheme | Green (#14532d) / Green (#166534) / Orange (#ea580c) |
+| Areas | Hackney Central, Dalston, Stoke Newington, Shoreditch |
+| Pitch | Package deal with Camden for consistency |
 
-### 3. Notary Public Lambeth - David Adeyemi
+#### 3. Kuddus Notary Southwark
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/notary-public-lambeth |
-| Target Borough | Lambeth, Brixton, Clapham |
-| Color Scheme | Purple (#2d1b4e) / Deep Purple (#4c1d95) / Yellow (#eab308) |
-| Demo Address | 156 Brixton Road, Brixton, London SW9 6AT |
-| Demo Phone | 020 7274 3500 |
-| Demo Email | david@lambethnotary.co.uk |
-| Target Market | Diverse community, African diaspora documents |
-| Features | Multilingual services, community focused |
+| Demo Site | sites/kuddus-notary-southwark |
+| Target Website | notarypublicsouthwark.co.uk |
+| Color Scheme | Purple (#4c1d95) / Purple (#7c3aed) / Amber (#f59e0b) |
+| Areas | Southwark, Borough, Bermondsey, Peckham, Camberwell |
+| Pitch | Third site in their network - bulk pricing |
 
-### 4. Notary Public Wandsworth - Helen Kowalski
+#### 4. Kuddus Notary Tower Hamlets
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/notary-public-wandsworth |
-| Target Borough | Wandsworth, Battersea, Putney |
-| Color Scheme | Forest Green (#1a472a) / Green (#166534) / Pink (#ec4899) |
-| Demo Address | 89 Battersea Rise, Battersea, London SW11 1HW |
-| Demo Phone | 020 7228 9100 |
-| Demo Email | helen@wandsworthnotary.co.uk |
-| Target Market | Young professionals, property transactions |
-| Features | Polish language services, modern aesthetic |
-
-### 5. Notary Public Kensington - Michael Chen
-| Field | Details |
-|-------|---------|
-| Demo Site | sites/notary-public-kensington |
-| Target Borough | Kensington, Chelsea, Fulham |
-| Color Scheme | Burgundy (#4a1c2a) / Maroon (#7f1d1d) / Teal (#14b8a6) |
-| Demo Address | 123 Kensington High Street, Kensington, London W8 5SF |
-| Demo Phone | 020 7937 4400 |
-| Demo Email | michael@kensingtonnotary.co.uk |
-| Target Market | Chinese community, international clients |
-| Features | Mandarin/Cantonese services, premium location |
-
-### 6. Notary Public Barnet - Emma Richardson
-| Field | Details |
-|-------|---------|
-| Demo Site | sites/notary-public-barnet |
-| Target Borough | Barnet, High Barnet, Finchley |
-| Color Scheme | Navy (#1e3a5f) / Blue (#2563eb) / Orange (#f97316) |
-| Demo Address | 45 High Street, High Barnet, London EN5 5UJ |
-| Demo Phone | 020 8441 5200 |
-| Demo Email | emma@barnetnotary.co.uk |
-| Target Market | North London residential, families |
-| Features | Friendly service, local focus |
-
-### 7. Notary Public Lewisham - Marcus Johnson
-| Field | Details |
-|-------|---------|
-| Demo Site | sites/notary-public-lewisham |
-| Target Borough | Lewisham, Catford, New Cross |
-| Color Scheme | Slate (#334155) / Slate (#475569) / Lime (#84cc16) |
-| Demo Address | 78 Lewisham High Street, Lewisham, London SE13 5JX |
-| Demo Phone | 020 8314 7600 |
-| Demo Email | marcus@lewishamnotary.co.uk |
-| Target Market | SE London community, Caribbean diaspora |
-| Features | Multilingual, community connections |
-
-### 8. Notary Public Brent - Priya Sharma
-| Field | Details |
-|-------|---------|
-| Demo Site | sites/notary-public-brent |
-| Target Borough | Brent, Wembley, Harlesden |
-| Color Scheme | Indigo (#312e81) / Indigo (#4338ca) / Rose (#f43f5e) |
-| Demo Address | 156 Wembley High Road, Wembley HA9 7AJ |
-| Demo Phone | 020 8903 4500 |
-| Demo Email | priya@brentnotary.co.uk |
-| Target Market | South Asian community, NW London |
-| Features | Hindi/Punjabi/Gujarati services |
-
-### 9. Notary Public Ealing - Thomas Williams
-| Field | Details |
-|-------|---------|
-| Demo Site | sites/notary-public-ealing |
-| Target Borough | Ealing, Acton, Hanwell |
-| Color Scheme | Emerald (#064e3b) / Emerald (#047857) / Amber (#f59e0b) |
-| Demo Address | 22 The Broadway, Ealing, London W5 2NP |
-| Demo Phone | 020 8567 3400 |
-| Demo Email | thomas@ealingnotary.co.uk |
-| Target Market | West London professionals |
-| Features | Corporate and personal services |
-
-### 10. Notary Public Croydon - Olivia Brown
-| Field | Details |
-|-------|---------|
-| Demo Site | sites/notary-public-croydon |
-| Target Borough | Croydon, South Croydon, Purley |
-| Color Scheme | Charcoal (#1f2937) / Gray (#374151) / Cyan (#06b6d4) |
-| Demo Address | 95 High Street, Croydon CR0 1QD |
-| Demo Phone | 020 8686 5500 |
-| Demo Email | olivia@croydonnotary.co.uk |
-| Target Market | South London, Surrey borders |
-| Features | Easy transport links, modern office |
+| Demo Site | sites/kuddus-notary-tower-hamlets |
+| Target Website | notarypublictowerhamlets.co.uk |
+| Color Scheme | Teal (#0f766e) / Teal (#14b8a6) / Rose (#f43f5e) |
+| Areas | Tower Hamlets, Whitechapel, Mile End, Bethnal Green, Canary Wharf |
+| Pitch | Complete network modernization deal |
 
 ---
 
-## Financial Adviser Demo Sites (January 2026)
+### Individual Notary Demos
 
-Modern Next.js websites for independent financial advisers:
-
-### 1. Financial Adviser Finchley - Robert Hughes
+#### 5. Bernard Cordell - Notary Public Belsize Park
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/financial-adviser-finchley |
-| Target Area | Finchley, North London |
-| Color Scheme | Sky (#0c4a6e) / Sky (#0284c7) / Green (#22c55e) |
-| Demo Address | 142 Ballards Lane, Finchley, London N3 2PA |
-| Demo Phone | 020 8346 7800 |
-| Demo Email | robert@finchleyifa.co.uk |
-| Target Market | Professionals, retirement planning |
-| Features | Pension specialists, ISA advice |
+| Demo Site | sites/bernard-cordell-notary |
+| Target Website | bernardcordell-notarypublic.co.uk |
+| Color Scheme | Burgundy (#7f1d1d) / Burgundy (#991b1b) / Gold (#fbbf24) |
+| Areas | Belsize Park, Hampstead, Primrose Hill, Swiss Cottage, St John's Wood |
+| Pitch | Modern design to climb from #5 ranking |
 
-### 2. Financial Adviser Harrow - Anita Patel
+#### 6. Stamford Hill Notary (Hackney-Haringey)
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/financial-adviser-harrow |
-| Target Area | Harrow, Pinner |
-| Color Scheme | Violet (#4c1d95) / Violet (#7c3aed) / Amber (#fbbf24) |
-| Demo Address | 88 Station Road, Harrow HA1 2RX |
-| Demo Phone | 020 8427 6500 |
-| Demo Email | anita@harrowifa.co.uk |
-| Target Market | Asian community, first-gen wealth |
-| Features | Multi-generational planning |
+| Demo Site | sites/stamford-hill-notary |
+| Target Website | notarypublichackney-haringey.co.uk |
+| Known Pricing | £285/hr, min £80 |
+| Color Scheme | Navy (#1e3a8a) / Blue (#1d4ed8) / Emerald (#10b981) |
+| Areas | Stamford Hill, Tottenham, Stoke Newington, Finsbury Park |
+| Pitch | Has pricing but poor presentation - showcase it properly |
 
-### 3. Financial Adviser Wanstead - William Thompson
+#### 7. Notary Southwark (Alternative)
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/financial-adviser-wanstead |
-| Target Area | Wanstead, East London |
-| Color Scheme | Slate (#0f172a) / Slate (#1e293b) / Orange (#f97316) |
-| Demo Address | 56 High Street, Wanstead, London E11 2RJ |
-| Demo Phone | 020 8989 5300 |
-| Demo Email | william@wansteadifa.co.uk |
-| Target Market | Young families, mortgage advice |
-| Features | First-time buyer specialists |
+| Demo Site | sites/southwark-notary |
+| Target Website | notarysouthwark.co.uk |
+| Color Scheme | Slate (#334155) / Charcoal (#475569) / Pink (#ec4899) |
+| Areas | Southwark, Bermondsey, Rotherhithe, Walworth, Dulwich |
+| Pitch | Behind Kuddus in rankings - modern site = competitive advantage |
 
-### 4. Financial Adviser Mayfair - Charlotte Davies
+#### 8. Notary Public Central London (Holborn)
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/financial-adviser-mayfair |
-| Target Area | Mayfair, Central London |
-| Color Scheme | Indigo (#1e1b4b) / Indigo (#312e81) / Purple (#a855f7) |
-| Demo Address | 33 Brook Street, Mayfair, London W1K 4HB |
-| Demo Phone | 020 7493 8800 |
-| Demo Email | charlotte@mayfairwealth.co.uk |
-| Target Market | UHNW clients, wealth preservation |
-| Features | Bespoke portfolios, tax planning |
+| Demo Site | sites/central-london-notary |
+| Target Website | notarypubliccentrallondon.co.uk |
+| Special Feature | Multilingual services (Russian, Mandarin, Portuguese) |
+| Color Scheme | Navy (#1e1b4b) / Indigo (#312e81) / Gold (#fbbf24) |
+| Areas | Holborn, Covent Garden, Bloomsbury, Chancery Lane, Fleet Street |
+| Pitch | Showcase the multilingual services that are currently hidden |
 
-### 5. Financial Adviser City of London - Daniel Morgan
+#### 9. White Horse Notary Public - Muhammad Karim
 | Field | Details |
 |-------|---------|
-| Demo Site | sites/financial-adviser-city-london |
-| Target Area | City of London, Canary Wharf |
-| Color Scheme | Teal (#134e4a) / Teal (#14b8a6) / Red (#ef4444) |
-| Demo Address | 100 Bishopsgate, City of London EC2N 4AG |
-| Demo Phone | 020 7626 9400 |
-| Demo Email | daniel@cityfinancial.co.uk |
-| Target Market | City professionals, corporate clients |
-| Features | Executive financial planning |
+| Demo Site | sites/white-horse-notary |
+| Target Website | whitehorsenotarypublic.com |
+| Real Phone | 020 3817 7502 |
+| Color Scheme | Blue (#0c4a6e) / Sky (#0284c7) / Amber (#f59e0b) |
+| Areas | Westminster, Victoria, Pimlico, Belgravia, Mayfair |
+| Pitch | Performance optimization - cleaner, faster version of current site |
 
 ---
 

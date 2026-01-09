@@ -153,6 +153,72 @@ Outreach list for financial advisers and wealth managers. Focus on independent f
 
 ---
 
+## Demo Sites Built for REAL Prospects (January 2026)
+
+Modern Next.js demo websites built based on REAL researched prospects. These demos show what their websites COULD look like with a modern redesign.
+
+### 1. Total Finance (UK) Ltd
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/total-finance |
+| Target Website | total-finance.org.uk |
+| Real Phone | 020 8695 7548 |
+| Real Email | info@total-finance.org.uk |
+| Real Address | 184-190 Farnaby Road, Bromley BR2 0BB |
+| Color Scheme | Green (#166534) / Green (#22c55e) / Blue (#3b82f6) |
+| Services | Mortgages, Life Assurance, Critical Illness, Income Protection, Secured Loans |
+| Pitch | Complete redesign for dated 4/10 site - showcase professional credibility |
+
+### 2. Alpha Investments & Financial Planning Ltd
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/alpha-investments |
+| Target Website | alpha4u.co.uk |
+| Real Phone | 020 3397 7730 |
+| Real Addresses | Harrow: 79 College Road HA1 1BD; Mayfair: 17 Hanover Square W1S 1BN |
+| Color Scheme | Purple (#4c1d95) / Purple (#7c3aed) / Gold (#fbbf24) |
+| Services | Investment Planning, Pensions, Life Assurance, Auto-Enrolment, Tax Planning |
+| Pitch | Premium design matching Mayfair office prestige - features BOTH locations |
+
+### 3. Primavera Financial Partners (CHARTERED)
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/primavera-financial |
+| Target Website | primaverafp.com |
+| Real Phone | 020 8532 9652 |
+| Real Email | admin@primaverafp.com |
+| Real Address | 87a High Street, Wanstead, London E11 2AE |
+| Color Scheme | Teal (#0d9488) / Teal (#14b8a6) / Orange (#f97316) |
+| Services | Investments, Pensions, Mortgages, Protection, Retirement Planning |
+| Special | CHARTERED STATUS prominently featured - currently hidden on their site |
+| Pitch | Showcase the elite Chartered qualification they earned |
+
+### 4. Aspire Independent Financial Planners LLP
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/aspire-finchley |
+| Target Website | aspireonline.co.uk |
+| Real Phone | 020 8371 4411 |
+| Real Email | enquiries@aspireonline.co.uk |
+| Real Address | 17 Station Road, Finchley, London N3 2SB |
+| Color Scheme | Navy (#1e3a8a) / Blue (#3b82f6) / Emerald (#10b981) |
+| Services | Wealth Management, Pensions, Mortgages, Insurance, Equity Release, Will Writing |
+| Pitch | Modern fast-loading design vs their slow Drupal site |
+
+### 5. Holder & Combes (CHARTERED)
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/holder-combes |
+| Target Website | holderandcombes.co.uk |
+| Real Phone | +44 (0)207 101 2817 |
+| Real Address | 20 Little Britain, St. Paul's, London EC1A 7DH |
+| Color Scheme | Charcoal (#1f2937) / Gray (#374151) / Gold (#d97706) |
+| Services | Wealth Management, Retirement Planning, Pensions, Estate Planning, Wills, Tax Planning |
+| Special | CHARTERED FINANCIAL PLANNER status (top 5%) prominently featured |
+| Pitch | Premium City of London positioning - showcase Chartered badge they earned |
+
+---
+
 ## Outreach Log
 
 | Date | Prospect | Method | Response | Follow-up |
