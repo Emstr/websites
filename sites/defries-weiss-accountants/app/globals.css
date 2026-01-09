@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Custom color palette for Defries Weiss Accountants */
+:root {
+  --forest-green: #276749;
+  --forest-green-dark: #1e5439;
+  --forest-green-light: #34785a;
+  --slate: #475569;
+  --slate-light: #64748b;
+  --slate-dark: #334155;
+}
+
+/* Typography and smoothing */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--forest-green);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--forest-green-dark);
+}
