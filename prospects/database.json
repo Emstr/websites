@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "lastUpdated": "2026-01-09",
+    "totalProspects": 55,
+    "version": "1.1"
+  },
+  "prospects": {
+    "uk": {
+      "financial_advisers": [
+        {"name": "Ransom IFA", "location": "Yorkshire", "website": "ransomifa.co.uk", "status": "demo_built"},
+        {"name": "Face2Face Advice", "location": "Glasgow", "website": "face2faceadvice.co.uk", "status": "demo_built"},
+        {"name": "Strategy Wealth", "location": "Cornwall", "website": "strategy-wealth.co.uk", "status": "demo_built"},
+        {"name": "Bareham IFA", "location": "Leeds", "website": "barehamifa.com", "status": "demo_built"},
+        {"name": "Platinum Advice", "location": "Wetherby", "website": "platinum-advice.com", "status": "demo_built"},
+        {"name": "Financial Framework", "location": "Otley", "website": "financialframework.co.uk", "status": "demo_built"},
+        {"name": "Molyneux Associates", "location": "Plymouth", "website": "molyneux-associates.co.uk", "status": "demo_built"},
+        {"name": "CarterDawes", "location": "Devon/Suffolk", "website": "carterdawes.com", "status": "demo_built"},
+        {"name": "Birmingham Money", "location": "Birmingham", "website": "birmingham-money.co.uk", "status": "demo_built"},
+        {"name": "The Right Broker", "location": "Solihull", "website": "therightbroker.co.uk", "status": "demo_built"}
+      ],
+      "solicitors": [
+        {"name": "Prism Family Law", "location": "Newcastle", "website": "prismfamilylaw.co.uk", "status": "demo_built"},
+        {"name": "Surrey Wills Company", "location": "Cranleigh", "website": "surrey-wills.co.uk", "status": "demo_built"},
+        {"name": "Crowley & Co", "location": "Cardiff", "website": "crowleysolicitors.co.uk", "status": "demo_built"},
+        {"name": "CooperBurnett LLP", "location": "Tunbridge Wells", "website": "cooperburnett.com", "status": "demo_built"},
+        {"name": "Hopkins Solicitors", "location": "Nottingham", "website": "hopkins-solicitors.co.uk", "status": "demo_built"},
+        {"name": "Smalleys Solicitors", "location": "Nottingham", "website": "smalleyssolicitors.co.uk", "status": "demo_built"},
+        {"name": "dgb Solicitors", "location": "Kent", "website": "dgblaw.co.uk", "status": "demo_built"},
+        {"name": "Beecham Peacock", "location": "Newcastle", "website": "beechampeacock.co.uk", "status": "demo_built"},
+        {"name": "Complete Employment", "location": "Sheffield", "website": "completeemploymentsolicitors.com", "status": "demo_built"},
+        {"name": "Insight Law", "location": "Cardiff/Bristol", "website": "insightlaw.co.uk", "status": "demo_built"}
+      ],
+      "accountants": [],
+      "dentists": [],
+      "estate_agents": [],
+      "garages": [
+        {"name": "Clerkenwell Motors", "location": "London EC1", "website": "clerkenwellmotors.co.uk", "status": "demo_built"},
+        {"name": "Springbok Garage", "location": "Tooting", "website": "springbokgarage.co.uk", "status": "demo_built"}
+      ],
+      "florists": [
+        {"name": "Rebel Rebel Flowers", "location": "Hackney", "website": "rebelrebel.co.uk", "status": "demo_built"},
+        {"name": "London Flower Shop", "location": "Southwark", "website": "thelondonflowershop.com", "status": "demo_built"}
+      ],
+      "tailors": [
+        {"name": "Orhan London Tailoring", "location": "Shoreditch", "website": "orhanlondontailoring.com", "status": "demo_built"},
+        {"name": "Alterations Boutique", "location": "Multiple", "website": "alterationsboutique.co.uk", "status": "demo_built"}
+      ],
+      "photographers": [
+        {"name": "Robbie Ewing Photography", "location": "Camberwell", "website": "robbieewing.com", "status": "demo_built"}
+      ],
+      "jewellers": [
+        {"name": "Hirschfelds", "location": "Hatton Garden", "website": "jewellery-repairs-london.co.uk", "status": "demo_built"}
+      ],
+      "notaries": [
+        {"name": "Kuddus Notary Camden", "location": "Camden", "website": "notarypubliccamden.com", "status": "demo_built"},
+        {"name": "Kuddus Notary Hackney", "location": "Hackney", "website": "notarypublichackney.com", "status": "demo_built"},
+        {"name": "Kuddus Notary Southwark", "location": "Southwark", "website": "notarypublicsouthwark.co.uk", "status": "demo_built"},
+        {"name": "Kuddus Notary Tower Hamlets", "location": "Tower Hamlets", "website": "notarypublictowerhamlets.co.uk", "status": "demo_built"}
+      ],
+      "other": []
+    },
+    "us": {
+      "financial_advisers": [],
+      "lawyers": [
+        {"name": "Elliot Green Law", "location": "Brooklyn, NY", "website": "elliotgreenlaw.com", "status": "research"},
+        {"name": "Gilmer Legal", "location": "Brooklyn, NY", "website": "gilmerlegal.com", "status": "research"},
+        {"name": "Arnel Law Firm", "location": "Brooklyn, NY", "website": "nycdivorceatty.com", "status": "research"},
+        {"name": "Illinois Estate Law", "location": "Chicago, IL", "website": "illinoisestatelaw.com", "status": "research"},
+        {"name": "Correa Law", "location": "Chicago, IL", "website": "correalaw.com", "status": "research"},
+        {"name": "Matlin Law Group", "location": "Chicago, IL", "website": "matlinlawgroup.com", "status": "research"}
+      ],
+      "accountants": [
+        {"name": "Lear & Pannepacker", "location": "Princeton, NJ", "website": "lp-cpa.com", "status": "research"},
+        {"name": "Davis CPA Group", "location": "Laurel Springs, NJ", "website": "daviscpagroup.com", "status": "research"},
+        {"name": "Gary Mehta CPA", "location": "Jersey City, NJ", "website": "fourbrothersfinancial.com", "status": "research"},
+        {"name": "Schwartz & Associates", "location": "South Jersey", "website": "rschwartzcpa.com", "status": "research"}
+      ],
+      "dentists": [],
+      "real_estate": [],
+      "auto_services": [
+        {"name": "Bussard's All-Pro", "location": "Glendale, CA", "website": "bussardsauto.com", "status": "research"},
+        {"name": "Hector's Auto Repair", "location": "Los Angeles, CA", "website": "hectorsautorepairla.com", "status": "research"},
+        {"name": "Family Auto Service", "location": "San Diego, CA", "website": "familyautoservice.com", "status": "research"},
+        {"name": "Coastal Auto Repair", "location": "Pacific Beach, CA", "website": "carpb.com", "status": "research"},
+        {"name": "C&D Auto Care", "location": "La Mesa, CA", "website": "cdautocare.com", "status": "research"}
+      ],
+      "other": []
+    }
+  },
+  "outreach": {
+    "queued": [],
+    "contacted": [],
+    "responded": [],
+    "meeting_scheduled": [],
+    "proposal_sent": [],
+    "won": [],
+    "lost": []
+  },
+  "demo_sites": [
+    {"name": "ransom-ifa", "prospect": "Ransom IFA", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "face2face-advice", "prospect": "Face2Face Advice", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "prism-family-law", "prospect": "Prism Family Law", "vertical": "solicitors", "region": "uk"},
+    {"name": "surrey-wills-company", "prospect": "Surrey Wills Company", "vertical": "solicitors", "region": "uk"},
+    {"name": "strategy-wealth", "prospect": "Strategy Wealth", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "bareham-ifa", "prospect": "Bareham IFA", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "birmingham-money", "prospect": "Birmingham Money", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "crowley-solicitors", "prospect": "Crowley & Co", "vertical": "solicitors", "region": "uk"},
+    {"name": "platinum-advice", "prospect": "Platinum Advice", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "the-right-broker", "prospect": "The Right Broker", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "cooperburnett", "prospect": "CooperBurnett LLP", "vertical": "solicitors", "region": "uk"},
+    {"name": "hopkins-solicitors", "prospect": "Hopkins Solicitors", "vertical": "solicitors", "region": "uk"},
+    {"name": "smalleys-solicitors", "prospect": "Smalleys Solicitors", "vertical": "solicitors", "region": "uk"},
+    {"name": "financial-framework", "prospect": "Financial Framework", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "molyneux-associates", "prospect": "Molyneux Associates", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "carterdawes", "prospect": "CarterDawes", "vertical": "financial_advisers", "region": "uk"},
+    {"name": "dgb-solicitors", "prospect": "dgb Solicitors", "vertical": "solicitors", "region": "uk"},
+    {"name": "beecham-peacock", "prospect": "Beecham Peacock", "vertical": "solicitors", "region": "uk"},
+    {"name": "complete-employment", "prospect": "Complete Employment", "vertical": "solicitors", "region": "uk"},
+    {"name": "insight-law", "prospect": "Insight Law", "vertical": "solicitors", "region": "uk"}
+  ]
+}

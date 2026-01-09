@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ocean: #0369a1;
+    --teal: #14b8a6;
+    --coral: #fb7185;
+    --cream: #faf9f6;
+  }
+
+  body {
+    @apply bg-white text-gray-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .coastal-gradient {
+    background: linear-gradient(135deg, #0369a1 0%, #14b8a6 50%, #0ea5e9 100%);
+  }
+
+  .teal-shimmer {
+    background: linear-gradient(90deg, #0f766e 0%, #14b8a6 50%, #2dd4bf 75%, #14b8a6 100%);
+    background-size: 200% auto;
+    animation: shimmer 3s linear infinite;
+  }
+
+  @keyframes shimmer {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
