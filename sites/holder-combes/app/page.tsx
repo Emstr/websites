@@ -134,7 +134,7 @@ export default function Home() {
               </svg>
               <div className="text-left">
                 <p className="text-sm font-medium">FCA Regulated</p>
-                <p className="text-xs opacity-90">Fully Authorized</p>
+                <p className="text-xs opacity-90">Reference: 574786</p>
               </div>
             </div>
             <div className="hidden md:block h-12 w-px bg-white/30"></div>
@@ -188,6 +188,84 @@ export default function Home() {
                 </span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Partners & Team Section */}
+      <section className="py-20 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#1f2937] mb-4">
+              Our Partners & Team
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              12 person firm led by experienced Chartered and Certified Financial Planners
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 mb-12">
+            {/* Ed Holder */}
+            <div className="bg-gradient-to-br from-[#1f2937] to-[#374151] rounded-2xl p-8 text-white">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="bg-[#d97706] rounded-full p-3">
+                  <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-1">Ed Holder</h3>
+                  <p className="text-[#d97706] font-semibold">Chartered Financial Planner</p>
+                  <p className="text-sm text-gray-400 mt-1">Partner</p>
+                </div>
+              </div>
+              <p className="text-gray-300 mb-4">
+                Chartered Financial Planner with extensive experience in comprehensive wealth management and financial planning.
+              </p>
+              <div className="bg-white/5 rounded-lg p-4 border border-[#d97706]/20">
+                <p className="text-sm text-gray-400">Working in partnership since 2002</p>
+              </div>
+            </div>
+
+            {/* Nick Combes */}
+            <div className="bg-gradient-to-br from-[#1f2937] to-[#374151] rounded-2xl p-8 text-white">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="bg-[#d97706] rounded-full p-3">
+                  <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-1">Nick Combes</h3>
+                  <p className="text-[#d97706] font-semibold">Certified Financial Planner</p>
+                  <p className="text-sm text-gray-400 mt-1">Partner</p>
+                </div>
+              </div>
+              <p className="text-gray-300 mb-4">
+                Certified Financial Planner specializing in retirement planning, pensions, and investment management.
+              </p>
+              <div className="bg-white/5 rounded-lg p-4 border border-[#d97706]/20">
+                <p className="text-sm text-gray-400">Working in partnership since 2002</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Accounting Services */}
+          <div className="bg-amber-50 border-l-4 border-[#d97706] p-8 rounded-r-lg">
+            <div className="flex items-start gap-4">
+              <svg className="w-8 h-8 text-[#d97706] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <div>
+                <h3 className="text-xl font-bold text-[#1f2937] mb-2">Holder & Combes Accounting</h3>
+                <p className="text-gray-700 mb-2">
+                  In addition to financial planning, we also offer <span className="font-semibold">Chartered Accountant-led</span> accounting services with 7 tax professionals on staff.
+                </p>
+                <p className="text-sm text-gray-600">
+                  Comprehensive tax planning, compliance, and advisory services for individuals and businesses.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -345,7 +423,7 @@ export default function Home() {
             </a>
           </div>
           <p className="text-sm text-gray-400 mt-6">
-            Authorised and regulated by the Financial Conduct Authority
+            Authorised and regulated by the Financial Conduct Authority (FCA Reference: 574786)
           </p>
         </div>
       </section>

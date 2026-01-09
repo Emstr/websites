@@ -54,13 +54,13 @@ const services = [
 ];
 
 const areas = [
-  'Wanstead',
-  'Redbridge',
   'Woodford',
-  'Ilford',
-  'Leytonstone',
-  'Stratford',
-  'Leyton',
+  'Loughton',
+  'Buckhurst Hill',
+  'Chingford',
+  'Wanstead',
+  'East London',
+  'Essex',
 ];
 
 export default function Home() {
@@ -109,7 +109,7 @@ export default function Home() {
               <span className="font-bold">Chartered Status</span> - The highest qualification for independent financial advisers
             </p>
             <span className="hidden md:inline">•</span>
-            <p className="text-lg">Authorised and regulated by the FCA</p>
+            <p className="text-lg">FCA Number: 459612 | Company: OC324364</p>
           </div>
         </div>
       </section>
@@ -154,8 +154,77 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Team Section */}
+      <section className="py-20 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#0d9488] mb-4">
+              Our Expert Team
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Highly qualified Chartered professionals with decades of combined experience
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Patrick McClelland */}
+            <div className="bg-teal-50 rounded-xl p-8">
+              <div className="mb-4">
+                <h3 className="text-xl font-bold text-[#0d9488] mb-1">Patrick McClelland</h3>
+                <p className="text-[#f97316] font-semibold text-sm">Senior Partner</p>
+              </div>
+              <p className="text-gray-700 mb-4">
+                Over 30 years of experience in financial planning, providing expert advice across all aspects of wealth management.
+              </p>
+              <div className="space-y-1 text-sm text-gray-600">
+                <p className="font-semibold text-[#0d9488]">Qualifications:</p>
+                <p>• BA Hons Business Studies</p>
+                <p>• CeMAP</p>
+                <p>• DipFA</p>
+                <p>• AwPETR</p>
+                <p>• Adv DipFA</p>
+                <p>• Chartered ALIBF</p>
+              </div>
+            </div>
+
+            {/* Lucy Bird */}
+            <div className="bg-teal-50 rounded-xl p-8">
+              <div className="mb-4">
+                <h3 className="text-xl font-bold text-[#0d9488] mb-1">Lucy Bird</h3>
+                <p className="text-[#f97316] font-semibold text-sm">Para Planner</p>
+              </div>
+              <p className="text-gray-700 mb-4">
+                Providing technical support and ensuring all financial plans are comprehensive and compliant.
+              </p>
+              <div className="space-y-1 text-sm text-gray-600">
+                <p className="font-semibold text-[#0d9488]">Qualifications:</p>
+                <p>• Accounting & Finance Degree</p>
+                <p>• CeMAP</p>
+              </div>
+            </div>
+
+            {/* Carole McClelland */}
+            <div className="bg-teal-50 rounded-xl p-8">
+              <div className="mb-4">
+                <h3 className="text-xl font-bold text-[#0d9488] mb-1">Carole McClelland</h3>
+                <p className="text-[#f97316] font-semibold text-sm">Partner</p>
+              </div>
+              <p className="text-gray-700 mb-4">
+                Responsible for compliance, accounts, and marketing. In the financial services industry since 1986.
+              </p>
+              <div className="space-y-1 text-sm text-gray-600">
+                <p className="font-semibold text-[#0d9488]">Experience:</p>
+                <p>• Industry experience since 1986</p>
+                <p>• Compliance & Accounts</p>
+                <p>• Marketing Management</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Preview */}
-      <section className="py-20">
+      <section className="py-20 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -190,7 +259,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-[#0d9488] to-[#0f766e] rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-semibold mb-6">Areas We Serve</h3>
               <p className="text-teal-100 mb-6">
-                Primavera Financial Partners serves clients across Wanstead and East London:
+                Primavera Financial Partners serves clients across East London and Essex:
               </p>
               <div className="grid grid-cols-2 gap-3">
                 {areas.map((area) => (
@@ -202,9 +271,17 @@ export default function Home() {
                   </div>
                 ))}
               </div>
-              <p className="text-teal-100 mt-6 text-sm">
-                Face-to-face meetings at our Wanstead office or via video call
-              </p>
+              <div className="mt-6 space-y-2">
+                <p className="text-teal-100 text-sm">
+                  <span className="font-semibold">Main Office:</span> 87a High Street, Wanstead, London E11 2AE
+                </p>
+                <p className="text-teal-100 text-sm">
+                  <span className="font-semibold">Satellite Office:</span> Rye, East Sussex
+                </p>
+                <p className="text-[#f97316] font-semibold mt-4">
+                  Free initial consultation available
+                </p>
+              </div>
             </div>
           </div>
         </div>

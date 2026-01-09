@@ -54,8 +54,9 @@ export default function Home() {
               Notary Public Services in Camden
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Professional notarial services for businesses and individuals. Part of the Kuddus Solicitors
-              network, providing expert document authentication, legalisation, and apostille services across North London.
+              Professional notarial services with 17+ years of experience. Kuddus Ali, qualified notary since 2008
+              with University of Cambridge postgraduate diploma in Notarial Practice, providing expert document
+              authentication, legalisation, and apostille services across North London.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -80,10 +81,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center">
             <p className="text-lg">
-              <span className="font-bold">Competitive fees</span> with transparent pricing
+              <span className="font-bold">Prices from £65</span> • NO VAT on notarial services
             </p>
             <span className="hidden md:inline">|</span>
-            <p className="text-lg">#1 ranked for &quot;notary public Camden London&quot;</p>
+            <p className="text-lg">17+ years experience • Home visits available</p>
           </div>
         </div>
       </section>
@@ -134,16 +135,17 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
-                About Kuddus Solicitors
+                About Kuddus Ali - Notary Public
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Kuddus Solicitors is an established legal practice providing comprehensive
-                notary public services across multiple London boroughs. Our Camden office
-                serves the local community with professional, efficient notarial services.
+                Kuddus Solicitors was founded in 2002 by Kuddus Ali. As a qualified notary public
+                since 2008 with a postgraduate diploma in Notarial Practice from the University of Cambridge,
+                Kuddus Ali brings 17+ years of notarial experience serving businesses and individuals
+                across London.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                With years of experience in document authentication, we handle everything
-                from simple certifications to complex international legalisation requirements.
+                SRA regulated (Number: 565049), we offer comprehensive notary services starting from £65
+                with NO VAT on notarial services. Home visits and out-of-hours appointments available for your convenience.
               </p>
               <Link
                 href="/about"
@@ -171,7 +173,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-300 mt-6 text-sm">
-                Home and business visits available for an additional fee
+                Home visits and out-of-hours appointments available
               </p>
             </div>
           </div>

@@ -94,6 +94,7 @@ const jsonLd = {
   email: "enquiries@aspireonline.co.uk",
   address: {
     "@type": "PostalAddress",
+    name: "Aspire House",
     streetAddress: "17 Station Road",
     addressLocality: "Finchley",
     addressRegion: "London",

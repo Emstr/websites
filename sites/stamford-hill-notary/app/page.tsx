@@ -34,13 +34,33 @@ const services = [
 ];
 
 const areas = [
-  'Stamford Hill',
-  'Tottenham',
-  'Stoke Newington',
-  'Finsbury Park',
-  'Seven Sisters',
   'Hackney',
   'Haringey',
+  'Tottenham',
+  'Walthamstow',
+  'Edmonton',
+  'Stoke Newington',
+  'Dalston',
+  'Manor House',
+  'Crouch End',
+  'Muswell Hill',
+  'Finsbury Park',
+  'Seven Sisters',
+  'Cockfosters',
+  'Enfield',
+  'Southgate',
+  'Wood Green',
+  'Hornsey',
+  'Highgate',
+  'Camden Town',
+  'Holloway',
+  'Highbury',
+  'Woodford',
+  'Clapton',
+  'Wanstead',
+  'Leyton',
+  'Stratford',
+  'Islington',
 ];
 
 export default function Home() {
@@ -54,7 +74,7 @@ export default function Home() {
               Notary Public Services in Stamford Hill
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Professional notarial services for businesses and individuals in Stamford Hill, serving Hackney and Haringey. Document authentication, legalisation, and apostille services.
+              Professional notarial services for businesses and individuals. Office or client premises appointments available. Out of hours and weekend appointments available. Serving Hackney, Haringey, and wider North London.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -79,10 +99,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center">
             <p className="text-lg">
-              <span className="font-bold">£285 per hour</span> with a minimum fee of £80 (no VAT)
+              <span className="font-bold">Transparent Pricing: £285/hour, minimum £80 + VAT</span>
             </p>
             <span className="hidden md:inline">•</span>
-            <p className="text-lg">Evening & weekend appointments available</p>
+            <p className="text-lg">Fee agreed before accepting instructions</p>
           </div>
         </div>
       </section>
@@ -136,11 +156,13 @@ export default function Home() {
                 About Our Service
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                We are a professional Notary Public service based in Stamford Hill, serving the Hackney and Haringey areas of North London. Our experienced notary provides comprehensive notarial services for both businesses and individuals.
+                We are a professional Notary Public service based at 1 Egerton Road, Stamford Hill, serving Hackney, Haringey, and wider North London. Our experienced notary provides comprehensive notarial services for both businesses and individuals.
+              </p>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                While notarial work can seem quite formal, we strive to provide an efficient and friendly service to all our clients. We offer transparent pricing with fees agreed before accepting instructions.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                While notarial work can seem quite formal, we strive to provide an efficient
-                and friendly service to all our clients, whether businesses or individuals.
+                <strong>Payment accepted:</strong> Cash, debit card, or bank transfer
               </p>
               <Link
                 href="/about"
@@ -155,20 +177,20 @@ export default function Home() {
             <div className="bg-gradient-to-br from-[#1e3a8a] to-[#1d4ed8] rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-semibold mb-6">Areas Served</h3>
               <p className="text-gray-300 mb-6">
-                We provide notary services across Stamford Hill and surrounding North London areas:
+                Based in Stamford Hill, we serve Hackney, Haringey, and wider North London including:
               </p>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-3 max-h-64 overflow-y-auto">
                 {areas.map((area) => (
                   <div key={area} className="flex items-center gap-2">
-                    <svg className="w-5 h-5 text-[#10b981]" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                    <svg className="w-5 h-5 text-[#10b981] flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
-                    <span>{area}</span>
+                    <span className="text-sm">{area}</span>
                   </div>
                 ))}
               </div>
               <p className="text-gray-300 mt-6 text-sm">
-                Home and business visits available for an additional fee
+                Office or client premises appointments available. Out of hours and weekend appointments available.
               </p>
             </div>
           </div>
@@ -217,10 +239,10 @@ export default function Home() {
               Get Instant Quote
             </Link>
             <a
-              href="tel:02088000000"
+              href="tel:02088262131"
               className="border-2 border-white hover:bg-white hover:text-[#1e3a8a] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
-              Call: 020 8800 0000
+              Call: 020 8826 2131
             </a>
           </div>
         </div>

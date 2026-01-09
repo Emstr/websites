@@ -66,7 +66,8 @@ export default function Footer() {
               </li>
               <li className="pt-2">
                 <span className="text-sm text-gray-400">
-                  Authorised and regulated by the<br />Financial Conduct Authority
+                  Authorised and regulated by the<br />Financial Conduct Authority<br />
+                  FCA Reference: 574786
                 </span>
               </li>
             </ul>

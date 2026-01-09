@@ -56,15 +56,15 @@ export default function Home() {
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Professional notarial services for businesses and individuals across South London. Document authentication,
-              legalisation, and apostille services. Evening and weekend appointments available at your location.
+              legalisation, and apostille services. Evening and weekend visits available at your office or home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/quote"
+              <a
+                href="mailto:notarypublic@live.co.uk"
                 className="bg-[#ec4899] hover:bg-[#db2777] px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
               >
-                Get a Quote
-              </Link>
+                Email Us
+              </a>
               <Link
                 href="/contact"
                 className="border-2 border-white hover:bg-white hover:text-[#334155] px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
@@ -81,10 +81,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center">
             <p className="text-lg">
-              <span className="font-bold">Competitive fees</span> - Contact us for a quote
+              <span className="font-bold">Office or client location appointments</span>
             </p>
             <span className="hidden md:inline">•</span>
-            <p className="text-lg">Evening & weekend appointments available at your location</p>
+            <p className="text-lg">Evening & weekend visits available</p>
           </div>
         </div>
       </section>
@@ -212,22 +212,22 @@ export default function Home() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss your notarial requirements and receive a competitive quote.
-            Evening and weekend appointments available at your location.
+            Contact us today to discuss your notarial requirements. Evening and weekend visits available
+            at your office or home location.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/quote"
-              className="bg-[#ec4899] hover:bg-[#db2777] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
-            >
-              Request a Quote
-            </Link>
             <a
               href="mailto:notarypublic@live.co.uk"
+              className="bg-[#ec4899] hover:bg-[#db2777] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+            >
+              Email: notarypublic@live.co.uk
+            </a>
+            <Link
+              href="/contact"
               className="border-2 border-white hover:bg-white hover:text-[#334155] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
-              Email Us
-            </a>
+              Contact Us
+            </Link>
           </div>
         </div>
       </section>

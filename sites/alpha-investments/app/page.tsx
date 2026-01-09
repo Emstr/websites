@@ -77,11 +77,11 @@ export default function Home() {
               <span className="text-sm font-medium">Trusted Financial Planning Since 1995</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-              Premium Financial Planning for Your Future
+              Independent Financial Advisers with TWO Prestigious London Locations
             </h1>
             <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-              Expert wealth management and financial planning services from our Mayfair and Harrow offices.
-              Tailored investment strategies, pension planning, and tax-efficient solutions for discerning clients.
+              Expert wealth management and financial planning services from our prestigious Mayfair and Harrow offices.
+              Tailored investment strategies, pension planning, and tax-efficient solutions. FCA regulated for your peace of mind.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -281,10 +281,10 @@ export default function Home() {
                 FCA Regulated & Protected
               </h3>
               <p className="text-gray-700 text-sm leading-relaxed">
-                Alpha Investments & Financial Planning Ltd is authorized and regulated by the Financial Conduct Authority.
-                Your eligible deposits are protected up to £85,000 by the Financial Services Compensation Scheme (FSCS).
-                The value of investments can fall as well as rise, and you may get back less than you invested.
-                Tax treatment depends on individual circumstances and may be subject to change.
+                Alpha Investments & Financial Planning Ltd is authorized and regulated by the Financial Conduct Authority
+                (FCA Reference: 546200, Company Number: 07373148). Your eligible deposits are protected up to £85,000 by
+                the Financial Services Compensation Scheme (FSCS). The value of investments can fall as well as rise, and
+                you may get back less than you invested. Tax treatment depends on individual circumstances and may be subject to change.
               </p>
             </div>
           </div>

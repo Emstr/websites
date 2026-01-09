@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Notary Public Camden",
   },
   description:
-    "Professional notary public services in Camden, London. Document authentication, legalisation, apostille services for businesses and individuals. Part of Kuddus Solicitors network.",
+    "Professional notary public services in Camden, London by Kuddus Ali - qualified since 2008 with Cambridge diploma. 17+ years experience. Prices from £65, NO VAT. Document authentication, legalisation, apostille services.",
   keywords: [
     "notary public",
     "Camden",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "Notary Public Camden",
     title: "Notary Public Camden | Kuddus Solicitors | London NW1",
     description:
-      "Professional notary public services in Camden, London. Document authentication, legalisation, apostille services for businesses and individuals.",
+      "Professional notary public services in Camden, London by Kuddus Ali - qualified since 2008, Cambridge diploma, 17+ years experience. Prices from £65, NO VAT.",
     images: [
       {
         url: "/og-image.jpg",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Notary Public Camden | Kuddus Solicitors | London NW1",
     description:
-      "Professional notary public services in Camden, London. Document authentication, legalisation, apostille services.",
+      "Professional notary public services in Camden by Kuddus Ali - 17+ years experience, Cambridge diploma. Prices from £65, NO VAT.",
   },
   alternates: {
     canonical: "https://notarypubliccamden.com",
@@ -80,16 +80,18 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "NotaryService",
-  name: "Notary Public Camden",
+  name: "Notary Public Camden - Kuddus Solicitors",
   description:
-    "Professional notary public services in Camden, London. Document authentication, legalisation, apostille services for businesses and individuals.",
+    "Professional notary public services in Camden, London by Kuddus Ali - qualified since 2008 with Cambridge diploma. 17+ years experience. Prices from £65, NO VAT.",
   url: "https://notarypubliccamden.com",
   telephone: "+44 20 7247 5476",
-  email: "reception@kuddussolicitors.com",
+  email: "ka@kuddussolicitors.com",
   address: {
     "@type": "PostalAddress",
+    streetAddress: "9 Cambridge Park, Wanstead",
     addressLocality: "Camden",
     addressRegion: "London",
+    postalCode: "E11 2PU",
     addressCountry: "GB",
   },
   openingHoursSpecification: {

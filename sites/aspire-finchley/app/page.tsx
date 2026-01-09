@@ -81,10 +81,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-              Independent Financial Advice for Finchley
+              Pave the Way for a More Secure Financial Future
             </h1>
             <p className="text-xl text-gray-100 mb-8 leading-relaxed">
-              Expert wealth management, pensions, mortgages, and insurance planning from qualified independent financial advisers. Serving the Finchley and North London community with personalised financial solutions.
+              Independent Financial Advisers serving Finchley since 2006. Expert investments, mortgages, insurance, and personal financial planning to help you achieve your goals with confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -109,10 +109,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center">
             <p className="text-lg">
-              <span className="font-bold">Independent Advice</span> - No tied products or hidden fees
+              <span className="font-bold">FCA Regulated</span> - Reference: 456867 | Company: OC317451
             </p>
             <span className="hidden md:inline">•</span>
-            <p className="text-lg">FCA Regulated</p>
+            <p className="text-lg">Established 2006</p>
             <span className="hidden md:inline">•</span>
             <p className="text-lg">Free Initial Consultation</p>
           </div>
@@ -205,7 +205,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-100 mt-6 text-sm">
-                Convenient office location at 17 Station Road, Finchley
+                <span className="font-semibold">Aspire House</span> | 17 Station Road, Finchley, London, N3 2SB
               </p>
             </div>
           </div>
@@ -278,7 +278,8 @@ export default function Home() {
             </a>
           </div>
           <p className="text-gray-300 mt-6 text-sm">
-            17 Station Road, Finchley, London N3 2SB | enquiries@aspireonline.co.uk
+            Aspire House, 17 Station Road, Finchley, London, N3 2SB<br />
+            Phone: 020 8371 4411 | Fax: 020 8371 4422 | enquiries@aspireonline.co.uk
           </p>
         </div>
       </section>

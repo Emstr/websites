@@ -8,15 +8,19 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="md:col-span-2">
             <h3 className="text-lg font-semibold mb-4">Alpha Investments & Financial Planning Ltd</h3>
-            <p className="text-gray-300 mb-6">
-              Professional wealth management and financial planning services across London.
+            <p className="text-gray-300 mb-4">
+              Independent financial advisers providing professional wealth management and financial planning services across London.
+            </p>
+            <p className="text-gray-400 text-sm mb-6">
+              Related: Alan Solomons + Co Accounting Services
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
               <div>
                 <h4 className="font-semibold text-[#fbbf24] mb-2">Harrow Office</h4>
                 <div className="space-y-1 text-gray-300 text-sm">
                   <p>79 College Road</p>
-                  <p>Harrow HA1 1BD</p>
+                  <p>Harrow, Middlesex</p>
+                  <p>HA1 1BD</p>
                 </div>
               </div>
               <div>

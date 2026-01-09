@@ -39,7 +39,8 @@ const areas = [
   'Bloomsbury',
   'Chancery Lane',
   'Fleet Street',
-  'Farringdon',
+  'West End',
+  'City of London',
 ];
 
 export default function Home() {
@@ -56,8 +57,8 @@ export default function Home() {
               Notary Public Services in Central London
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Professional notarial services in Holborn, serving the area between the West End and City.
-              Expert multilingual support for international clients in Russian, Mandarin, and Portuguese.
+              Located in Holborn, between West End and City of London. Expert multilingual notary services
+              in Russian (Русский), Mandarin (中文), and Portuguese (Português). Office and client-location appointments available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -82,42 +83,51 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center">
             <p className="text-lg">
-              <span className="font-bold">Fees from £80</span> for up to 20 minutes of notary time (no VAT)
+              <span className="font-bold">Office or client-location appointments</span>
             </p>
             <span className="hidden md:inline">•</span>
-            <p className="text-lg">Multilingual consultations available</p>
+            <p className="text-lg">Evening visits available</p>
+            <span className="hidden md:inline">•</span>
+            <p className="text-lg font-semibold">🌍 Russian • Mandarin • Portuguese</p>
           </div>
         </div>
       </section>
 
-      {/* Multilingual Services Feature */}
-      <section className="py-16 bg-white">
+      {/* Multilingual Services Feature - STAR FEATURE */}
+      <section className="py-20 bg-gradient-to-br from-[#1e1b4b] to-[#312e81]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-[#1e1b4b] to-[#312e81] rounded-2xl p-8 md:p-12 text-white">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                Multilingual Notary Services
-              </h2>
-              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-                We provide expert notary services in multiple languages to serve our international clients
-              </p>
+          <div className="text-center mb-12">
+            <div className="inline-block bg-[#fbbf24] text-[#1e1b4b] px-6 py-2 rounded-full text-sm font-bold mb-6">
+              OUR UNIQUE ADVANTAGE
             </div>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <div className="text-4xl mb-3">🇷🇺</div>
-                <h3 className="text-xl font-semibold mb-2">Russian</h3>
-                <p className="text-gray-300">Полное нотариальное обслуживание на русском языке</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <div className="text-4xl mb-3">🇨🇳</div>
-                <h3 className="text-xl font-semibold mb-2">Mandarin</h3>
-                <p className="text-gray-300">完整的中文公證服務</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <div className="text-4xl mb-3">🇵🇹</div>
-                <h3 className="text-xl font-semibold mb-2">Portuguese</h3>
-                <p className="text-gray-300">Serviços completos de notário em português</p>
-              </div>
+            <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-white">
+              Multilingual Notary Services
+            </h2>
+            <p className="text-2xl text-gray-300 max-w-3xl mx-auto mb-4">
+              Professional notary services in your language
+            </p>
+            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+              We provide expert notarial services with full language support in Russian, Mandarin Chinese, and Portuguese
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 text-center border-2 border-[#fbbf24]/20 hover:border-[#fbbf24] transition-all">
+              <div className="text-6xl mb-4">🇷🇺</div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Russian Services</h3>
+              <p className="text-3xl font-bold text-[#fbbf24] mb-3 leading-tight">Нотариальная фирма в центре Лондона</p>
+              <p className="text-gray-300 text-lg">Complete notarial services in Russian language</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 text-center border-2 border-[#fbbf24]/20 hover:border-[#fbbf24] transition-all">
+              <div className="text-6xl mb-4">🇨🇳</div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Mandarin Services</h3>
+              <p className="text-3xl font-bold text-[#fbbf24] mb-3 leading-tight">伦敦中心区公证事务所</p>
+              <p className="text-gray-300 text-lg">Complete notarial services in Mandarin Chinese</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 text-center border-2 border-[#fbbf24]/20 hover:border-[#fbbf24] transition-all">
+              <div className="text-6xl mb-4">🇵🇹</div>
+              <h3 className="text-2xl font-bold mb-4 text-white">Portuguese Services</h3>
+              <p className="text-3xl font-bold text-[#fbbf24] mb-3 leading-tight">Notário Público no Centro de Londres</p>
+              <p className="text-gray-300 text-lg">Complete notarial services in Portuguese</p>
             </div>
           </div>
         </div>
@@ -178,13 +188,15 @@ export default function Home() {
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 What sets us apart is our multilingual capability. We offer expert notarial
-                services in Russian, Mandarin, and Portuguese, making us the ideal choice for
+                services in <strong>Russian (Нотариальная фирма)</strong>, <strong>Mandarin (公证事务所)</strong>,
+                and <strong>Portuguese (Notário Público)</strong>, making us the ideal choice for
                 international clients and businesses with global operations.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 We understand that navigating legal documentation can be challenging, especially
                 in a second language. Our multilingual notaries ensure clear communication and
-                accurate document handling throughout the process.
+                accurate document handling throughout the entire process. Evening visits available
+                at your office or our Holborn location.
               </p>
               <Link
                 href="/about"
@@ -212,7 +224,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-300 mt-6 text-sm">
-                Office visits and consultations available • Multilingual services in Russian, Mandarin, and Portuguese
+                Office or client-location appointments • Evening visits available • Русский • 中文 • Português
               </p>
             </div>
           </div>
@@ -250,23 +262,25 @@ export default function Home() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss your notarial requirements and receive a quote.
-            Multilingual consultations available in Russian, Mandarin, and Portuguese.
+          <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
+            Contact us today to discuss your notarial requirements in English, Russian, Mandarin, or Portuguese.
+          </p>
+          <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
+            Evening visits available • Office or client-location appointments
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/quote"
+              href="/contact"
               className="bg-[#fbbf24] hover:bg-[#f59e0b] text-[#1e1b4b] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
-              Get Instant Quote
+              Contact Us
             </Link>
-            <a
-              href="tel:02074056789"
+            <Link
+              href="/quote"
               className="border-2 border-white hover:bg-white hover:text-[#1e1b4b] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
-              Call: 020 7405 6789
-            </a>
+              Get a Quote
+            </Link>
           </div>
         </div>
       </section>

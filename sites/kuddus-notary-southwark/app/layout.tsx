@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Notary Public Southwark",
   },
   description:
-    "Professional notary public services in Southwark, South London. #1 ranked for notary public Southwark London. Document authentication, legalisation, apostille services for businesses and individuals. Evening and weekend appointments available.",
+    "Professional notary public services in Southwark, South London by Kuddus Ali - qualified since 2008 with Cambridge diploma. 17+ years experience. Prices from £65, NO VAT. Document authentication, legalisation, apostille services.",
   keywords: [
     "notary public",
     "Southwark",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Notary Public Southwark",
     title: "Notary Public Southwark | Kuddus Solicitors | #1 Ranked South London",
     description:
-      "Professional notary public services in Southwark, South London. #1 ranked for notary public Southwark London. Document authentication, legalisation, apostille services for businesses and individuals.",
+      "Professional notary public services in Southwark, South London by Kuddus Ali - qualified since 2008, Cambridge diploma, 17+ years experience. Prices from £65, NO VAT.",
     images: [
       {
         url: "/og-image.jpg",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Notary Public Southwark | Kuddus Solicitors | #1 Ranked South London",
     description:
-      "Professional notary public services in Southwark, South London. #1 ranked for notary public Southwark London. Document authentication, legalisation, apostille services.",
+      "Professional notary public services in Southwark by Kuddus Ali - 17+ years experience, Cambridge diploma. Prices from £65, NO VAT.",
   },
   alternates: {
     canonical: "https://notarypublicsouthwark.co.uk",
@@ -89,16 +89,16 @@ const jsonLd = {
   "@type": "NotaryService",
   name: "Kuddus Solicitors - Notary Public Southwark",
   description:
-    "Professional notary public services in Southwark, South London. #1 ranked for notary public Southwark London. Document authentication, legalisation, apostille services for businesses and individuals.",
+    "Professional notary public services in Southwark, South London by Kuddus Ali - qualified since 2008 with Cambridge diploma. 17+ years experience. Prices from £65, NO VAT.",
   url: "https://notarypublicsouthwark.co.uk",
   telephone: "+44 20 7247 5476",
-  email: "reception@kuddussolicitors.com",
+  email: "ka@kuddussolicitors.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Kuddus Solicitors",
+    streetAddress: "9 Cambridge Park, Wanstead",
     addressLocality: "Southwark",
     addressRegion: "South London",
-    postalCode: "SE1",
+    postalCode: "E11 2PU",
     addressCountry: "GB",
   },
   geo: {

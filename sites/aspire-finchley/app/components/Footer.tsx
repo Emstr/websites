@@ -12,8 +12,9 @@ export default function Footer() {
               Independent financial advice for Finchley and North London. Expert wealth management, pensions, and financial planning.
             </p>
             <div className="space-y-2 text-gray-300">
+              <p>Aspire House</p>
               <p>17 Station Road</p>
-              <p>Finchley, London N3 2SB</p>
+              <p>Finchley, London, N3 2SB</p>
             </div>
           </div>
 
@@ -55,8 +56,13 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li>
                 <a href="tel:02083714411" className="hover:text-white transition-colors">
-                  020 8371 4411
+                  Tel: 020 8371 4411
                 </a>
+              </li>
+              <li>
+                <span className="text-gray-300">
+                  Fax: 020 8371 4422
+                </span>
               </li>
               <li>
                 <a href="mailto:enquiries@aspireonline.co.uk" className="hover:text-white transition-colors">
@@ -95,7 +101,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-gray-400 text-xs mt-4 text-center md:text-left">
-            Aspire Independent Financial Planners LLP is authorised and regulated by the Financial Conduct Authority.
+            Aspire Independent Financial Planners LLP is authorised and regulated by the Financial Conduct Authority (FCA Reference: 456867, Company: OC317451, incorporated 2006).
           </p>
         </div>
       </div>

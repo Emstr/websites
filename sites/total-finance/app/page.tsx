@@ -12,6 +12,16 @@ const services = [
     ),
   },
   {
+    title: 'Secured Loans',
+    description: 'Competitive secured loan options for home improvements, debt consolidation, or major purchases. Homeowner loans available.',
+    href: '/services#secured-loans',
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+      </svg>
+    ),
+  },
+  {
     title: 'Life Assurance',
     description: 'Protect your family\'s financial future with comprehensive life insurance coverage tailored to your needs.',
     href: '/services#life-assurance',
@@ -22,9 +32,9 @@ const services = [
     ),
   },
   {
-    title: 'Critical Illness Cover',
-    description: 'Financial protection if you\'re diagnosed with a serious illness. Provides a lump sum to help during difficult times.',
-    href: '/services#critical-illness',
+    title: 'Insurance',
+    description: 'Comprehensive insurance solutions including critical illness cover, income protection, and other specialist protection products.',
+    href: '/services#insurance',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
@@ -32,22 +42,22 @@ const services = [
     ),
   },
   {
-    title: 'Income Protection',
-    description: 'Safeguard your income if you can\'t work due to illness or injury. Regular payments to cover your essential expenses.',
-    href: '/services#income-protection',
+    title: 'Bad Credit Loans',
+    description: 'Specialist advice for those with adverse credit history. We work with lenders who understand individual circumstances.',
+    href: '/services#bad-credit',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
       </svg>
     ),
   },
   {
-    title: 'Secured Loans',
-    description: 'Competitive secured loan options for home improvements, debt consolidation, or major purchases.',
-    href: '/services#secured-loans',
+    title: 'Debt Consolidation',
+    description: 'Simplify your finances by consolidating multiple debts into one manageable monthly payment with competitive rates.',
+    href: '/services#debt-consolidation',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
   },
@@ -61,12 +71,12 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-              Expert Financial Advice in Bromley
+              Leading Independent Mortgage and Protection Specialists in Bromley
             </h1>
             <p className="text-xl text-gray-100 mb-8 leading-relaxed">
-              Independent financial advisers offering expert guidance on mortgages, life assurance,
-              critical illness cover, income protection, and secured loans. Professional advice
-              tailored to your needs.
+              FCA regulated, truly independent financial advisers offering expert guidance on mortgages,
+              secured loans, life assurance, insurance, bad credit loans, debt consolidation, and homeowner loans.
+              Phone consultations available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -151,14 +161,14 @@ export default function Home() {
                 About Total Finance (UK) Ltd
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                We are independent financial advisers based in Bromley, Greater London,
-                specialising in mortgages, life assurance, critical illness cover, income
-                protection, and secured loans.
+                We are FCA regulated, truly independent financial advisers based in Bromley, Greater London,
+                specialising in mortgages, secured loans, life assurance, insurance, bad credit loans,
+                debt consolidation, and homeowner loans.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Our team provides professional, personalized financial advice to help you
-                make informed decisions about your financial future. We search the market
-                to find the best solutions for your individual circumstances.
+                As leading independent mortgage and protection specialists, we provide professional,
+                personalized financial advice with phone consultations available for your convenience.
+                We search the whole market to find the best solutions for your individual circumstances.
               </p>
               <Link
                 href="/about"
@@ -177,31 +187,31 @@ export default function Home() {
                   <svg className="w-6 h-6 text-[#3b82f6] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                   </svg>
-                  <span>Independent advice - we search the whole market</span>
+                  <span>FCA Regulated - your protection is our priority</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-[#3b82f6] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                   </svg>
-                  <span>Expert knowledge of financial products and markets</span>
+                  <span>Truly independent - we search the whole market for the best deals</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-[#3b82f6] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                   </svg>
-                  <span>Personalized service tailored to your needs</span>
+                  <span>Phone consultations available for your convenience</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-[#3b82f6] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                   </svg>
-                  <span>Comprehensive protection for you and your family</span>
+                  <span>Specialist advice for bad credit and complex situations</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-[#3b82f6] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                   </svg>
-                  <span>Local expertise serving Bromley and Greater London</span>
+                  <span>Leading mortgage and protection specialists in Bromley</span>
                 </li>
               </ul>
             </div>

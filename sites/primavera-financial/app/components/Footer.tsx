@@ -75,7 +75,7 @@ export default function Footer() {
         <div className="border-t border-teal-600 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-teal-100 text-sm">
-              &copy; {new Date().getFullYear()} Primavera Financial Partners LLP. All rights reserved. Authorised and regulated by the Financial Conduct Authority.
+              &copy; {new Date().getFullYear()} Primavera Financial Partners LLP. All rights reserved. Authorised and regulated by the Financial Conduct Authority (FCA Number: 459612, Company: OC324364).
             </p>
             <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-teal-100">
               <Link href="/privacy" className="hover:text-white transition-colors">

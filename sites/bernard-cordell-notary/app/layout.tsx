@@ -18,20 +18,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://bernardcordell-notarypublic.co.uk"),
   title: {
-    default: "Bernard Cordell - Notary Public | Belsize Park, North London",
+    default: "Bernard Cordell - Notary Public & Solicitor | Belsize Park NW3",
     template: "%s | Bernard Cordell Notary Public",
   },
   description:
-    "Professional notary public services in Belsize Park, North London. Bernard Cordell provides document authentication, legalisation, and apostille services for businesses and individuals across Hampstead, Primrose Hill, Swiss Cottage, and Camden.",
+    "Bernard Cordell - Notary Public and Company/Commercial Solicitor in Belsize Park, NW3. Multilingual service, evening/weekend appointments, free parking. Professional indemnity £1m. Serving Hampstead, Swiss Cottage, Camden, Kentish Town. Call 020 7209 4138.",
   keywords: [
     "notary public",
     "Belsize Park",
+    "NW3",
     "North London",
     "Hampstead",
-    "Primrose Hill",
     "Swiss Cottage",
-    "St John's Wood",
     "Camden",
+    "Kentish Town",
+    "commercial solicitor",
+    "company solicitor",
+    "multilingual notary",
+    "evening appointments",
+    "weekend appointments",
     "notarisation",
     "apostille",
     "legalisation",
@@ -45,24 +50,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_GB",
     url: "https://bernardcordell-notarypublic.co.uk",
-    siteName: "Bernard Cordell - Notary Public",
-    title: "Bernard Cordell - Notary Public | Belsize Park, North London",
+    siteName: "Bernard Cordell - Notary Public & Solicitor",
+    title: "Bernard Cordell - Notary Public & Solicitor | Belsize Park NW3",
     description:
-      "Professional notary public services in Belsize Park, North London. Document authentication, legalisation, apostille services for businesses and individuals.",
+      "Notary Public and Company/Commercial Solicitor in Belsize Park, NW3. Multilingual service, evening/weekend appointments, free parking. Professional indemnity £1m. Call 020 7209 4138.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Bernard Cordell - Notary Public, Belsize Park",
+        alt: "Bernard Cordell - Notary Public & Solicitor, Belsize Park",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bernard Cordell - Notary Public | Belsize Park, North London",
+    title: "Bernard Cordell - Notary Public & Solicitor | Belsize Park NW3",
     description:
-      "Professional notary public services in Belsize Park, North London. Document authentication, legalisation, apostille services.",
+      "Notary Public and Company/Commercial Solicitor. Multilingual service, evening/weekend appointments, free parking. Call 020 7209 4138.",
   },
   alternates: {
     canonical: "https://bernardcordell-notarypublic.co.uk",
@@ -88,30 +93,116 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "NotaryService",
-  name: "Bernard Cordell - Notary Public",
+  name: "Bernard Cordell - Notary Public & Solicitor",
   description:
-    "Professional notary public services in Belsize Park, North London. Document authentication, legalisation, apostille services for businesses and individuals.",
+    "Notary Public and Company/Commercial Solicitor in Belsize Park, NW3. Multilingual service with many years of legal practice experience. Evening and weekend appointments available, office or client location visits, free parking permits provided. Professional indemnity insurance £1 million.",
   url: "https://bernardcordell-notarypublic.co.uk",
+  telephone: "+442072094138",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Belsize Park",
-    addressRegion: "North London",
+    postalCode: "NW3",
+    addressRegion: "London",
     addressCountry: "GB",
   },
   priceRange: "££",
   areaServed: [
-    "Belsize Park",
-    "Hampstead",
-    "Primrose Hill",
-    "Swiss Cottage",
-    "St John's Wood",
-    "Camden",
+    {
+      "@type": "City",
+      name: "Belsize Park",
+    },
+    {
+      "@type": "City",
+      name: "Hampstead",
+    },
+    {
+      "@type": "City",
+      name: "Swiss Cottage",
+    },
+    {
+      "@type": "City",
+      name: "Camden",
+    },
+    {
+      "@type": "City",
+      name: "Kentish Town",
+    },
   ],
   founder: {
     "@type": "Person",
     name: "Bernard Cordell",
-    jobTitle: "Notary Public",
+    jobTitle: "Notary Public & Company/Commercial Solicitor",
   },
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Notarial Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Document Authentication & Notarisation",
+          description: "Professional notarial services for business and personal documents",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Apostille & Legalisation",
+          description: "Document legalisation for international use",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Powers of Attorney",
+          description: "Notarisation of powers of attorney documents",
+        },
+      },
+    ],
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "17:00",
+    },
+  ],
+  additionalProperty: [
+    {
+      "@type": "PropertyValue",
+      name: "Evening Appointments",
+      value: "Available by prior arrangement",
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Weekend Appointments",
+      value: "Available by prior arrangement",
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Parking",
+      value: "Free parking permits provided",
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Languages",
+      value: "English and modern foreign languages",
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Professional Indemnity",
+      value: "£1 million",
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Appointment Location",
+      value: "Office or client location available",
+    },
+  ],
 };
 
 export default function RootLayout({

@@ -21,7 +21,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex flex-col">
               <span className="text-xl font-bold tracking-tight">Alpha Investments</span>
-              <span className="text-sm text-gray-300">Financial Planning & Wealth Management</span>
+              <span className="text-sm text-gray-300">Independent Financial Advisers</span>
             </Link>
           </div>
 

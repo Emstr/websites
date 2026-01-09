@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Notary Public Tower Hamlets",
   },
   description:
-    "#1 ranked notary public services in Tower Hamlets, East London. Professional document authentication, legalisation, apostille services by Kuddus Solicitors. Serving Whitechapel, Mile End, Bethnal Green, Bow, Poplar, Canary Wharf. Evening and weekend appointments available.",
+    "Professional notary public services in Tower Hamlets, East London by Kuddus Ali - qualified since 2008 with Cambridge diploma. 17+ years experience. Prices from £65, NO VAT. Serving Whitechapel, Mile End, Bethnal Green, Bow, Poplar, Canary Wharf.",
   keywords: [
     "notary public",
     "Tower Hamlets",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: "Notary Public Tower Hamlets",
     title: "Notary Public Tower Hamlets | Kuddus Solicitors | #1 Ranked in East London",
     description:
-      "#1 ranked notary public services in Tower Hamlets, East London. Professional document authentication, legalisation, apostille services by Kuddus Solicitors.",
+      "Professional notary public services in Tower Hamlets, East London by Kuddus Ali - qualified since 2008, Cambridge diploma, 17+ years experience. Prices from £65, NO VAT.",
     images: [
       {
         url: "/og-image.jpg",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Notary Public Tower Hamlets | Kuddus Solicitors | #1 Ranked in East London",
     description:
-      "#1 ranked notary public services in Tower Hamlets, East London. Professional document authentication, legalisation, apostille services.",
+      "Professional notary public services in Tower Hamlets by Kuddus Ali - 17+ years experience, Cambridge diploma. Prices from £65, NO VAT.",
   },
   alternates: {
     canonical: "https://notarypublictowerhamlets.co.uk",
@@ -92,16 +92,16 @@ const jsonLd = {
   "@type": "NotaryService",
   name: "Notary Public Tower Hamlets - Kuddus Solicitors",
   description:
-    "#1 ranked notary public services in Tower Hamlets, East London. Professional document authentication, legalisation, apostille services for businesses and individuals. Serving Whitechapel, Mile End, Bethnal Green, Bow, Poplar, Canary Wharf.",
+    "Professional notary public services in Tower Hamlets, East London by Kuddus Ali - qualified since 2008 with Cambridge diploma. 17+ years experience. Prices from £65, NO VAT.",
   url: "https://notarypublictowerhamlets.co.uk",
   telephone: "+44 20 7247 5476",
-  email: "reception@kuddussolicitors.com",
+  email: "ka@kuddussolicitors.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Kuddus Solicitors",
+    streetAddress: "9 Cambridge Park, Wanstead",
     addressLocality: "Tower Hamlets",
     addressRegion: "East London",
-    postalCode: "",
+    postalCode: "E11 2PU",
     addressCountry: "GB",
   },
   geo: {

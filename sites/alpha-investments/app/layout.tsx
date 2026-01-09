@@ -97,7 +97,7 @@ const jsonLd = {
       name: "Harrow Office",
       streetAddress: "79 College Road",
       addressLocality: "Harrow",
-      addressRegion: "London",
+      addressRegion: "Middlesex",
       postalCode: "HA1 1BD",
       addressCountry: "GB",
     },

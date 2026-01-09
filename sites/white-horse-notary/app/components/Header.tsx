@@ -22,7 +22,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex flex-col">
               <span className="text-xl font-bold tracking-tight">White Horse Notary</span>
-              <span className="text-sm text-gray-300">Westminster, Central London</span>
+              <span className="text-sm text-gray-300">Stepney Green & Canary Wharf</span>
             </Link>
           </div>
 

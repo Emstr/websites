@@ -9,12 +9,16 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-lg font-semibold mb-4">Notary Public Stamford Hill</h3>
             <p className="text-gray-300 mb-4">
-              Professional notarial services in Stamford Hill, serving Hackney and Haringey areas of North London.
+              Professional notarial services serving Hackney, Haringey, and wider North London.
             </p>
             <div className="space-y-2 text-gray-300">
+              <p>1 Egerton Road</p>
               <p>Stamford Hill</p>
-              <p>North London N16</p>
-              <p>Serving Hackney & Haringey</p>
+              <p>London N16 6UE</p>
+            </div>
+            <div className="mt-4 space-y-1 text-sm text-gray-400">
+              <p>£285/hour, minimum £80 + VAT</p>
+              <p>Cash, debit card, or bank transfer</p>
             </div>
           </div>
 
@@ -50,8 +54,8 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="tel:02088000000" className="hover:text-white transition-colors">
-                  020 8800 0000
+                <a href="tel:02088262131" className="hover:text-white transition-colors">
+                  020 8826 2131
                 </a>
               </li>
               <li>

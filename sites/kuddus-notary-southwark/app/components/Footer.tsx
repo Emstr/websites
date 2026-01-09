@@ -10,11 +10,13 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Kuddus Solicitors</h3>
             <p className="text-gray-300 mb-4">
               Professional notarial services in Southwark and surrounding South London areas.
+              Founded 2002 • Qualified Notary since 2008 • 17+ years experience
             </p>
             <div className="space-y-2 text-gray-300">
               <p>Kuddus Solicitors</p>
-              <p>Southwark</p>
-              <p>South London</p>
+              <p>9 Cambridge Park, Wanstead</p>
+              <p>London E11 2PU</p>
+              <p className="text-sm mt-2">SRA Number: 565049</p>
             </div>
           </div>
 
@@ -55,8 +57,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:reception@kuddussolicitors.com" className="hover:text-white transition-colors">
-                  reception@kuddussolicitors.com
+                <a href="mailto:ka@kuddussolicitors.com" className="hover:text-white transition-colors">
+                  ka@kuddussolicitors.com
                 </a>
               </li>
             </ul>

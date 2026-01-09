@@ -54,7 +54,9 @@ export default function Home() {
               #1 Ranked Notary Public Services in Southwark
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Professional notarial services by Kuddus Solicitors for businesses and individuals across Southwark and South London. Document authentication, legalisation, and apostille services with an efficient and friendly approach.
+              Professional notarial services with 17+ years of experience. Kuddus Ali, qualified notary since 2008
+              with University of Cambridge postgraduate diploma in Notarial Practice, providing expert document
+              authentication, legalisation, and apostille services across Southwark and South London.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -79,10 +81,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center">
             <p className="text-lg">
-              <span className="font-bold">Fees from £80</span> for up to 20 minutes of notary time (no VAT)
+              <span className="font-bold">Prices from £65</span> • NO VAT on notarial services
             </p>
             <span className="hidden md:inline">•</span>
-            <p className="text-lg">Evening & weekend appointments available</p>
+            <p className="text-lg">17+ years experience • Home visits available</p>
           </div>
         </div>
       </section>
@@ -133,17 +135,17 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#4c1d95] mb-6">
-                About Kuddus Solicitors
+                About Kuddus Ali - Notary Public
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                We are a professional legal practice based in Southwark, South London, providing
-                comprehensive notary public services. Our qualified notaries hold Post-graduate
-                Diplomas in Notarial Practice and are experienced solicitors.
+                Kuddus Solicitors was founded in 2002 by Kuddus Ali. As a qualified notary public
+                since 2008 with a postgraduate diploma in Notarial Practice from the University of Cambridge,
+                Kuddus Ali brings 17+ years of notarial experience serving businesses and individuals
+                across London.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                While notarial work can seem quite formal, we strive to provide an efficient
-                and friendly service to all our clients, whether businesses or individuals.
-                We are #1 ranked for "notary public Southwark London".
+                SRA regulated (Number: 565049), we offer comprehensive notary services starting from £65
+                with NO VAT on notarial services. Home visits and out-of-hours appointments available for your convenience.
               </p>
               <Link
                 href="/about"
@@ -171,7 +173,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-300 mt-6 text-sm">
-                Home and business visits available for an additional fee
+                Home visits and out-of-hours appointments available
               </p>
             </div>
           </div>
