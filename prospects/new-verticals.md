@@ -201,14 +201,139 @@ Expanding beyond notaries and financial advisers into high-value professional se
 
 ---
 
-## Outreach Priority
+---
 
-1. **E8 Dental Care** - Healthcare = high trust requirement
-2. **Bennett Walden** - 30 years in Hackney, strong local presence
-3. **Archstone Solicitors** - Multiple practice areas, good revenue potential
-4. **Defries Weiss** - Established 1976, chartered status
-5. **Courtneys** - Great reviews to leverage
-6. **Wembley Solicitors** - Fixed fee model is modern
-7. **Taylor Associates** - 45+ years heritage
-8. **Paul Dodd** - 30+ years, broken mobile nav is urgent
-9. **Camden Associates** - Missing contact info is critical failure
+## Auto Garages / MOT Centres
+
+### 11. Clerkenwell Motors (Central London)
+| Field | Details |
+|-------|---------|
+| Website | clerkenwellmotors.co.uk |
+| Phone | 020 7278 6375 |
+| Email | info@clerkenwellmotors.co.uk |
+| Address | 14 Warner Street, London EC1R 5HA |
+| Founded | 1993 (30+ years) |
+| Hours | Mon-Fri 7:30-18:30, Sat 9:00-14:00 |
+| Services | MOT, Servicing, Repairs, Diagnostics, Tyres, AC, Body Repairs |
+| Coverage | Islington, Camden, The City |
+| Accreditations | RAC, AA, MIPOC approved, Which? Trusted Trader |
+| Reviews | 4.7/5 Google (111 reviews) |
+| Pitch Angle | 30+ years family-owned, central location, trusted accreditations |
+
+### 12. Springbok Garage (Tooting)
+| Field | Details |
+|-------|---------|
+| Website | springbokgarage.co.uk |
+| Phone | 0208 672 7788 / 0208 672 6904 |
+| Address | 110 Totterdown Street, Tooting, London SW17 8TA |
+| Founded | 1963 (60+ years!) |
+| Hours | Mon-Fri 7:30-17:30, Sat 8:00-11:00 |
+| Services | MOT, Servicing, Body Repairs, Recovery, Commercial Vehicles |
+| Awards | Wandsworth Guardian 'Garage of the Year' 2012 |
+| Pitch Angle | 60+ years family business, award-winning, excellent reputation |
+
+---
+
+## Florists
+
+### 13. Rebel Rebel Flowers (Hackney)
+| Field | Details |
+|-------|---------|
+| Website | rebelrebel.co.uk |
+| Phone | 020 3745 2605 |
+| Email | hello@rebelrebel.co.uk |
+| Address | 117 Mare St, London E8 4RU |
+| Founded | 2000 |
+| Founders | Mairead & Athena |
+| Services | Weddings, Events, Corporate, Bouquets, Workshops |
+| Notable Clients | BAFTAs, American Vogue, Victoria Beckham, Fenty, Gucci |
+| Style | Wild, unstructured, "flagrant disregard for the colour wheel" |
+| Pricing | Bouquets from £60 |
+| Also | Flower farm in Tuscany, cutting garden in Norfolk |
+| Pitch Angle | Award-winning creative florists, A-list clients, unique bold style |
+
+### 14. The London Flower Shop (Southwark)
+| Field | Details |
+|-------|---------|
+| Website | thelondonflowershop.com |
+| Phone | 020 7407 1666 |
+| Address | 158 Long Lane, London SE1 4BS |
+| Founded | 2009 (family-run, location florist 20+ years) |
+| Services | Bouquets, Weddings, Corporate, Plants, Same-day Delivery |
+| Coverage | Southwark, Elephant & Castle, Newington, Waterloo |
+| Pitch Angle | Family-run community florist, 15+ years serving local area |
+
+---
+
+## Tailors & Alterations
+
+### 15. Orhan London Tailoring (Shoreditch)
+| Field | Details |
+|-------|---------|
+| Website | orhanlondontailoring.com |
+| Phone | 020 7250 3569 |
+| Address | 25a Pitfield Street, London N1 6HB |
+| Founded | 2007 |
+| Founders | Orhan (master tailor) & Denise |
+| Hours | Mon-Fri 9am-6pm, Sat 10:30am-3pm |
+| Services | Bespoke Suits, Occasionwear, Dressmaking, Alterations |
+| Background | Orhan previously worked for Vivienne Westwood, dressed Princess Diana |
+| Pitch Angle | Master tailor with royal connections, inclusive modern approach |
+
+### 16. Alterations Boutique (Multiple Locations)
+| Field | Details |
+|-------|---------|
+| Website | alterationsboutique.co.uk |
+| Phone | 0207 724 4147 |
+| Email | info@alterationsboutique.co.uk |
+| Main Address | 14 New Quebec Street, London W1H 7RS |
+| Other Locations | Chelsea (33 Elystan St), Wimbledon Village (34 High St) |
+| Founded | 1983 (40+ years!) |
+| Hours | Mon 9am-7pm, Tue-Fri 9am-9pm, Sat 9am-6pm |
+| Services | All alterations, Bridal, Suits, Same-day express |
+| Features | Free consultation, Call-out service, Fashion brand clients |
+| Pitch Angle | 40+ years experience, multiple prime London locations |
+
+---
+
+## Photography Studios
+
+### 17. Robbie Ewing Photography (Camberwell)
+| Field | Details |
+|-------|---------|
+| Website | robbieewing.com |
+| Phone | 07973 844035 |
+| Location | Camberwell, South London |
+| Services | Commercial, Corporate Headshots, Portraits, Musicians, DJs, Model Portfolios |
+| Style | Creative portraits, fully equipped studio |
+| Pitch Angle | Professional commercial studio in South London |
+
+---
+
+## Jewellers
+
+### 18. Hirschfelds Jewellery Repairs (Hatton Garden)
+| Field | Details |
+|-------|---------|
+| Website | jewellery-repairs-london.co.uk |
+| Phone | 020 7405 1536 |
+| Location | Hatton Garden, London |
+| Founded | 1875 (150 years!) |
+| Hours | Mon-Fri 11am-4pm (by appointment) |
+| Services | Jewellery Repairs, Ring Sizing, Bespoke, Manufacturing |
+| Pitch Angle | One of UK's oldest jewellery workshops - 150 years heritage |
+
+---
+
+## Outreach Priority (Updated)
+
+1. **Springbok Garage** - 60+ years, award-winning - incredible heritage story
+2. **Hirschfelds** - 150 years in Hatton Garden - unique history
+3. **Alterations Boutique** - 40+ years, prime locations, fashion clients
+4. **Clerkenwell Motors** - 30+ years, trusted accreditations
+5. **E8 Dental Care** - Healthcare = high trust requirement
+6. **Bennett Walden** - 30 years in Hackney, strong local presence
+7. **Rebel Rebel Flowers** - A-list clients, award-winning creative work
+8. **Archstone Solicitors** - Multiple practice areas, good revenue potential
+9. **Orhan London Tailoring** - Royal connections, master craftsman
+10. **The London Flower Shop** - Family-run community business

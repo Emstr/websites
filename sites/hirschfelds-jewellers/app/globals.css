@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navy: #0c1445;
+    --gold: #d4af37;
+    --cream: #f8f6f0;
+  }
+
+  body {
+    @apply bg-white text-gray-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .heritage-gradient {
+    background: linear-gradient(135deg, #0c1445 0%, #1a2555 50%, #0c1445 100%);
+  }
+
+  .gold-shimmer {
+    background: linear-gradient(90deg, #b8962e 0%, #d4af37 50%, #e6c45e 75%, #d4af37 100%);
+    background-size: 200% auto;
+    animation: shimmer 3s linear infinite;
+  }
+
+  @keyframes shimmer {
+    to {
+      background-position: 200% center;
+    }
+  }
+}

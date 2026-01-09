@@ -1,0 +1,105 @@
+SPRINGBOK GARAGE LTD - TOOTING
+==============================
+
+BUSINESS OVERVIEW
+-----------------
+Name: Springbok Garage Ltd
+Founded: 1963
+Years in Business: 60+ YEARS (Extraordinary heritage!)
+Location: 110 Totterdown Street, Tooting, London SW17 8TA
+Phones: 020 8672 7788 / 020 8672 6904
+
+AWARDS & RECOGNITION
+--------------------
+- Wandsworth Guardian 'Garage of the Year' 2012
+- Insurance industry approved
+- Three generations of family ownership
+- Built strong reputation with customers and insurance industry
+
+SERVICES OFFERED
+----------------
+1. MOT Testing (Class 4 & 7)
+   - While-you-wait service
+   - Free re-test within 10 working days
+   - Experienced testers
+
+2. Car Servicing
+   - Full service
+   - Interim service
+   - All makes and models
+   - Manufacturer schedules followed
+
+3. Body Repairs & Accident Damage
+   - Insurance approved
+   - Deal directly with insurers
+   - Panel beating & welding
+   - Professional respray
+   - Courtesy cars available
+
+4. Car Wash & Valeting
+   - Hand wash
+   - Interior valeting
+   - Wax and polish
+
+5. Breakdown & Recovery
+   - 24/7 emergency service
+   - Vehicle recovery
+   - Roadside repairs
+
+6. Commercial Vehicles
+   - Vans and light commercial
+   - Fleet maintenance
+   - HGV repairs
+
+OPENING HOURS
+-------------
+Monday - Friday: 7:30am - 5:30pm
+Saturday: 8:00am - 11:00am
+Sunday: Closed
+
+LOCATION DETAILS
+----------------
+- Close to Tooting Broadway tube station (Northern Line)
+- Behind Primark on Tooting High Street
+- 5 minutes walk from tube
+- Serving Tooting, Balham, Streatham, Wandsworth & South London
+
+KEY SELLING POINTS
+------------------
+1. 60+ YEARS HERITAGE - Established 1963 (MASSIVE emphasis)
+2. Award-winning - Wandsworth Guardian Garage of the Year 2012
+3. Three generations of family business
+4. Insurance industry trusted
+5. Deal with insurers directly
+6. Honest, transparent service
+7. Community-focused
+8. Expert technicians
+
+DESIGN THEME
+------------
+- Heritage automotive feel
+- Racing green (#166534) and orange (#ea580c) colors
+- Different from other garage sites
+- Family business emphasis
+- Trust and reliability
+- 60+ years prominently featured throughout
+
+WEBSITE PAGES
+-------------
+1. Home - Hero with 60+ years, award badge, services overview
+2. Services - Comprehensive service listings
+3. MOT - Dedicated MOT testing information
+4. Body Repairs - Insurance work, accident damage
+5. About Us - Full family story, heritage, three generations
+6. Contact - Location, hours, phone numbers, directions
+
+TECHNICAL STACK
+---------------
+- Next.js 15.1.0
+- React 19
+- TypeScript
+- Tailwind CSS (racing green & orange theme)
+- Geist font
+- Vercel Analytics
+- Fully responsive
+- SEO optimized with schema markup (AutomotiveBusiness)

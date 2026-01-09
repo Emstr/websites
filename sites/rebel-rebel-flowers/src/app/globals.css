@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-rebel-black text-white antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer utilities {
+  .text-gradient-rebel {
+    @apply bg-gradient-to-r from-rebel-pink via-rebel-purple to-rebel-pink bg-clip-text text-transparent;
+  }
+
+  .border-gradient-rebel {
+    border-image: linear-gradient(to right, #ec4899, #7c3aed, #ec4899) 1;
+  }
+}
