@@ -179,3 +179,83 @@ Analyzed 10 notary public websites across London boroughs. Most are severely out
 3. **"Instant quote = more leads"** - Capture emails before they call competitors
 4. **"FAQ pages rank for questions"** - "How much does a notary cost" gets searched
 5. **"Modern = trustworthy"** - Legal services need to look professional
+
+---
+
+## Demo Sites Built (January 2026)
+
+Modern Next.js websites built as demos/pitches for potential clients in uncovered London boroughs:
+
+### 1. Notary Public Westminster - James Thornton
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-westminster |
+| Target Borough | Westminster, Mayfair |
+| Color Scheme | Navy (#0a1628) / Royal Blue (#1a365d) / Gold (#d69e2e) |
+| Demo Address | 45 Piccadilly, Mayfair, London W1J 0DS |
+| Demo Phone | 020 7629 8800 |
+| Demo Email | james@thorntonnotary.co.uk |
+| Target Market | Corporate clients, embassies, high-net-worth individuals |
+| Features | Premium pricing (£95+), same-day appointments |
+
+### 2. Notary Public Greenwich - Sarah Mitchell
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-greenwich |
+| Target Borough | Greenwich, Blackheath, SE London |
+| Color Scheme | Teal (#0d4f4f) / Dark Teal (#134e4a) / Coral (#f97316) |
+| Demo Address | 28 Greenwich High Road, Greenwich, London SE10 8NA |
+| Demo Phone | 020 8858 7200 |
+| Demo Email | sarah@greenwichnotary.co.uk |
+| Target Market | Residential clients, families |
+| Features | Evening/weekend appointments, home visits |
+
+### 3. Notary Public Lambeth - David Adeyemi
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-lambeth |
+| Target Borough | Lambeth, Brixton, Clapham |
+| Color Scheme | Purple (#2d1b4e) / Deep Purple (#4c1d95) / Yellow (#eab308) |
+| Demo Address | 156 Brixton Road, Brixton, London SW9 6AT |
+| Demo Phone | 020 7274 3500 |
+| Demo Email | david@lambethnotary.co.uk |
+| Target Market | Diverse community, African diaspora documents |
+| Features | Multilingual services, community focused |
+
+### 4. Notary Public Wandsworth - Helen Kowalski
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-wandsworth |
+| Target Borough | Wandsworth, Battersea, Putney |
+| Color Scheme | Forest Green (#1a472a) / Green (#166534) / Pink (#ec4899) |
+| Demo Address | 89 Battersea Rise, Battersea, London SW11 1HW |
+| Demo Phone | 020 7228 9100 |
+| Demo Email | helen@wandsworthnotary.co.uk |
+| Target Market | Young professionals, property transactions |
+| Features | Polish language services, modern aesthetic |
+
+### 5. Notary Public Kensington - Michael Chen
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-kensington |
+| Target Borough | Kensington, Chelsea, Fulham |
+| Color Scheme | Burgundy (#4a1c2a) / Maroon (#7f1d1d) / Teal (#14b8a6) |
+| Demo Address | 123 Kensington High Street, Kensington, London W8 5SF |
+| Demo Phone | 020 7937 4400 |
+| Demo Email | michael@kensingtonnotary.co.uk |
+| Target Market | Chinese community, international clients |
+| Features | Mandarin/Cantonese services, premium location |
+
+---
+
+## Sites Already Completed (Clients)
+
+### Camden Notary - Linda Okagbue
+- Site: sites/camden-notary
+- Status: Complete
+- Live at: camdennotary.co.uk (pending)
+
+### Notary Public Islington - Esther Ogun
+- Site: sites/notary-public-islington
+- Status: Complete
+- Live at: notarypublicislington.co.uk (pending)
