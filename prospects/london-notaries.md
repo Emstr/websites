@@ -246,6 +246,132 @@ Modern Next.js websites built as demos/pitches for potential clients in uncovere
 | Target Market | Chinese community, international clients |
 | Features | Mandarin/Cantonese services, premium location |
 
+### 6. Notary Public Barnet - Emma Richardson
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-barnet |
+| Target Borough | Barnet, High Barnet, Finchley |
+| Color Scheme | Navy (#1e3a5f) / Blue (#2563eb) / Orange (#f97316) |
+| Demo Address | 45 High Street, High Barnet, London EN5 5UJ |
+| Demo Phone | 020 8441 5200 |
+| Demo Email | emma@barnetnotary.co.uk |
+| Target Market | North London residential, families |
+| Features | Friendly service, local focus |
+
+### 7. Notary Public Lewisham - Marcus Johnson
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-lewisham |
+| Target Borough | Lewisham, Catford, New Cross |
+| Color Scheme | Slate (#334155) / Slate (#475569) / Lime (#84cc16) |
+| Demo Address | 78 Lewisham High Street, Lewisham, London SE13 5JX |
+| Demo Phone | 020 8314 7600 |
+| Demo Email | marcus@lewishamnotary.co.uk |
+| Target Market | SE London community, Caribbean diaspora |
+| Features | Multilingual, community connections |
+
+### 8. Notary Public Brent - Priya Sharma
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-brent |
+| Target Borough | Brent, Wembley, Harlesden |
+| Color Scheme | Indigo (#312e81) / Indigo (#4338ca) / Rose (#f43f5e) |
+| Demo Address | 156 Wembley High Road, Wembley HA9 7AJ |
+| Demo Phone | 020 8903 4500 |
+| Demo Email | priya@brentnotary.co.uk |
+| Target Market | South Asian community, NW London |
+| Features | Hindi/Punjabi/Gujarati services |
+
+### 9. Notary Public Ealing - Thomas Williams
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-ealing |
+| Target Borough | Ealing, Acton, Hanwell |
+| Color Scheme | Emerald (#064e3b) / Emerald (#047857) / Amber (#f59e0b) |
+| Demo Address | 22 The Broadway, Ealing, London W5 2NP |
+| Demo Phone | 020 8567 3400 |
+| Demo Email | thomas@ealingnotary.co.uk |
+| Target Market | West London professionals |
+| Features | Corporate and personal services |
+
+### 10. Notary Public Croydon - Olivia Brown
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/notary-public-croydon |
+| Target Borough | Croydon, South Croydon, Purley |
+| Color Scheme | Charcoal (#1f2937) / Gray (#374151) / Cyan (#06b6d4) |
+| Demo Address | 95 High Street, Croydon CR0 1QD |
+| Demo Phone | 020 8686 5500 |
+| Demo Email | olivia@croydonnotary.co.uk |
+| Target Market | South London, Surrey borders |
+| Features | Easy transport links, modern office |
+
+---
+
+## Financial Adviser Demo Sites (January 2026)
+
+Modern Next.js websites for independent financial advisers:
+
+### 1. Financial Adviser Finchley - Robert Hughes
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/financial-adviser-finchley |
+| Target Area | Finchley, North London |
+| Color Scheme | Sky (#0c4a6e) / Sky (#0284c7) / Green (#22c55e) |
+| Demo Address | 142 Ballards Lane, Finchley, London N3 2PA |
+| Demo Phone | 020 8346 7800 |
+| Demo Email | robert@finchleyifa.co.uk |
+| Target Market | Professionals, retirement planning |
+| Features | Pension specialists, ISA advice |
+
+### 2. Financial Adviser Harrow - Anita Patel
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/financial-adviser-harrow |
+| Target Area | Harrow, Pinner |
+| Color Scheme | Violet (#4c1d95) / Violet (#7c3aed) / Amber (#fbbf24) |
+| Demo Address | 88 Station Road, Harrow HA1 2RX |
+| Demo Phone | 020 8427 6500 |
+| Demo Email | anita@harrowifa.co.uk |
+| Target Market | Asian community, first-gen wealth |
+| Features | Multi-generational planning |
+
+### 3. Financial Adviser Wanstead - William Thompson
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/financial-adviser-wanstead |
+| Target Area | Wanstead, East London |
+| Color Scheme | Slate (#0f172a) / Slate (#1e293b) / Orange (#f97316) |
+| Demo Address | 56 High Street, Wanstead, London E11 2RJ |
+| Demo Phone | 020 8989 5300 |
+| Demo Email | william@wansteadifa.co.uk |
+| Target Market | Young families, mortgage advice |
+| Features | First-time buyer specialists |
+
+### 4. Financial Adviser Mayfair - Charlotte Davies
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/financial-adviser-mayfair |
+| Target Area | Mayfair, Central London |
+| Color Scheme | Indigo (#1e1b4b) / Indigo (#312e81) / Purple (#a855f7) |
+| Demo Address | 33 Brook Street, Mayfair, London W1K 4HB |
+| Demo Phone | 020 7493 8800 |
+| Demo Email | charlotte@mayfairwealth.co.uk |
+| Target Market | UHNW clients, wealth preservation |
+| Features | Bespoke portfolios, tax planning |
+
+### 5. Financial Adviser City of London - Daniel Morgan
+| Field | Details |
+|-------|---------|
+| Demo Site | sites/financial-adviser-city-london |
+| Target Area | City of London, Canary Wharf |
+| Color Scheme | Teal (#134e4a) / Teal (#14b8a6) / Red (#ef4444) |
+| Demo Address | 100 Bishopsgate, City of London EC2N 4AG |
+| Demo Phone | 020 7626 9400 |
+| Demo Email | daniel@cityfinancial.co.uk |
+| Target Market | City professionals, corporate clients |
+| Features | Executive financial planning |
+
 ---
 
 ## Sites Already Completed (Clients)
