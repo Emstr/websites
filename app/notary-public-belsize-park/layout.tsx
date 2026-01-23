@@ -1,0 +1,131 @@
+import type { Metadata } from "next";
+import Script from "next/script";
+import "./globals.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://notarypublicbelsizepark.co.uk"),
+  title: {
+    default: "Notary Public Belsize Park | Bernard Cordell | London NW3",
+    template: "%s | Notary Public Belsize Park",
+  },
+  description:
+    "Professional notary public services in Belsize Park, London. Document authentication, legalisation, apostille services for businesses and individuals. Convenient location in NW3.",
+  keywords: [
+    "notary public",
+    "Belsize Park",
+    "London",
+    "notarisation",
+    "apostille",
+    "legalisation",
+    "document authentication",
+    "certified copies",
+    "power of attorney",
+    "notary London NW3",
+    "Bernard Cordell",
+    "Hampstead notary",
+  ],
+  authors: [{ name: "Bernard Cordell" }],
+  creator: "Bernard Cordell",
+  openGraph: {
+    type: "website",
+    locale: "en_GB",
+    url: "https://notarypublicbelsizepark.co.uk",
+    siteName: "Notary Public Belsize Park",
+    title: "Notary Public Belsize Park | Bernard Cordell | London NW3",
+    description:
+      "Professional notary public services in Belsize Park, London. Document authentication, legalisation, apostille services for businesses and individuals.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Notary Public Belsize Park - Bernard Cordell",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Notary Public Belsize Park | Bernard Cordell | London NW3",
+    description:
+      "Professional notary public services in Belsize Park, London. Document authentication, legalisation, apostille services.",
+  },
+  alternates: {
+    canonical: "https://notarypublicbelsizepark.co.uk",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "NotaryService",
+  name: "Notary Public Belsize Park",
+  description:
+    "Professional notary public services in Belsize Park, London. Document authentication, legalisation, apostille services for businesses and individuals.",
+  url: "https://notarypublicbelsizepark.co.uk",
+  telephone: "+44 20 7586 4000",
+  email: "info@bernardcordell-notarypublic.co.uk",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Belsize Park",
+    addressLocality: "Belsize Park",
+    addressRegion: "London",
+    postalCode: "NW3",
+    addressCountry: "GB",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 51.5492,
+    longitude: -0.1656,
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "09:00",
+    closes: "17:30",
+  },
+  priceRange: "££",
+  areaServed: [
+    "Belsize Park",
+    "Hampstead",
+    "Primrose Hill",
+    "Swiss Cottage",
+    "Camden",
+    "St John's Wood",
+    "Kentish Town",
+  ],
+  founder: {
+    "@type": "Person",
+    name: "Bernard Cordell",
+  },
+};
+
+export default function SiteLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <>
+      <Script
+        id="json-ld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <Header />
+      <main className="min-h-screen">{children}</main>
+      <Footer />
+    </>
+  );
+}
