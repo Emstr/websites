@@ -32,14 +32,14 @@ export default function PrivacyPage() {
                   1. Introduction
                 </h2>
                 <p className="text-slate">
-                  Total Finance (UK) Ltd ("we", "us", or "our") is committed to
+                  Total Finance (UK) Ltd (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to
                   protecting your privacy. This Privacy Policy explains how we
                   collect, use, disclose, and safeguard your information when you
                   visit our website total-finance.org.uk or use our financial
                   advisory services.
                 </p>
                 <p className="text-slate mt-4">
-                  We are registered with the Information Commissioner's Office
+                  We are registered with the Information Commissioner&apos;s Office
                   (ICO) and comply with the UK General Data Protection Regulation
                   (UK GDPR) and the Data Protection Act 2018.
                 </p>
@@ -268,7 +268,7 @@ export default function PrivacyPage() {
                 <p className="text-slate">
                   We may update this Privacy Policy from time to time. We will
                   notify you of any material changes by posting the new Privacy
-                  Policy on this page and updating the "Last updated" date. We
+                  Policy on this page and updating the &quot;Last updated&quot; date. We
                   encourage you to review this Privacy Policy periodically.
                 </p>
               </div>
@@ -318,7 +318,7 @@ export default function PrivacyPage() {
                 <p className="text-slate">
                   If you are not satisfied with how we handle your personal data,
                   you have the right to lodge a complaint with the Information
-                  Commissioner's Office (ICO). You can contact the ICO at{" "}
+                  Commissioner&apos;s Office (ICO). You can contact the ICO at{" "}
                   <a
                     href="https://ico.org.uk"
                     target="_blank"

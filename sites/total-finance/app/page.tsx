@@ -382,7 +382,7 @@ export default function Home() {
                 Why Choose Total Finance?
               </h2>
               <p className="text-lg text-slate mb-8">
-                With over 15 years of experience, we've helped thousands of
+                With over 15 years of experience, we&apos;ve helped thousands of
                 clients across Bromley and Greater London achieve their
                 financial goals. Our independent status means we work for you,
                 not the lenders.

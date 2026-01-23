@@ -32,7 +32,7 @@ export default function TermsPage() {
                   1. Introduction
                 </h2>
                 <p className="text-slate">
-                  These Terms of Service ("Terms") govern your use of the Total
+                  These Terms of Service (&quot;Terms&quot;) govern your use of the Total
                   Finance (UK) Ltd website (total-finance.org.uk) and our
                   financial advisory services. By accessing our website or using
                   our services, you agree to be bound by these Terms. If you do
