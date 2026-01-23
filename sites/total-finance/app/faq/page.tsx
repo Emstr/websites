@@ -248,8 +248,8 @@ export default function FAQPage() {
               Still Have Questions?
             </h2>
             <p className="text-lg text-slate mb-8">
-              Can't find the answer you're looking for? Our team is here to
-              help. Get in touch and we'll be happy to assist.
+              Can&apos;t find the answer you&apos;re looking for? Our team is here to
+              help. Get in touch and we&apos;ll be happy to assist.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact/" className="btn-primary">
@@ -270,7 +270,7 @@ export default function FAQPage() {
             Ready to Get Expert Advice?
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Book your free consultation today. We'll answer all your questions
+            Book your free consultation today. We&apos;ll answer all your questions
             and help you make informed financial decisions.
           </p>
           <Link href="/contact/" className="btn-accent text-lg">

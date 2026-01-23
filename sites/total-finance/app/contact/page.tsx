@@ -222,9 +222,9 @@ export default function ContactPage() {
                   Get in Touch
                 </h2>
                 <p className="text-slate mb-8">
-                  We're here to help you make informed financial decisions.
+                  We&apos;re here to help you make informed financial decisions.
                   Whether you prefer to call, email, or visit us in person,
-                  we're ready to assist you.
+                  we&apos;re ready to assist you.
                 </p>
               </div>
 
@@ -366,8 +366,8 @@ export default function ContactPage() {
                 </h4>
                 <p className="text-sm">
                   Your initial consultation is completely free with no
-                  obligation. We'll discuss your financial situation, goals, and
-                  answer any questions you may have. You're under no pressure to
+                  obligation. We&apos;ll discuss your financial situation, goals, and
+                  answer any questions you may have. You&apos;re under no pressure to
                   proceed with any recommendations.
                 </p>
               </div>

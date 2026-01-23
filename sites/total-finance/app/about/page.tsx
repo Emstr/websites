@@ -135,19 +135,19 @@ export default function AboutPage() {
                 <p>
                   Total Finance (UK) Ltd was established with a clear mission:
                   to provide honest, independent financial advice that puts
-                  clients first. Based in Bromley, Greater London, we've spent
+                  clients first. Based in Bromley, Greater London, we&apos;ve spent
                   over 15 years building trusted relationships with individuals
                   and families across the South East.
                 </p>
                 <p>
-                  As independent financial advisers, we're not tied to any
+                  As independent financial advisers, we&apos;re not tied to any
                   particular provider. This means we can search the whole market
                   to find the products that truly match your needs, rather than
                   pushing products that benefit us financially.
                 </p>
                 <p>
-                  We understand that everyone's financial situation is unique.
-                  That's why we take time to understand your circumstances,
+                  We understand that everyone&apos;s financial situation is unique.
+                  That&apos;s why we take time to understand your circumstances,
                   goals, and concerns before making any recommendations. Our
                   advice is always tailored to you.
                 </p>
@@ -203,7 +203,7 @@ export default function AboutPage() {
             </h2>
             <p className="text-xl text-gray-200 mb-8">
               Total Finance (UK) Ltd is authorised and regulated by the
-              Financial Conduct Authority. This means you're protected and can
+              Financial Conduct Authority. This means you&apos;re protected and can
               be confident that we meet the highest standards of professional
               conduct.
             </p>
@@ -211,7 +211,7 @@ export default function AboutPage() {
               <div className="bg-white/10 rounded-xl p-6">
                 <h3 className="font-bold text-lg mb-3">Your Protection</h3>
                 <p className="text-gray-200 text-sm">
-                  Access to the Financial Ombudsman Service if you're not
+                  Access to the Financial Ombudsman Service if you&apos;re not
                   satisfied with our service, and the Financial Services
                   Compensation Scheme for eligible claims.
                 </p>
@@ -306,7 +306,7 @@ export default function AboutPage() {
               <div className="space-y-4 text-slate">
                 <p>
                   Financial advice can have a significant impact on your life.
-                  That's why it's important to work with advisers who have the
+                  That&apos;s why it&apos;s important to work with advisers who have the
                   proper training and qualifications.
                 </p>
                 <p>
