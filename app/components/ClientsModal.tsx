@@ -35,6 +35,71 @@ const sites = [
     category: 'Healthcare',
     sites: [
       { slug: 'lewisham-osteopath', name: 'Lewisham Osteopathic Practice', location: 'Lewisham, SE13' },
+      { slug: 'dentist-clapham', name: 'Clapham Dental Practice', location: 'Clapham, SW4' },
+      { slug: 'physio-richmond', name: 'Richmond Physiotherapy Clinic', location: 'Richmond, TW9' },
+      { slug: 'chiropractor-kensington', name: 'Kensington Chiropractic Centre', location: 'Kensington, W8' },
+      { slug: 'acupuncture-marylebone', name: 'Marylebone Acupuncture Clinic', location: 'Marylebone, W1' },
+    ],
+  },
+  {
+    category: 'Trades & Home Services',
+    sites: [
+      { slug: 'plumber-brixton', name: 'Brixton Plumbing Services', location: 'Brixton, SW2' },
+      { slug: 'electrician-greenwich', name: 'Greenwich Electrical Solutions', location: 'Greenwich, SE10' },
+      { slug: 'locksmith-camden', name: 'Camden Lock & Key', location: 'Camden, NW1' },
+      { slug: 'roofer-lewisham', name: 'Lewisham Roofing Specialists', location: 'Lewisham, SE13' },
+      { slug: 'pest-control-wandsworth', name: 'Wandsworth Pest Solutions', location: 'Wandsworth, SW18' },
+      { slug: 'cleaning-mayfair', name: 'Mayfair Cleaning Services', location: 'Mayfair, W1' },
+      { slug: 'removals-ealing', name: 'Ealing Moving Company', location: 'Ealing, W5' },
+    ],
+  },
+  {
+    category: 'Professional Services',
+    sites: [
+      { slug: 'accountant-city', name: 'City Accounting Partners', location: 'City of London, EC2' },
+      { slug: 'solicitor-wimbledon', name: 'Wimbledon Legal Services', location: 'Wimbledon, SW19' },
+      { slug: 'estate-agent-dulwich', name: 'Dulwich Property Group', location: 'Dulwich, SE21' },
+      { slug: 'architect-shoreditch', name: 'Shoreditch Architecture Studio', location: 'Shoreditch, E2' },
+      { slug: 'it-support-canary-wharf', name: 'Canary Wharf IT Solutions', location: 'Canary Wharf, E14' },
+      { slug: 'mortgage-broker-stratford', name: 'Stratford Mortgage Solutions', location: 'Stratford, E15' },
+    ],
+  },
+  {
+    category: 'Fitness & Wellness',
+    sites: [
+      { slug: 'personal-trainer-shoreditch', name: 'Shoreditch Fitness Studio', location: 'Shoreditch, E1' },
+      { slug: 'yoga-fulham', name: 'Fulham Yoga Studio', location: 'Fulham, SW6' },
+    ],
+  },
+  {
+    category: 'Beauty & Grooming',
+    sites: [
+      { slug: 'barber-soho', name: 'Soho Barber Co', location: 'Soho, W1' },
+      { slug: 'nail-salon-notting-hill', name: 'Notting Hill Nail & Beauty Bar', location: 'Notting Hill, W11' },
+    ],
+  },
+  {
+    category: 'Food & Drink',
+    sites: [
+      { slug: 'cafe-bermondsey', name: 'Bermondsey Coffee House', location: 'Bermondsey, SE1' },
+      { slug: 'catering-islington', name: 'Islington Catering Company', location: 'Islington, N1' },
+    ],
+  },
+  {
+    category: 'Lifestyle & Creative',
+    sites: [
+      { slug: 'florist-chelsea', name: 'Chelsea Blooms', location: 'Chelsea, SW3' },
+      { slug: 'photographer-hackney', name: 'Hackney Photography Studio', location: 'Hackney, E8' },
+      { slug: 'tailor-savile-row', name: 'Savile Row Bespoke', location: 'Mayfair, W1' },
+    ],
+  },
+  {
+    category: 'Education & Pets',
+    sites: [
+      { slug: 'tutor-kensington', name: 'Kensington Private Tutors', location: 'Kensington, W8' },
+      { slug: 'driving-school-croydon', name: 'Croydon Driving Academy', location: 'Croydon, CR0' },
+      { slug: 'vet-hampstead', name: 'Hampstead Veterinary Clinic', location: 'Hampstead, NW3' },
+      { slug: 'dog-groomer-battersea', name: 'Battersea Dog Spa', location: 'Battersea, SW11' },
     ],
   },
 ];
