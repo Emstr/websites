@@ -31,6 +31,12 @@ const sites = [
       { slug: 'alpha-investments', name: 'Alpha Investments', location: 'Harrow & Mayfair' },
     ],
   },
+  {
+    category: 'Healthcare',
+    sites: [
+      { slug: 'lewisham-osteopath', name: 'Lewisham Osteopathic Practice', location: 'Lewisham, SE13' },
+    ],
+  },
 ];
 
 export default function ClientsModal() {
