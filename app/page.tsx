@@ -136,7 +136,7 @@ export default function HomePage() {
 
       {/* Nav */}
       <nav className="flex items-center justify-between px-8 py-6 max-w-6xl mx-auto">
-        <span className="text-lg font-bold tracking-tight">kolider</span>
+        <span className="text-lg font-bold tracking-tight">kolider digital</span>
         <a
           href="mailto:hello@kolider.co.uk"
           className="text-sm text-slate-400 hover:text-white transition-colors"
@@ -160,7 +160,7 @@ export default function HomePage() {
             <span className="text-slate-400">Designed to convert.</span>
           </h1>
           <p className="text-xl text-slate-400 max-w-2xl leading-relaxed mb-10">
-            Kolider builds fast, modern websites for professional services companies
+            Kolider Digital builds fast, modern websites for professional services companies
             across London — optimised for search engines, AI assistants, and the
             clients who actually matter.
           </p>
@@ -363,7 +363,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="border-t border-slate-800 px-8 py-8 max-w-6xl mx-auto flex items-center justify-between text-xs text-slate-600">
-        <span>kolider &copy; {new Date().getFullYear()}</span>
+        <span>kolider digital &copy; {new Date().getFullYear()}</span>
         <span>London, UK</span>
       </footer>
 
