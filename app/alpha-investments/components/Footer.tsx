@@ -44,32 +44,32 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-6 text-white">Our Services</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/services" className="footer-link">
+                <Link href="/alpha-investments/services" className="footer-link">
                   Investment Planning
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="footer-link">
+                <Link href="/alpha-investments/services" className="footer-link">
                   Pension Planning
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="footer-link">
+                <Link href="/alpha-investments/services" className="footer-link">
                   Tax Planning
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="footer-link">
+                <Link href="/alpha-investments/services" className="footer-link">
                   Life Assurance
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="footer-link">
+                <Link href="/alpha-investments/services" className="footer-link">
                   Wealth Management
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="footer-link">
+                <Link href="/alpha-investments/services" className="footer-link">
                   Auto-Enrolment
                 </Link>
               </li>
@@ -81,27 +81,27 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-6 text-white">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/about" className="footer-link">
+                <Link href="/alpha-investments/about" className="footer-link">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="footer-link">
+                <Link href="/alpha-investments/contact" className="footer-link">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="footer-link">
+                <Link href="/alpha-investments/faq" className="footer-link">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="footer-link">
+                <Link href="/alpha-investments/privacy" className="footer-link">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="footer-link">
+                <Link href="/alpha-investments/terms" className="footer-link">
                   Terms of Business
                 </Link>
               </li>
@@ -194,10 +194,10 @@ export default function Footer() {
               rights reserved.
             </p>
             <div className="flex items-center gap-6">
-              <Link href="/privacy" className="hover:text-accent transition-colors">
+              <Link href="/alpha-investments/privacy" className="hover:text-accent transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="hover:text-accent transition-colors">
+              <Link href="/alpha-investments/terms" className="hover:text-accent transition-colors">
                 Terms of Business
               </Link>
             </div>

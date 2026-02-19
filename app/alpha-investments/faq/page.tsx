@@ -249,7 +249,7 @@ export default function FAQPage() {
               assist you.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Link href="/contact" className="btn-accent">
+              <Link href="/alpha-investments/contact" className="btn-accent">
                 Contact Us
               </Link>
               <a
@@ -273,7 +273,7 @@ export default function FAQPage() {
             Book a complimentary meeting to discuss your financial goals with one of
             our expert advisers at our Mayfair or Harrow office.
           </p>
-          <Link href="/contact" className="btn-accent">
+          <Link href="/alpha-investments/contact" className="btn-accent">
             Book Your Free Consultation
           </Link>
         </div>

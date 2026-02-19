@@ -60,22 +60,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
               <li>
-                <Link href="/services" className="hover:text-white">
+                <Link href="/camden-notary/services" className="hover:text-white">
                   Notary Services
                 </Link>
               </li>
               <li>
-                <Link href="/legalisation" className="hover:text-white">
+                <Link href="/camden-notary/legalisation" className="hover:text-white">
                   Apostille & Legalisation
                 </Link>
               </li>
               <li>
-                <Link href="/fees" className="hover:text-white">
+                <Link href="/camden-notary/fees" className="hover:text-white">
                   Fees
                 </Link>
               </li>
               <li>
-                <Link href="/quote" className="hover:text-white">
+                <Link href="/camden-notary/quote" className="hover:text-white">
                   Get a Quote
                 </Link>
               </li>
@@ -87,17 +87,17 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Information</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
               <li>
-                <Link href="/faq" className="hover:text-white">
+                <Link href="/camden-notary/faq" className="hover:text-white">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-white">
+                <Link href="/camden-notary/terms" className="hover:text-white">
                   Terms & Conditions
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="hover:text-white">
+                <Link href="/camden-notary/privacy" className="hover:text-white">
                   Privacy Policy
                 </Link>
               </li>

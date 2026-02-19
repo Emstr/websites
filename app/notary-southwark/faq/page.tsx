@@ -222,7 +222,7 @@ export default function FAQPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/contact"
+              href="/notary-southwark/contact"
               className="bg-[#e74c3c] hover:bg-[#c0392b] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               Contact Us

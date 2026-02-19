@@ -252,7 +252,7 @@ export default function FAQPage() {
               help. Get in touch and we&apos;ll be happy to assist.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact/" className="btn-primary">
+              <Link href="/total-finance/contact/" className="btn-primary">
                 Contact Us
               </Link>
               <a href="tel:02086957548" className="btn-secondary">
@@ -273,7 +273,7 @@ export default function FAQPage() {
             Book your free consultation today. We&apos;ll answer all your questions
             and help you make informed financial decisions.
           </p>
-          <Link href="/contact/" className="btn-accent text-lg">
+          <Link href="/total-finance/contact/" className="btn-accent text-lg">
             Book Free Consultation
           </Link>
         </div>

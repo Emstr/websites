@@ -4,21 +4,21 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { name: "Mortgages", href: "/services/#mortgages" },
-    { name: "Secured Loans", href: "/services/#secured-loans" },
-    { name: "Life Assurance", href: "/services/#life-assurance" },
-    { name: "Critical Illness Cover", href: "/services/#critical-illness" },
-    { name: "Income Protection", href: "/services/#income-protection" },
-    { name: "Pension Planning", href: "/services/#pension-planning" },
+    { name: "Mortgages", href: "/total-finance/services/#mortgages" },
+    { name: "Secured Loans", href: "/total-finance/services/#secured-loans" },
+    { name: "Life Assurance", href: "/total-finance/services/#life-assurance" },
+    { name: "Critical Illness Cover", href: "/total-finance/services/#critical-illness" },
+    { name: "Income Protection", href: "/total-finance/services/#income-protection" },
+    { name: "Pension Planning", href: "/total-finance/services/#pension-planning" },
   ];
 
   const quickLinks = [
-    { name: "About Us", href: "/about/" },
-    { name: "Our Services", href: "/services/" },
-    { name: "FAQ", href: "/faq/" },
-    { name: "Contact Us", href: "/contact/" },
-    { name: "Privacy Policy", href: "/privacy/" },
-    { name: "Terms of Service", href: "/terms/" },
+    { name: "About Us", href: "/total-finance/about/" },
+    { name: "Our Services", href: "/total-finance/services/" },
+    { name: "FAQ", href: "/total-finance/faq/" },
+    { name: "Contact Us", href: "/total-finance/contact/" },
+    { name: "Privacy Policy", href: "/total-finance/privacy/" },
+    { name: "Terms of Service", href: "/total-finance/terms/" },
   ];
 
   return (
@@ -276,13 +276,13 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-6 text-sm">
               <Link
-                href="/privacy/"
+                href="/total-finance/privacy/"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link
-                href="/terms/"
+                href="/total-finance/terms/"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Terms of Service

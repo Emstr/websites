@@ -21,7 +21,7 @@ export default function Home() {
           />
         </svg>
       ),
-      href: "/services/#mortgages",
+      href: "/total-finance/services/#mortgages",
     },
     {
       title: "Secured Loans",
@@ -42,7 +42,7 @@ export default function Home() {
           />
         </svg>
       ),
-      href: "/services/#secured-loans",
+      href: "/total-finance/services/#secured-loans",
     },
     {
       title: "Life Assurance",
@@ -63,7 +63,7 @@ export default function Home() {
           />
         </svg>
       ),
-      href: "/services/#life-assurance",
+      href: "/total-finance/services/#life-assurance",
     },
     {
       title: "Critical Illness Cover",
@@ -84,7 +84,7 @@ export default function Home() {
           />
         </svg>
       ),
-      href: "/services/#critical-illness",
+      href: "/total-finance/services/#critical-illness",
     },
     {
       title: "Income Protection",
@@ -105,7 +105,7 @@ export default function Home() {
           />
         </svg>
       ),
-      href: "/services/#income-protection",
+      href: "/total-finance/services/#income-protection",
     },
     {
       title: "Pension Planning",
@@ -126,7 +126,7 @@ export default function Home() {
           />
         </svg>
       ),
-      href: "/services/#pension-planning",
+      href: "/total-finance/services/#pension-planning",
     },
   ];
 
@@ -240,11 +240,11 @@ export default function Home() {
               future starts here.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-accent text-lg">
+              <Link href="/total-finance/contact/" className="btn-accent text-lg">
                 Book Free Consultation
               </Link>
               <Link
-                href="/services/"
+                href="/total-finance/services/"
                 className="btn-secondary bg-transparent border-white text-white hover:bg-white hover:text-navy text-lg"
               >
                 Explore Services
@@ -556,7 +556,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link
-                  href="/contact/"
+                  href="/total-finance/contact/"
                   className="btn-accent w-full mt-6 text-center"
                 >
                   Schedule Now
@@ -578,7 +578,7 @@ export default function Home() {
             you make the right decisions for your future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-accent text-lg">
+            <Link href="/total-finance/contact/" className="btn-accent text-lg">
               Book Free Consultation
             </Link>
             <a

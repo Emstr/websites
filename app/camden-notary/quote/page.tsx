@@ -409,7 +409,7 @@ export default function QuotePage() {
                   WhatsApp
                 </a>
               </div>
-              <Link href="/" className="inline-block text-accent hover:underline mt-4">
+              <Link href="/camden-notary" className="inline-block text-accent hover:underline mt-4">
                 &larr; Back to Home
               </Link>
             </div>

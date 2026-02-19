@@ -226,7 +226,7 @@ export default function IndividualsPage() {
               </div>
               <div className="flex flex-col gap-4">
                 <Link
-                  href="/quote"
+                  href="/notary-public-islington/quote"
                   className="bg-[#e94560] hover:bg-[#d63d56] px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
                 >
                   Get Instant Quote

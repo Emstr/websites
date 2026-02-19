@@ -23,22 +23,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/businesses" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/notary-public-islington/businesses" className="text-gray-300 hover:text-white transition-colors">
                   Business Services
                 </Link>
               </li>
               <li>
-                <Link href="/individuals" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/notary-public-islington/individuals" className="text-gray-300 hover:text-white transition-colors">
                   Individual Services
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/notary-public-islington/about" className="text-gray-300 hover:text-white transition-colors">
                   About Esther Ogun
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/notary-public-islington/contact" className="text-gray-300 hover:text-white transition-colors">
                   Contact Us
                 </Link>
               </li>
@@ -74,16 +74,16 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Notary Public Islington. All rights reserved.
             </p>
             <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-400">
-              <Link href="/privacy" className="hover:text-white transition-colors">
+              <Link href="/notary-public-islington/privacy" className="hover:text-white transition-colors">
                 Privacy Notice
               </Link>
-              <Link href="/data-protection" className="hover:text-white transition-colors">
+              <Link href="/notary-public-islington/data-protection" className="hover:text-white transition-colors">
                 Data Protection
               </Link>
-              <Link href="/terms" className="hover:text-white transition-colors">
+              <Link href="/notary-public-islington/terms" className="hover:text-white transition-colors">
                 Terms of Business
               </Link>
-              <Link href="/terms#complaints" className="hover:text-white transition-colors">
+              <Link href="/notary-public-islington/terms#complaints" className="hover:text-white transition-colors">
                 Complaints
               </Link>
             </div>

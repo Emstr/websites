@@ -37,13 +37,13 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Link
-                href="/contact"
+                href="/alpha-investments/contact"
                 className="btn-accent text-lg"
               >
                 Schedule Consultation
               </Link>
               <Link
-                href="/services"
+                href="/alpha-investments/services"
                 className="btn-outline border-white text-white hover:bg-white hover:text-primary text-lg"
               >
                 Our Services
@@ -126,7 +126,7 @@ export default function Home() {
                 Mayfair, London W1S 1BN
               </address>
               <div className="flex items-center gap-2 text-accent group-hover:gap-3 transition-all">
-                <Link href="/contact" className="font-semibold">
+                <Link href="/alpha-investments/contact" className="font-semibold">
                   Book Mayfair Appointment
                 </Link>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -160,7 +160,7 @@ export default function Home() {
                 Harrow HA1 1BD
               </address>
               <div className="flex items-center gap-2 text-primary group-hover:gap-3 transition-all">
-                <Link href="/contact" className="font-semibold">
+                <Link href="/alpha-investments/contact" className="font-semibold">
                   Book Harrow Appointment
                 </Link>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -202,7 +202,7 @@ export default function Home() {
                 Bespoke investment strategies designed to grow your wealth while managing
                 risk according to your personal profile and goals.
               </p>
-              <Link href="/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
+              <Link href="/alpha-investments/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
                 Learn More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -222,7 +222,7 @@ export default function Home() {
                 Secure your retirement with expert pension advice, including workplace
                 pensions, SIPPs, and drawdown strategies.
               </p>
-              <Link href="/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
+              <Link href="/alpha-investments/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
                 Learn More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -242,7 +242,7 @@ export default function Home() {
                 Strategic tax planning to optimise your wealth, utilising ISAs, VCTs,
                 and other tax-efficient investment vehicles.
               </p>
-              <Link href="/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
+              <Link href="/alpha-investments/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
                 Learn More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -262,7 +262,7 @@ export default function Home() {
                 Protect your family&apos;s future with comprehensive life assurance,
                 critical illness cover, and income protection plans.
               </p>
-              <Link href="/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
+              <Link href="/alpha-investments/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
                 Learn More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -282,7 +282,7 @@ export default function Home() {
                 Holistic wealth management for high-net-worth individuals, combining
                 investment, tax, and estate planning expertise.
               </p>
-              <Link href="/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
+              <Link href="/alpha-investments/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
                 Learn More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -302,7 +302,7 @@ export default function Home() {
                 Complete workplace pension solutions for businesses, ensuring compliance
                 with auto-enrolment regulations.
               </p>
-              <Link href="/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
+              <Link href="/alpha-investments/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
                 Learn More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -312,7 +312,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <Link href="/services" className="btn-primary">
+            <Link href="/alpha-investments/services" className="btn-primary">
               View All Services
             </Link>
           </div>
@@ -490,7 +490,7 @@ export default function Home() {
               office. We&apos;ll discuss your goals and how we can help you achieve them.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Link href="/contact" className="btn-accent">
+              <Link href="/alpha-investments/contact" className="btn-accent">
                 Book Free Consultation
               </Link>
               <a

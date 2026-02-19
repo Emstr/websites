@@ -124,7 +124,7 @@ export default function AboutPage() {
                   </a>
                 </div>
                 <Link
-                  href="/contact"
+                  href="/notary-public-stamford-hill/contact"
                   className="mt-6 block w-full bg-[#27ae60] hover:bg-[#219a52] text-white text-center px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Contact Us
@@ -166,7 +166,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <Link
-                href="/quote"
+                href="/notary-public-stamford-hill/quote"
                 className="mt-8 inline-block bg-[#2c3e50] hover:bg-[#1a252f] text-white px-8 py-4 rounded-lg font-semibold transition-colors"
               >
                 Get Instant Quote

@@ -439,7 +439,7 @@ export default function AboutPage() {
             help you achieve your financial goals.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="btn-accent">
+            <Link href="/alpha-investments/contact" className="btn-accent">
               Book Free Consultation
             </Link>
             <a

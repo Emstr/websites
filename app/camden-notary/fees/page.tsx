@@ -237,13 +237,13 @@ export default function FeesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/quote"
+              href="/camden-notary/quote"
               className="inline-block bg-accent hover:bg-amber-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors"
             >
               Get an Instant Quote
             </Link>
             <Link
-              href="/contact"
+              href="/camden-notary/contact"
               className="inline-block bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors border border-white/30"
             >
               Contact Me

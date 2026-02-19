@@ -125,7 +125,7 @@ export default function AboutPage() {
                   </a>
                 </div>
                 <Link
-                  href="/contact"
+                  href="/notary-southwark/contact"
                   className="mt-6 block w-full bg-[#e74c3c] hover:bg-[#c0392b] text-white text-center px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Contact Us
@@ -167,7 +167,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <Link
-                href="/quote"
+                href="/notary-southwark/quote"
                 className="mt-8 inline-block bg-[#34495e] hover:bg-[#2c3e50] text-white px-8 py-4 rounded-lg font-semibold transition-colors"
               >
                 Get Instant Quote

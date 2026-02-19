@@ -282,7 +282,7 @@ export default function ServicesPage() {
                         </p>
                       </div>
                     )}
-                    <Link href="/contact/" className="btn-primary">
+                    <Link href="/total-finance/contact/" className="btn-primary">
                       Get Advice
                     </Link>
                   </div>
@@ -382,7 +382,7 @@ export default function ServicesPage() {
             achieve your financial goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-accent text-lg">
+            <Link href="/total-finance/contact/" className="btn-accent text-lg">
               Book Free Consultation
             </Link>
             <a

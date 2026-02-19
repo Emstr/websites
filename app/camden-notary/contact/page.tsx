@@ -243,7 +243,7 @@ export default function ContactPage() {
             your requirements.
           </p>
           <Link
-            href="/quote"
+            href="/camden-notary/quote"
             className="inline-block bg-accent hover:bg-amber-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors"
           >
             Get an Instant Quote

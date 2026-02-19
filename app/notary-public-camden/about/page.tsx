@@ -124,7 +124,7 @@ export default function AboutPage() {
                   </a>
                 </div>
                 <Link
-                  href="/contact"
+                  href="/notary-public-camden/contact"
                   className="mt-6 block w-full bg-[#c9a227] hover:bg-[#b89223] text-white text-center px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Contact Us
@@ -166,7 +166,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <Link
-                href="/quote"
+                href="/notary-public-camden/quote"
                 className="mt-8 inline-block bg-[#1e3a5f] hover:bg-[#0d2137] text-white px-8 py-4 rounded-lg font-semibold transition-colors"
               >
                 Get Instant Quote

@@ -183,7 +183,7 @@ export default function ContactPage() {
                     I consent to Alpha Investments & Financial Planning Ltd contacting
                     me regarding my enquiry. I understand my data will be processed in
                     accordance with the{" "}
-                    <a href="/privacy" className="text-accent hover:underline">
+                    <a href="/alpha-investments/privacy" className="text-accent hover:underline">
                       Privacy Policy
                     </a>
                     . *

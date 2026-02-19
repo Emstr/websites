@@ -222,7 +222,7 @@ export default function FAQPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/contact"
+              href="/notary-public-belsize-park/contact"
               className="bg-[#ee6c4d] hover:bg-[#e85a3a] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               Contact Me

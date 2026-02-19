@@ -181,7 +181,7 @@ export default function ContactPage() {
                         regarding my enquiry. I understand that my data will be
                         processed in accordance with the{" "}
                         <a
-                          href="/privacy/"
+                          href="/total-finance/privacy/"
                           className="text-primary hover:underline"
                         >
                           Privacy Policy

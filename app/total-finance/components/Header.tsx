@@ -7,11 +7,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Services", href: "/services/" },
-    { name: "About", href: "/about/" },
-    { name: "FAQ", href: "/faq/" },
-    { name: "Contact", href: "/contact/" },
+    { name: "Home", href: "/total-finance" },
+    { name: "Services", href: "/total-finance/services/" },
+    { name: "About", href: "/total-finance/about/" },
+    { name: "FAQ", href: "/total-finance/faq/" },
+    { name: "Contact", href: "/total-finance/contact/" },
   ];
 
   return (
@@ -80,7 +80,7 @@ export default function Header() {
       <div className="container-custom px-4">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/total-finance" className="flex items-center gap-3">
             <div className="w-12 h-12 gradient-primary rounded-lg flex items-center justify-center">
               <svg
                 className="w-8 h-8 text-white"
@@ -121,7 +121,7 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-4">
-            <Link href="/contact/" className="btn-accent text-sm py-3 px-6">
+            <Link href="/total-finance/contact/" className="btn-accent text-sm py-3 px-6">
               Free Consultation
             </Link>
           </div>
@@ -179,7 +179,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/contact/"
+                href="/total-finance/contact/"
                 className="btn-accent text-center mt-4"
                 onClick={() => setIsMenuOpen(false)}
               >

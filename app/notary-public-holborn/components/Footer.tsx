@@ -25,22 +25,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/services" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/notary-public-holborn/services" className="text-gray-300 hover:text-white transition-colors">
                   All Services
                 </Link>
               </li>
               <li>
-                <Link href="/services#business" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/notary-public-holborn/services#business" className="text-gray-300 hover:text-white transition-colors">
                   Business Services
                 </Link>
               </li>
               <li>
-                <Link href="/services#individual" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/notary-public-holborn/services#individual" className="text-gray-300 hover:text-white transition-colors">
                   Individual Services
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link href="/notary-public-holborn/contact" className="text-gray-300 hover:text-white transition-colors">
                   Contact Us
                 </Link>
               </li>
@@ -71,13 +71,13 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Notary Public Holborn. All rights reserved.
             </p>
             <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-400">
-              <Link href="/privacy" className="hover:text-white transition-colors">
+              <Link href="/notary-public-holborn/privacy" className="hover:text-white transition-colors">
                 Privacy Notice
               </Link>
-              <Link href="/terms" className="hover:text-white transition-colors">
+              <Link href="/notary-public-holborn/terms" className="hover:text-white transition-colors">
                 Terms of Business
               </Link>
-              <Link href="/terms#complaints" className="hover:text-white transition-colors">
+              <Link href="/notary-public-holborn/terms#complaints" className="hover:text-white transition-colors">
                 Complaints
               </Link>
             </div>

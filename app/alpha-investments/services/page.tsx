@@ -208,7 +208,7 @@ export default function ServicesPage() {
                       </li>
                     ))}
                   </ul>
-                  <Link href="/contact" className="btn-accent">
+                  <Link href="/alpha-investments/contact" className="btn-accent">
                     Discuss Your Needs
                   </Link>
                 </div>
@@ -300,7 +300,7 @@ export default function ServicesPage() {
             we can help you achieve them.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="btn-accent">
+            <Link href="/alpha-investments/contact" className="btn-accent">
               Book Free Consultation
             </Link>
             <a href="tel:02033977730" className="btn-outline border-white text-white hover:bg-white hover:text-primary">

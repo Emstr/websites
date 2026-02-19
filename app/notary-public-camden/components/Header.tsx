@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Services', href: '/services' },
-  { name: 'FAQ', href: '/faq' },
-  { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Home', href: '/notary-public-camden' },
+  { name: 'Services', href: '/notary-public-camden/services' },
+  { name: 'FAQ', href: '/notary-public-camden/faq' },
+  { name: 'About', href: '/notary-public-camden/about' },
+  { name: 'Contact', href: '/notary-public-camden/contact' },
 ];
 
 export default function Header() {
@@ -19,7 +19,7 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex-shrink-0">
-            <Link href="/" className="flex flex-col">
+            <Link href="/notary-public-camden" className="flex flex-col">
               <span className="text-xl font-bold tracking-tight">Notary Public</span>
               <span className="text-sm text-gray-300">Camden, London</span>
             </Link>
@@ -37,7 +37,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/quote"
+              href="/notary-public-camden/quote"
               className="bg-[#c9a227] hover:bg-[#b89223] px-4 py-2 rounded-md text-sm font-medium transition-colors"
             >
               Instant Quote
@@ -78,7 +78,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/quote"
+                href="/notary-public-camden/quote"
                 className="block px-3 py-2 mt-2 text-base font-medium bg-[#c9a227] hover:bg-[#b8922a] rounded-md text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >

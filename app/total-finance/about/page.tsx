@@ -398,7 +398,7 @@ export default function AboutPage() {
             financial advisers. Book your free consultation today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-accent text-lg">
+            <Link href="/total-finance/contact/" className="btn-accent text-lg">
               Book Free Consultation
             </Link>
             <a

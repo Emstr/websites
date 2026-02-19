@@ -232,7 +232,7 @@ export default function QuotePage() {
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-4">
                   <Link
-                    href="/contact"
+                    href="/notary-public-islington/contact"
                     className="flex-1 bg-[#e94560] hover:bg-[#d63d56] text-white text-center px-6 py-3 rounded-lg font-semibold transition-colors"
                   >
                     Book Appointment

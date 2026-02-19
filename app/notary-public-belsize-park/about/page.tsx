@@ -125,7 +125,7 @@ export default function AboutPage() {
                   </a>
                 </div>
                 <Link
-                  href="/contact"
+                  href="/notary-public-belsize-park/contact"
                   className="mt-6 block w-full bg-[#ee6c4d] hover:bg-[#e85a3a] text-white text-center px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Contact Me
@@ -167,7 +167,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <Link
-                href="/quote"
+                href="/notary-public-belsize-park/quote"
                 className="mt-8 inline-block bg-[#3d5a80] hover:bg-[#293241] text-white px-8 py-4 rounded-lg font-semibold transition-colors"
               >
                 Get Instant Quote

@@ -7,11 +7,11 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
-    { name: "About", href: "/about" },
-    { name: "FAQ", href: "/faq" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", href: "/alpha-investments" },
+    { name: "Services", href: "/alpha-investments/services" },
+    { name: "About", href: "/alpha-investments/about" },
+    { name: "FAQ", href: "/alpha-investments/faq" },
+    { name: "Contact", href: "/alpha-investments/contact" },
   ];
 
   return (
@@ -72,7 +72,7 @@ export default function Header() {
       <nav className="container-width py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/alpha-investments" className="flex items-center gap-3">
             <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
               <span className="text-accent font-bold text-xl font-serif">A</span>
             </div>
@@ -102,7 +102,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden lg:block">
             <Link
-              href="/contact"
+              href="/alpha-investments/contact"
               className="bg-accent text-white px-6 py-3 font-semibold rounded-sm hover:bg-accent-600 transition-colors shadow-md"
             >
               Free Consultation
@@ -152,7 +152,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/contact"
+                href="/alpha-investments/contact"
                 className="bg-accent text-white px-6 py-3 font-semibold rounded-sm text-center mt-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >

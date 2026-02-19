@@ -4,12 +4,12 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Services', href: '/services' },
-  { name: 'Legalisation', href: '/legalisation' },
-  { name: 'Fees', href: '/fees' },
-  { name: 'FAQ', href: '/faq' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Home', href: '/camden-notary' },
+  { name: 'Services', href: '/camden-notary/services' },
+  { name: 'Legalisation', href: '/camden-notary/legalisation' },
+  { name: 'Fees', href: '/camden-notary/fees' },
+  { name: 'FAQ', href: '/camden-notary/faq' },
+  { name: 'Contact', href: '/camden-notary/contact' },
 ];
 
 export default function Header() {
@@ -20,7 +20,7 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex-shrink-0">
-            <Link href="/" className="flex flex-col">
+            <Link href="/camden-notary" className="flex flex-col">
               <span className="text-xl font-bold tracking-tight">Camden Notary</span>
               <span className="text-sm text-gray-300">Linda Okagbue</span>
             </Link>
@@ -38,7 +38,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/quote"
+              href="/camden-notary/quote"
               className="bg-accent hover:bg-amber-600 px-4 py-2 rounded-md text-sm font-medium transition-colors"
             >
               Instant Quote
@@ -79,7 +79,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/quote"
+                href="/camden-notary/quote"
                 className="block px-3 py-2 mt-2 text-base font-medium bg-accent hover:bg-amber-600 rounded-md text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
