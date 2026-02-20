@@ -1,0 +1,192 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Visit & Contact | Mayfair Fine Art",
+  description:
+    "Visit Mayfair Fine Art at 15 Cork Street, Mayfair. Open Mon-Fri 10am-6pm, Sat 11am-5pm. Call 020 7946 2200 or email gallery@mayfairfineart.co.uk.",
+  openGraph: {
+    title: "Visit & Contact | Mayfair Fine Art",
+    description:
+      "Find us at 15 Cork Street, Mayfair. Open six days a week.",
+  },
+};
+
+export default function ContactPage() {
+  return (
+    <>
+      <section className="hero-gradient py-20 lg:py-28">
+        <div className="container-width">
+          <div className="max-w-3xl">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">Get In Touch</span>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">Visit &amp; Contact Us</h1>
+            <p className="text-xl text-gray-200 leading-relaxed">
+              Drop in to see the current exhibition, book a private viewing,
+              enquire about a specific work, or discuss a consultancy project. We
+              are always happy to talk art.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-white">
+        <div className="container-width">
+          <div className="grid lg:grid-cols-2 gap-16">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-primary mb-2">Get In Touch</h2>
+              <p className="text-gray-600 mb-8">
+                Whether you are interested in a current exhibition, seeking art
+                consultancy, or planning a corporate project, drop us a line.
+              </p>
+              <form className="space-y-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="firstName" className="form-label">First Name *</label>
+                    <input type="text" id="firstName" name="firstName" required className="form-input" placeholder="Charlotte" />
+                  </div>
+                  <div>
+                    <label htmlFor="lastName" className="form-label">Last Name *</label>
+                    <input type="text" id="lastName" name="lastName" required className="form-input" placeholder="Ainsworth" />
+                  </div>
+                </div>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="email" className="form-label">Email *</label>
+                    <input type="email" id="email" name="email" required className="form-input" placeholder="charlotte@example.com" />
+                  </div>
+                  <div>
+                    <label htmlFor="phone" className="form-label">Phone</label>
+                    <input type="tel" id="phone" name="phone" className="form-input" placeholder="07123 456789" />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="service" className="form-label">Enquiry Type</label>
+                  <select id="service" name="service" className="form-input">
+                    <option value="">Select</option>
+                    <option value="exhibition">Current Exhibition</option>
+                    <option value="viewing">Private Viewing</option>
+                    <option value="consultancy">Art Consultancy</option>
+                    <option value="corporate">Corporate Art</option>
+                    <option value="investment">Art Investment</option>
+                    <option value="framing">Framing &amp; Installation</option>
+                    <option value="other">General Enquiry</option>
+                  </select>
+                </div>
+                <div>
+                  <label htmlFor="preferredDate" className="form-label">Preferred Viewing Date</label>
+                  <input type="date" id="preferredDate" name="preferredDate" className="form-input" />
+                </div>
+                <div>
+                  <label htmlFor="message" className="form-label">Your Message *</label>
+                  <textarea id="message" name="message" rows={5} required className="form-textarea" placeholder="Tell us about your interest or project..."></textarea>
+                </div>
+                <button type="submit" className="btn-accent w-full sm:w-auto">Send Message</button>
+              </form>
+            </div>
+
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-primary mb-8">Find Us</h2>
+              <div className="location-card mb-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center">
+                    <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <span className="text-sm text-accent font-semibold">Our Gallery</span>
+                    <h3 className="text-xl font-bold text-primary">Cork Street, Mayfair</h3>
+                  </div>
+                </div>
+                <address className="not-italic text-gray-700 mb-4">
+                  <strong>Mayfair Fine Art</strong><br />
+                  15 Cork Street<br />
+                  Mayfair<br />
+                  London W1S 3LW
+                </address>
+                <div className="space-y-2 text-gray-600 mb-4">
+                  <p>
+                    <strong>Opening Hours:</strong><br />
+                    Mon-Fri: 10am - 6pm<br />
+                    Sat: 11am - 5pm<br />
+                    Sun: Closed
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-sm mb-8">
+                <h3 className="text-lg font-bold text-primary mb-4">Direct Contact</h3>
+                <div className="space-y-4">
+                  <a href="tel:02079462200" className="flex items-center gap-3 text-gray-700 hover:text-accent transition-colors">
+                    <div className="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
+                      <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-semibold">020 7946 2200</p>
+                      <p className="text-sm text-gray-500">Call during gallery hours</p>
+                    </div>
+                  </a>
+                  <a href="mailto:gallery@mayfairfineart.co.uk" className="flex items-center gap-3 text-gray-700 hover:text-accent transition-colors">
+                    <div className="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
+                      <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p className="font-semibold">gallery@mayfairfineart.co.uk</p>
+                      <p className="text-sm text-gray-500">Email us anytime</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-sm">
+                <h3 className="text-lg font-bold text-primary mb-4">Getting Here</h3>
+                <div className="space-y-3 text-gray-600">
+                  <div className="flex items-center gap-2">
+                    <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <span>Green Park — 3 min walk</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <span>Bond Street — 4 min walk</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <span>Piccadilly Circus — 5 min walk</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-100">
+        <div className="container-width py-8">
+          <h2 className="text-2xl font-bold text-primary mb-6 text-center">Find Our Gallery</h2>
+          <div className="aspect-video bg-gray-200 rounded-sm overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0!2d-0.1405!3d51.5095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzM0LjIiTiAwwrAwOCcyNS44Ilc!5e0!3m2!1sen!2suk!4v1234567890"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Mayfair Fine Art Gallery Location"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

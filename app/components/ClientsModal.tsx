@@ -39,6 +39,9 @@ const sites = [
       { slug: 'physio-richmond', name: 'Richmond Physiotherapy Clinic', location: 'Richmond, TW9' },
       { slug: 'chiropractor-kensington', name: 'Kensington Chiropractic Centre', location: 'Kensington, W8' },
       { slug: 'acupuncture-marylebone', name: 'Marylebone Acupuncture Clinic', location: 'Marylebone, W1' },
+      { slug: 'optician-brixton', name: 'Brixton Eye Care', location: 'Brixton, SW9' },
+      { slug: 'massage-covent-garden', name: 'Covent Garden Massage Therapy', location: 'Covent Garden, WC2' },
+      { slug: 'speech-therapist-hampstead', name: 'Hampstead Speech Therapy', location: 'Hampstead, NW3' },
     ],
   },
   {
@@ -51,6 +54,12 @@ const sites = [
       { slug: 'pest-control-wandsworth', name: 'Wandsworth Pest Solutions', location: 'Wandsworth, SW18' },
       { slug: 'cleaning-mayfair', name: 'Mayfair Cleaning Services', location: 'Mayfair, W1' },
       { slug: 'removals-ealing', name: 'Ealing Moving Company', location: 'Ealing, W5' },
+      { slug: 'car-mechanic-bermondsey', name: 'Bermondsey Motors', location: 'Bermondsey, SE1' },
+      { slug: 'dry-cleaner-kensington', name: 'Kensington Dry Cleaners', location: 'Kensington, W8' },
+      { slug: 'carpet-fitter-croydon', name: 'Croydon Carpet & Flooring', location: 'Croydon, CR0' },
+      { slug: 'painter-decorator-brixton', name: 'Brixton Decorating Services', location: 'Brixton, SW9' },
+      { slug: 'phone-repair-camden', name: 'Camden Phone Fix', location: 'Camden, NW1' },
+      { slug: 'garden-designer-richmond', name: 'Richmond Garden Design', location: 'Richmond, TW9' },
     ],
   },
   {
@@ -62,6 +71,9 @@ const sites = [
       { slug: 'architect-shoreditch', name: 'Shoreditch Architecture Studio', location: 'Shoreditch, E2' },
       { slug: 'it-support-canary-wharf', name: 'Canary Wharf IT Solutions', location: 'Canary Wharf, E14' },
       { slug: 'mortgage-broker-stratford', name: 'Stratford Mortgage Solutions', location: 'Stratford, E15' },
+      { slug: 'interior-designer-islington', name: 'Islington Interiors', location: 'Islington, N1' },
+      { slug: 'recruitment-city', name: 'City Recruitment Partners', location: 'City of London, EC2' },
+      { slug: 'security-stratford', name: 'Stratford Security Solutions', location: 'Stratford, E15' },
     ],
   },
   {
@@ -69,6 +81,10 @@ const sites = [
     sites: [
       { slug: 'personal-trainer-shoreditch', name: 'Shoreditch Fitness Studio', location: 'Shoreditch, E1' },
       { slug: 'yoga-fulham', name: 'Fulham Yoga Studio', location: 'Fulham, SW6' },
+      { slug: 'pilates-chelsea', name: 'Chelsea Pilates Studio', location: 'Chelsea, SW3' },
+      { slug: 'gym-camden', name: 'Camden Strength & Fitness', location: 'Camden, NW1' },
+      { slug: 'spa-mayfair', name: 'Mayfair Wellness Spa', location: 'Mayfair, W1' },
+      { slug: 'dance-studio-brixton', name: 'Brixton Dance Academy', location: 'Brixton, SW2' },
     ],
   },
   {
@@ -76,6 +92,7 @@ const sites = [
     sites: [
       { slug: 'barber-soho', name: 'Soho Barber Co', location: 'Soho, W1' },
       { slug: 'nail-salon-notting-hill', name: 'Notting Hill Nail & Beauty Bar', location: 'Notting Hill, W11' },
+      { slug: 'tattoo-shoreditch', name: 'Shoreditch Ink Studio', location: 'Shoreditch, EC2' },
     ],
   },
   {
@@ -83,6 +100,11 @@ const sites = [
     sites: [
       { slug: 'cafe-bermondsey', name: 'Bermondsey Coffee House', location: 'Bermondsey, SE1' },
       { slug: 'catering-islington', name: 'Islington Catering Company', location: 'Islington, N1' },
+      { slug: 'restaurant-soho', name: 'Soho Kitchen & Bar', location: 'Soho, W1' },
+      { slug: 'pub-greenwich', name: 'The Greenwich Arms', location: 'Greenwich, SE10' },
+      { slug: 'wine-bar-clapham', name: 'Clapham Wine Room', location: 'Clapham, SW4' },
+      { slug: 'bakery-notting-hill', name: 'Notting Hill Bakehouse', location: 'Notting Hill, W2' },
+      { slug: 'sushi-soho', name: 'Soho Sushi Kitchen', location: 'Soho, W1' },
     ],
   },
   {
@@ -91,6 +113,11 @@ const sites = [
       { slug: 'florist-chelsea', name: 'Chelsea Blooms', location: 'Chelsea, SW3' },
       { slug: 'photographer-hackney', name: 'Hackney Photography Studio', location: 'Hackney, E8' },
       { slug: 'tailor-savile-row', name: 'Savile Row Bespoke', location: 'Mayfair, W1' },
+      { slug: 'jeweller-hatton-garden', name: 'Hatton Garden Fine Jewellers', location: 'Holborn, EC1' },
+      { slug: 'print-shop-shoreditch', name: 'Shoreditch Print Studio', location: 'Shoreditch, EC2' },
+      { slug: 'art-gallery-mayfair', name: 'Mayfair Fine Art', location: 'Mayfair, W1' },
+      { slug: 'watch-repair-mayfair', name: 'Mayfair Horologists', location: 'Mayfair, W1' },
+      { slug: 'bookshop-bloomsbury', name: 'Bloomsbury Books', location: 'Bloomsbury, WC1' },
     ],
   },
   {
@@ -100,6 +127,14 @@ const sites = [
       { slug: 'driving-school-croydon', name: 'Croydon Driving Academy', location: 'Croydon, CR0' },
       { slug: 'vet-hampstead', name: 'Hampstead Veterinary Clinic', location: 'Hampstead, NW3' },
       { slug: 'dog-groomer-battersea', name: 'Battersea Dog Spa', location: 'Battersea, SW11' },
+      { slug: 'music-school-brixton', name: 'Brixton School of Music', location: 'Brixton, SW9' },
+      { slug: 'nursery-dulwich', name: 'Dulwich Day Nursery', location: 'Dulwich, SE21' },
+    ],
+  },
+  {
+    category: 'Travel',
+    sites: [
+      { slug: 'travel-agent-chelsea', name: 'Chelsea Travel Company', location: 'Chelsea, SW3' },
     ],
   },
 ];

@@ -1,0 +1,43 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+export const metadata: Metadata = { title: "FAQ | Bakery Questions Answered", description: "Frequently asked questions about our bread, pastries, celebration cakes, wedding cakes, baking classes, and wholesale supply at Notting Hill Bakehouse.", openGraph: { title: "FAQ | Notting Hill Bakehouse", description: "Common questions about ordering, ingredients, baking classes, and our products." } };
+
+export default function FAQPage() {
+  const faqs = [
+    { category: "Bread & Pastries", questions: [
+      { question: "What time does the bakery open?", answer: "We open at 7am Monday to Saturday and 8am on Sundays. Our bakers start at 3am, so fresh bread and pastries are ready the moment we open the doors. We recommend arriving early for the best selection — our most popular loaves often sell out by lunchtime." },
+      { question: "What is sourdough and why is it different?", answer: "Sourdough is bread made without commercial yeast. Instead, we use a living culture of wild yeast and beneficial bacteria — our starter is ten years old. The long, slow fermentation gives our bread its distinctive tangy flavour, chewy crumb, and crisp crust. It is also easier to digest than conventional bread." },
+      { question: "Do you use organic ingredients?", answer: "Yes. Our flour is organic stoneground from Shipton Mill in Gloucestershire. We use free-range eggs from Sussex, French butter from Isigny Sainte-Mere, and seasonal British fruit wherever possible. We never use bread improvers, preservatives, or artificial additives." },
+      { question: "Can I order bread in advance?", answer: "Absolutely. If you want to guarantee a specific loaf, you can call us or email the day before and we will set one aside for you. We also offer a weekly bread subscription with home delivery to addresses in W2, W8, W10, and W11." },
+    ]},
+    { category: "Celebration Cakes", questions: [
+      { question: "How far in advance should I order a celebration cake?", answer: "We ask for a minimum of five working days notice for standard celebration cakes. For more elaborate designs or larger cakes, we recommend two to three weeks. Wedding cakes should be ordered at least eight weeks in advance." },
+      { question: "What flavours do you offer?", answer: "Our core flavours include Victoria sponge, chocolate fudge, lemon drizzle, carrot cake, red velvet, coffee and walnut, and dark chocolate with salted caramel. We also create seasonal specials and are happy to discuss bespoke flavour combinations during your consultation." },
+      { question: "Do you cater for dietary requirements?", answer: "Yes. We offer gluten-free and vegan celebration cakes. These are made in our bakery which handles gluten and dairy, so we cannot guarantee a completely allergen-free environment. Please discuss any allergies with us when ordering so we can advise you properly." },
+      { question: "Do you deliver cakes?", answer: "We offer delivery across west London for celebration and wedding cakes. A delivery fee applies depending on distance. For wedding cakes, delivery and set-up at your venue is included in the price." },
+    ]},
+    { category: "Baking Classes", questions: [
+      { question: "What baking classes do you offer?", answer: "We run three core workshops: Sourdough Masterclass, Croissant Workshop, and Seasonal Bread Baking. Each runs from 10am to 2pm on Saturdays and Sundays. We also run occasional special workshops for holidays and events. Check our contact page for the latest schedule." },
+      { question: "Do I need any baking experience?", answer: "Not at all. Our classes are designed for all skill levels. Complete beginners are very welcome — our bakers will guide you through every step. Experienced bakers will also benefit from learning professional techniques and the science behind fermentation." },
+      { question: "What is included in the class price?", answer: "The price includes all ingredients, equipment, an apron to use during the class, tea and coffee throughout, a light lunch, printed recipes to take home, and of course all the bread or pastries you make during the session." },
+      { question: "Can I buy a class as a gift?", answer: "Yes, we sell gift vouchers for all our baking classes. They are valid for 12 months and can be redeemed for any available class date. We can post them to you or provide a digital voucher by email." },
+    ]},
+    { category: "Wholesale & Practical", questions: [
+      { question: "Do you supply restaurants and cafes?", answer: "Yes. We supply artisan bread and pastries to over 30 restaurants, cafes, and hotels across west London. Deliveries are made fresh every morning before 7am. We offer a free trial delivery so you can taste our products before committing to a regular order." },
+      { question: "Is there parking nearby?", answer: "There is limited metered parking on Westbourne Grove and surrounding streets. The bakery is a four-minute walk from Notting Hill Gate station on the Central, Circle, and District lines. Bicycle stands are available directly outside." },
+      { question: "Do you sell gift vouchers?", answer: "Yes, we sell gift vouchers in any denomination. They can be used for anything in the bakery — bread, pastries, cakes, or baking classes. Available in-store or by email. A lovely gift for anyone who appreciates good food." },
+      { question: "Can I place a bulk order for an event?", answer: "Absolutely. We regularly provide bread, pastries, and cakes for events, parties, and corporate functions. Please contact us at least one week in advance with details of your event and we will put together a bespoke quote." },
+    ]},
+  ];
+  const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.flatMap((c) => c.questions.map((q) => ({ "@type": "Question", name: q.question, acceptedAnswer: { "@type": "Answer", text: q.answer } }))) };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <section className="hero-gradient py-20 lg:py-28"><div className="container-width"><div className="max-w-3xl"><span className="text-accent font-semibold tracking-wider uppercase text-sm">FAQ</span><h1 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">Frequently Asked Questions</h1><p className="text-xl text-gray-200 leading-relaxed">Answers to common questions about our bread, cakes, classes, and wholesale supply.</p></div></div></section>
+      <section className="section-padding bg-white"><div className="container-width"><div className="max-w-4xl mx-auto">{faqs.map((category, ci) => (<div key={ci} className="mb-12"><h2 className="text-2xl font-bold text-primary mb-6 flex items-center gap-3"><div className="w-1 h-8 bg-accent"></div>{category.category}</h2><div className="space-y-1">{category.questions.map((faq, fi) => (<details key={fi} className="group bg-gray-50 rounded-sm overflow-hidden"><summary className="faq-question p-6 list-none cursor-pointer"><span className="flex-1 pr-4">{faq.question}</span><svg className="w-5 h-5 text-accent flex-shrink-0 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6"><p className="text-gray-600 leading-relaxed">{faq.answer}</p></div></details>))}</div></div>))}</div></div></section>
+      <section className="section-padding bg-gray-50"><div className="container-width"><div className="max-w-3xl mx-auto text-center"><h2 className="text-3xl font-bold text-primary mb-4">Still Have Questions?</h2><div className="gold-line-center mb-6"></div><p className="text-lg text-gray-600 mb-8">Our team is happy to help. Call us, email us, or pop into the bakery.</p><div className="flex flex-col sm:flex-row justify-center gap-4"><Link href="/bakery-notting-hill/contact" className="btn-accent">Contact Us</Link><a href="tel:02079462280" className="btn-outline">Call 020 7946 2280</a></div></div></div></section>
+      <section className="section-padding bg-primary"><div className="container-width text-center"><h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Fresh Bread Awaits</h2><p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">Pop in for a loaf, order a cake, or book a baking class. We are open seven days a week on Westbourne Grove.</p><Link href="/bakery-notting-hill/contact" className="btn-accent">Get in Touch</Link></div></section>
+    </>
+  );
+}
