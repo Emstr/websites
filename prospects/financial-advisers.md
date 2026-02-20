@@ -488,6 +488,205 @@ Outreach list for financial advisers and wealth managers. Focus on independent f
 | Issues | Decent domain name but website likely using a basic WordPress template, serving multiple areas (Stirling, Falkirk, Dunblane, Fife, West Lothian) but site may not effectively target each locality for SEO, divorce planning specialism is a strong USP not being fully leveraged online, Castle Business Park address is professional but site may not match |
 | Pitch Angle | Divorce planning and pension transfer specialists in Central Scotland - these are high-value, high-emotion services that need a website inspiring confidence and empathy, not a template |
 
+### 34. Aveton Gifford Associates (Edinburgh / Glasgow)
+| Field | Details |
+|-------|---------|
+| Website | http://www.avetongiffordassociates.co.uk |
+| Business Name | Aveton Gifford Associates Limited |
+| Phone | 0131 339 6508 (Derek, Edinburgh) / 01236 872751 (Hugh, Coatbridge) |
+| Email | enquiries@avetongiffordassociates.co.uk |
+| Location | Head Office: 36 Cammo Road, Edinburgh EH4 8AP; Regional: Gartcolt Cottages, Gartgill Road, Coatbridge ML5 2EQ |
+| Services | Investment planning, pensions, tax mitigation, retirement planning, whole-of-market independent advice |
+| Region | Edinburgh / Central Belt, Scotland |
+| FCA Registered | Yes (Company: SC268741, incorporated 2004) |
+| Rating | 3/10 |
+| Issues | Uses CGI scripts (Contact_Us.cgi) -- 1990s/early 2000s server technology. HTTP only (no HTTPS). Extremely dated design. Also has a .com domain suggesting attempted modernisation but .co.uk still runs ancient tech. Site looks built in early 2000s and never updated. Directors have 40+ years experience. Chartered Financial Planners (gold standard) on the worst website in the list. |
+| Pitch Angle | Chartered Financial Planners (gold standard qualification) running on a website built with technology from the 1990s. CGI scripts, no HTTPS, no mobile responsiveness. Their credentials deserve a site that matches. |
+
+### 35. Keeley & Co (Birmingham)
+| Field | Details |
+|-------|---------|
+| Website | https://www.keeleys.co.uk |
+| Business Name | Keeley & Co |
+| Phone | 0121 236 1288 |
+| Email | contact@keeleys.co.uk / luella.keeley@keeleys.co.uk |
+| Location | 6 St Pauls Terrace, Northwood St, Birmingham B3 1TH (Jewellery Quarter) |
+| Services | Independent financial advice, life planning, wealth management, life insurance, investments, pensions, general insurance |
+| Region | Birmingham, West Midlands |
+| FCA Registered | Yes |
+| Rating | 3.5/10 |
+| Issues | Title tag still reads "Just another WordPress site" -- the default WordPress tagline never changed. Fundamental SEO and professionalism failure. Basic WordPress theme, minimal customisation. Established 1928 (nearly 100 years old). 2 advisers, 6 staff. Jewellery Quarter Birmingham location. Chartered Financial Planner on staff (Luella Keeley) but site communicates nothing about expertise. |
+| Pitch Angle | A firm established in 1928 with nearly a century of heritage, Chartered Financial Planners, in Birmingham's prestigious Jewellery Quarter -- and their website title literally says "Just another WordPress site". |
+
+### 36. Riverpark IFA (Glasgow)
+| Field | Details |
+|-------|---------|
+| Website | https://www.riverparkifa.com |
+| Business Name | Riverpark Investment & Financial Consultants Limited |
+| Phone | 0141 554 3881 / 0800 7836 783 |
+| Email | enquiries@riverparkifa.com |
+| Location | Suite 3 (1-6), 4 Rogart Street, Glasgow G40 2AA (Registered: 145 St Vincent Street, Glasgow G2 5JF) |
+| Services | Pensions, investments & savings, life assurance, mortgages, estate management, corporate advice |
+| Region | Glasgow, Scotland |
+| FCA Registered | Yes (Ref: 455480, Company: SC220303) |
+| Rating | 3.5/10 |
+| Issues | WordPress with Avada theme -- but default Avada placeholder text still visible on live pages including homepage: "Elevate your business with Avada Corporation. Create a professional, dynamic WordPress website..." Template was never properly customised. Repetitive footer content. Formed 20+ years ago, advisers with 30+ years experience each. |
+| Pitch Angle | Their homepage literally displays the default text from their WordPress theme template. Prospective clients see "Elevate your business with Avada Corporation" -- a message meant for the web designer, not the public. For a firm managing pensions and investments, this is a devastating credibility issue. |
+
+### 37. Financial Independent Solutions Ltd (Glasgow / Bothwell)
+| Field | Details |
+|-------|---------|
+| Website | https://financialindependentsolutions.co.uk |
+| Business Name | Financial Independent Solutions Ltd |
+| Phone | 01698 854422 |
+| Email | mmclair@financialindependentsolutions.co.uk |
+| Location | Castle Chambers, 67 Main Street, Bothwell, Glasgow G71 8ER |
+| Services | Independent financial advice for individuals and small businesses, pensions, investments, whole-of-market advice |
+| Region | Glasgow / Bothwell / Central Scotland |
+| FCA Registered | Yes (Company: SC218279, incorporated 2001) |
+| Rating | 3.5/10 |
+| Issues | Copyright notice reads "Copyright Financial Independent Solutions Ltd 2013" -- site hasn't been updated in 12+ years. Very basic layout consistent with early 2010s WordPress. Minimal content. Run by Mark McLair (23+ years experience, PFS and CII member). One-man operation. Company formed 2001, site frozen in 2013. |
+| Pitch Angle | The website copyright says 2013. That's 12+ years without a refresh. In financial services, where trust is paramount, an abandoned-looking website actively pushes clients to competitors. |
+
+### 38. Fairway Financial Planning (Birmingham)
+| Field | Details |
+|-------|---------|
+| Website | https://fairwayfinancial.co.uk |
+| Business Name | Fairway Financial Planning Limited |
+| Phone | 07946 540727 |
+| Email | chris@fairwayfinancial.co.uk |
+| Location | Edgbaston Hall, 25 Church Road, Edgbaston, Birmingham B15 3TB |
+| Services | Retirement planning, wealth management, investments, mortgages, protection |
+| Region | Birmingham, West Midlands |
+| FCA Registered | Yes (Ref: 998733, Company: 07461184) |
+| Rating | 4.5/10 |
+| Issues | Uses .php file extensions in URLs (aboutus.php, contact.php). Chris Phillips founded it -- IFA since 1995, trained at KPMG. Edgbaston Hall is prestigious but website doesn't match. |
+| Pitch Angle | Based at Edgbaston Hall, founded by a KPMG-trained IFA since 1995. The website uses bare PHP files and an early 2010s layout -- a complete mismatch with the calibre of the adviser. |
+
+### 39. AFS Limited (Chesterfield / Sheffield)
+| Field | Details |
+|-------|---------|
+| Website | https://www.afs-online.co.uk |
+| Business Name | AFS Limited |
+| Phone | 01246 293 858 |
+| Email | info@afs.ltd.uk |
+| Location | Brookdale, 41 Clarence Road, Chesterfield, Derbyshire S40 1LH |
+| Services | Savings, investments, mortgages, protection, pensions, equity release |
+| Region | Chesterfield / Sheffield / Derbyshire |
+| FCA Registered | Yes (Ref: 196880, Company: 4238410) |
+| Rating | 4.5/10 |
+| Issues | Established 2001. Dated PHP URLs. Domain name (afs-online.co.uk) with "online" is a hallmark of early 2000s web. Serving Chesterfield, Sheffield, Derbyshire, Yorkshire, Nottinghamshire. Equity Release Council members. |
+| Pitch Angle | Domain name contains "online" -- a dead giveaway of early 2000s origin. 25+ years advising but the site hasn't evolved. Covers a large area but doesn't rank well due to dated SEO. |
+
+### 40. SMG F.S Ltd (Leeds)
+| Field | Details |
+|-------|---------|
+| Website | https://www.smgfs.com |
+| Business Name | SMG F.S Limited |
+| Phone | 0113 387 3470 |
+| Email | info@smgfs.com |
+| Location | 6A Harewood Yard, Harewood, Leeds LS17 9LF |
+| Services | Mortgages, savings, pensions, tax planning, inheritance tax, tax-efficient investments, corporate financial services |
+| Region | Leeds, West Yorkshire |
+| FCA Registered | Yes (Ref: 118158, incorporated 1982) |
+| Rating | 4.5/10 |
+| Issues | Incorporated 1982 -- one of oldest IFAs in Leeds. Traditional site with corporate/institutional feel, no modern design elements. No engaging visuals, minimal CTAs. Reads like a corporate brochure from the 2000s. |
+| Pitch Angle | Over 40 years experience, but website looks like a digital brochure from the early 2000s. Leeds has a competitive IFA market. Affluent Harewood area clientele expects sophistication. |
+
+### 41. Westside Independent Financial Services LLP (Sheffield)
+| Field | Details |
+|-------|---------|
+| Website | https://www.westsidellp.com |
+| Business Name | Westside Independent Financial Services LLP |
+| Phone | 0114 2336000 |
+| Email | Not publicly listed |
+| Location | 302 South Road, Walkley, Sheffield S6 3TE |
+| Services | Pensions, investments, estate planning, wealth protection, mortgages |
+| Region | Sheffield, South Yorkshire |
+| FCA Registered | Yes (Company: OC308642, incorporated 2004) |
+| Rating | 4.5/10 |
+| Issues | Basic website. Claims to have "satisfied rigorous criteria" but site doesn't reflect high standards. No email publicly available -- conversion barrier. |
+| Pitch Angle | Claims to be among "the UK's leading firms" but the website doesn't back it up. A modern site with testimonials and clear service pages would match their stated ambition. |
+
+### 42. DALES IFA (Nottingham / Newark)
+| Field | Details |
+|-------|---------|
+| Website | https://www.pndales.co.uk |
+| Business Name | P N Dales Ltd |
+| Phone | 0115 832 0265 (Nottingham) / 01636 870 069 (Newark) / 0333 772 9607 (general) |
+| Email | advice@pndales.co.uk |
+| Location | Nottingham: Bridgford Business Centre, 29 Bridgford Road, West Bridgford NG2 6AU; Newark: Central Buildings, Middle Gate, Newark NG24 1AG |
+| Services | Mortgages, pensions, equity release, investments, protection |
+| Region | Nottingham / Newark, East Midlands |
+| FCA Registered | Yes (Ref: 496107) |
+| Rating | 4.5/10 |
+| Issues | WordPress site, contact page created May 2015. Basic template-driven design. Philip Dales is sole principal (16+ years). Two offices but site doesn't differentiate locations. |
+| Pitch Angle | Two offices, national client base, but website looks like a basic WordPress blog. Clients comparing DALES to Chartered competitors will choose the more professional option every time. |
+
+### 43. Shepherd Independent Financial Advisers (Sheffield)
+| Field | Details |
+|-------|---------|
+| Website | https://shepherd4advice.co.uk |
+| Business Name | Shepherd Independent Financial Advisers Limited |
+| Phone | 0114 2505260 |
+| Email | Not publicly listed |
+| Location | Hill Top House, 302 Ringinglow Road, Sheffield S11 7PX |
+| Services | Financial advice, pensions, investments, mortgages, protection |
+| Region | Sheffield, South Yorkshire |
+| FCA Registered | Yes (incorporated 2005) |
+| Rating | 4.5/10 |
+| Issues | Family firm (0-9 employees), Jane and Paul Shepherd. Domain uses "4" instead of "for" -- early 2000s naming convention. Basic website, minimal content. No email publicly available. |
+| Pitch Angle | 20 years running their own IFA practice but domain name uses a number instead of a word, and the site is bare-bones. Sheffield is competitive and their online presence is letting them down. |
+
+### 44. Chris Leach & Associates Ltd (Cardiff)
+| Field | Details |
+|-------|---------|
+| Website | https://www.chrisleachandassociates.com |
+| Business Name | Chris Leach and Associates Limited |
+| Phone | 029 2081 4070 |
+| Email | enq@cla-ifa.co.uk |
+| Location | Telynfa, Main Road, Gwaelod-y-Garth, Cardiff CF15 9HJ |
+| Services | Independent financial advice, retirement planning, investments, pensions, tax planning |
+| Region | Cardiff, Wales |
+| FCA Registered | Yes (Ref: 563997, Company: 1752622) |
+| Rating | 5/10 |
+| Issues | 30 years in business but still lists a fax number (029 2081 3363). Website serviceable but dated. Village location outside Cardiff. |
+| Pitch Angle | Nearly 30 years of advice but listing a fax number in 2026 sends the wrong message. Solid team deserves a matching site. |
+
+### 45. The Independent Advice Bureau (Manchester)
+| Field | Details |
+|-------|---------|
+| Website | https://www.iabltd.co.uk |
+| Business Name | The Independent Advice Bureau Limited |
+| Phone | 0161 248 9746 |
+| Email | info@iabltd.co.uk |
+| Location | 109 Burnage Lane, Manchester M19 2WH |
+| Services | Independent financial advice, free initial 45-minute consultation |
+| Region | Manchester, Greater Manchester |
+| FCA Registered | Yes |
+| Rating | 5/10 |
+| Issues | South Manchester (Burnage) residential location. Basic website. Free 45-minute consultation is a strong USP but not prominently featured. Generic design. Manchester has hundreds of IFAs. |
+| Pitch Angle | Free 45-minute consultation is a killer USP that should be front and centre. Without a compelling website, this firm is lost in Manchester's crowded IFA market. |
+
+---
+
+## Additional Leads -- Not Yet Fully Assessed (Need Website Visit)
+
+| Business | Location | Phone | Email | Website | Notes |
+|----------|----------|-------|-------|---------|-------|
+| RSJ Financial Planning | Liverpool | 0151 363 2027 | enquiries@rsjfinancialplanning.co.uk | rsjfinancialplanning.co.uk | Est. 1986, two offices |
+| Spectrum IFS | Liverpool | 0151 448 2777 | info@spectrumifs.co.uk | spectrum-ifs.co.uk | Est. 2002, South Liverpool |
+| Chris Lunt IFA | Liverpool (Lydiate) | 0151 923 6173 | enquiries@chrisluntifa.co.uk | chrisluntifa.co.uk | Small firm, £65m under advice |
+| Hamnett Wealth Management | Sheffield | 0114 235 3500 | advice@hamnettwealth.com | hamnettwealth.com | Est. 1989, Chartered IFAs |
+| Integral Financial Planning | Nottingham | 0115 953 2359 | N/A | integral-ifa.co.uk | One-man operation (Paul Jones) |
+| Harold Stephens | Bristol | 0117 363 6212 | N/A | haroldstephens.co.uk | Later life planning specialists |
+| Endeavour Financial Planning | Wirral/Liverpool | 0151 346 2218 | N/A | endeavourfp.co.uk | Page last indexed 2017 |
+| Prosperity Financial Solutions | Glasgow | 0141 337 1346 | N/A | prosperityfinancial.co.uk | West End Glasgow |
+| IFA Centre | Glasgow/Paisley | 0141 848 5454 | hello@ifacentre.net | ifacentre.net | Chartered, two offices |
+| Abram Partnership | Cardiff | 029 2069 3700 | N/A | abrampartnership.co.uk | Est. 1992, tax specialists |
+| Lowndes Halsden | Cardiff | 02920 694242 | justask@lowndesonline.co.uk | lowndesonline.co.uk | Top 50 fastest growing Wales |
+| Whitchurch IFA | Cardiff | 02920 009479 | N/A | whitchurchifa.co.uk | One-man, directly authorised |
+
 ---
 
 ## Updated Recommended Outreach Priority (All Prospects)
@@ -495,41 +694,53 @@ Outreach list for financial advisers and wealth managers. Focus on independent f
 ### Tier 1 -- Worst Websites (Immediate Opportunity)
 1. **Pembrokeshire Financial Services** (2/10) - No SSL certificate, financial firm on HTTP, Pembroke, Wales
 2. **FinancialExpertAdvisors** (2.5/10) - Unusable directory, London
-3. **DM Pension & Investment Solutions / Face2Face Advice** (3/10) - .shtml pages from 2005-era, Glasgow
-4. **Gillinghams IFA** (3/10) - Dead tech stack (MooTools), PHP pages, Bridport, Dorset
-5. **Independent Financial Solutions (IFS) Preston** (3.5/10) - Copyright stuck at 2016, legacy PHP, Preston
-6. **Castle Investment Consultants** (3.5/10) - 40-year firm, minimal web presence, Totton, Southampton
-7. **Fairway IFA** (3.5/10) - Affluent Surrey location, bare-bones site, East Molesey
-8. **Sussex IFA** (3.5/10) - Generic template, "coming soon" features still pending, Hailsham
+3. **Aveton Gifford Associates** (3/10) - CGI scripts, no HTTPS, 1990s technology, Edinburgh
+4. **DM Pension & Investment Solutions / Face2Face Advice** (3/10) - .shtml pages from 2005-era, Glasgow
+5. **Gillinghams IFA** (3/10) - Dead tech stack (MooTools), PHP pages, Bridport, Dorset
+6. **Keeley & Co** (3.5/10) - "Just another WordPress site" in the title, Birmingham
+7. **Riverpark IFA** (3.5/10) - Default Avada template placeholder text on live pages, Glasgow
+8. **Financial Independent Solutions** (3.5/10) - Copyright 2013, frozen in time, Glasgow/Bothwell
+9. **Independent Financial Solutions (IFS) Preston** (3.5/10) - Copyright stuck at 2016, legacy PHP, Preston
+10. **Castle Investment Consultants** (3.5/10) - 40-year firm, minimal web presence, Totton, Southampton
+11. **Fairway IFA Surrey** (3.5/10) - Affluent Surrey location, bare-bones site, East Molesey
+12. **Sussex IFA** (3.5/10) - Generic template, "coming soon" features still pending, Hailsham
 
 ### Tier 2 -- Dated but Functional (Strong Improvement Case)
-9. **Total Finance** (4/10) - Severely dated, looks abandoned, London
-10. **Buchanan Johnston Flynn / MoneyHelp** (4/10) - Cookie-cutter 2plan template, confusable domain, Belfast
-11. **Financial Professionals NI** (4/10) - Media experts with a template website, domain mismatch, Belfast
-12. **Sean McCabe Financial Adviser** (4/10) - Family firm with 2006-era website, Stoke-on-Trent
-13. **Derbyshire Independent Financial Advisers** (4/10) - 100+ years experience, budget website, Derby
-14. **Friar Gate Independent Financial Services** (4/10) - .net domain, dated design, Pride Park, Derby
-15. **ABS Financial Planning** (4/10) - Basic Bootstrap template since 2014, Southampton
-16. **Beckworth Financial Services** (4/10) - Care home niche unexploited, Exeter
-17. **City Financial Planning** (4/10) - Premium Bath address, budget website
-18. **Stiles Financial** (4/10) - Brighton market demands better design, Hove
-19. **Cornerstone Financial Planning** (4/10) - 34-year Oxford firm, thin content
-20. **DWJ Wealth Management** (4/10) - Swansea market ripe for domination
-21. **Abacus Financial Options** (4/10) - Multi-county reach, one-page presence, Dorset
-22. **Structured Financial Planning** (4.5/10) - 5 offices, single-adviser website, Banff/Aberdeen
-23. **HSP Financial Planning** (4.5/10) - 50 years in business, "useful links" page relic, Leicester
-24. **Digney Grant Financial Planning** (4.5/10) - 40+ years, brand confusion across domains, Newry
-25. **RMI Independent Financial Advisers** (4.5/10) - Affluent area, basic template, Market Harborough
-26. **Heaton Financial** (4.5/10) - Medical professional niche wasted, Exeter
+13. **Total Finance** (4/10) - Severely dated, looks abandoned, London
+14. **Buchanan Johnston Flynn / MoneyHelp** (4/10) - Cookie-cutter 2plan template, confusable domain, Belfast
+15. **Financial Professionals NI** (4/10) - Media experts with a template website, domain mismatch, Belfast
+16. **Sean McCabe Financial Adviser** (4/10) - Family firm with 2006-era website, Stoke-on-Trent
+17. **Derbyshire Independent Financial Advisers** (4/10) - 100+ years experience, budget website, Derby
+18. **Friar Gate Independent Financial Services** (4/10) - .net domain, dated design, Pride Park, Derby
+19. **ABS Financial Planning** (4/10) - Basic Bootstrap template since 2014, Southampton
+20. **Beckworth Financial Services** (4/10) - Care home niche unexploited, Exeter
+21. **City Financial Planning** (4/10) - Premium Bath address, budget website
+22. **Stiles Financial** (4/10) - Brighton market demands better design, Hove
+23. **Cornerstone Financial Planning** (4/10) - 34-year Oxford firm, thin content
+24. **DWJ Wealth Management** (4/10) - Swansea market ripe for domination
+25. **Abacus Financial Options** (4/10) - Multi-county reach, one-page presence, Dorset
+26. **Fairway Financial Planning Birmingham** (4.5/10) - PHP URLs, KPMG-trained adviser, Edgbaston Hall
+27. **AFS Limited** (4.5/10) - "online" in domain, early 2000s feel, Chesterfield/Sheffield
+28. **SMG F.S Ltd** (4.5/10) - 40+ year firm, 2000s brochure site, Leeds
+29. **Westside IFS** (4.5/10) - Basic site, no email publicly listed, Sheffield
+30. **DALES IFA** (4.5/10) - Basic WordPress blog look, Nottingham/Newark
+31. **Shepherd IFA** (4.5/10) - "4" in domain, bare-bones site, Sheffield
+32. **Structured Financial Planning** (4.5/10) - 5 offices, single-adviser website, Banff/Aberdeen
+33. **HSP Financial Planning** (4.5/10) - 50 years in business, "useful links" page relic, Leicester
+34. **Digney Grant Financial Planning** (4.5/10) - 40+ years, brand confusion across domains, Newry
+35. **RMI Independent Financial Advisers** (4.5/10) - Affluent area, basic template, Market Harborough
+36. **Heaton Financial** (4.5/10) - Medical professional niche wasted, Exeter
 
 ### Tier 3 -- Worth Approaching
-27. **Alpha Investments** (5/10) - Mayfair office, budget website, London
-28. **Paul Dodd Asset Management** (5/10) - Broken mobile navigation, Leeds/London
-29. **Holder & Combes** (5/10) - Chartered status hidden by generic template, London
-30. **Primavera Financial Partners** (5/10) - Chartered firm, dated site, London
-31. **Aspire Independent** (5/10) - Significant technical debt, London
-32. **Retinvest** (5/10) - Divorce planning specialism under-leveraged, Stirling
-33. **Camden Associates** (6/10) - Missing basic contact info, London
+37. **Alpha Investments** (5/10) - Mayfair office, budget website, London
+38. **Paul Dodd Asset Management** (5/10) - Broken mobile navigation, Leeds/London
+39. **Holder & Combes** (5/10) - Chartered status hidden by generic template, London
+40. **Primavera Financial Partners** (5/10) - Chartered firm, dated site, London
+41. **Aspire Independent** (5/10) - Significant technical debt, London
+42. **Chris Leach & Associates** (5/10) - Still lists fax number, Cardiff
+43. **The Independent Advice Bureau** (5/10) - Buried free consultation USP, Manchester
+44. **Retinvest** (5/10) - Divorce planning specialism under-leveraged, Stirling
+45. **Camden Associates** (6/10) - Missing basic contact info, London
 
 ---
 
@@ -541,11 +752,14 @@ Outreach list for financial advisers and wealth managers. Focus on independent f
 4. **"Lead capture for free consultations"** - Quote forms / booking systems
 5. **"Risk profiler tools"** - Interactive elements that engage prospects
 6. **"Mobile-first"** - Busy professionals researching advisers on phones
-7. **"SEO for high-intent searches"** - "best financial adviser London" is valuable traffic
-8. **"Local SEO domination"** - Outside London, fewer competitors means easier wins for local search rankings
-9. **"Domain & brand consistency"** - Mismatched email domains, website domains, and trading names confuse clients and hurt trust
-10. **"Template trap"** - 2plan/Adviser Portal templates make your firm look identical to hundreds of competitors
-11. **"Heritage storytelling"** - Firms with 30-50+ years of history need websites that tell that story, not hide it behind generic templates
+7. **"SEO for high-intent searches"** - "best financial adviser [city]" is valuable traffic
+8. **"GEO readiness"** - AI tools like ChatGPT and Perplexity recommend IFAs with strong web presence; outdated sites get skipped entirely
+9. **"Local SEO domination"** - Outside London, fewer competitors means easier wins for local search rankings
+10. **"Domain & brand consistency"** - Mismatched email domains, website domains, and trading names confuse clients and hurt trust
+11. **"Template trap"** - 2plan/Adviser Portal templates make your firm look identical to hundreds of competitors
+12. **"Heritage storytelling"** - Firms with 30-50+ years of history need websites that tell that story, not hide it behind generic templates
+13. **"Default template shame"** - For Keeleys/Riverpark, screenshot their default WordPress/Avada text as proof the site was never finished
+14. **"Competitor comparison"** - Show them what competitors' sites look like vs theirs -- devastating when their competitor has Chartered status and a modern site
 
 ---
 
