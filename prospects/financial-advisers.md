@@ -312,34 +312,224 @@ Outreach list for financial advisers and wealth managers. Focus on independent f
 
 ---
 
+## Northern England, Scotland, Northern Ireland & Midlands Prospects (February 2026)
+
+### 22. DM Pension & Investment Solutions Ltd (Face2Face Advice)
+| Field | Details |
+|-------|---------|
+| Website | https://www.face2faceadvice.co.uk |
+| Owner | DM Pension & Investment Solutions Ltd |
+| Phone | 01698 815 006 / 0141 286 6687 |
+| Email | Via contact form on site |
+| Location | 6 Leesland, Uddingston, Glasgow, G71 6TW |
+| Services | Pension advice, retirement planning, annuities, drawdown, pension transfers, life insurance, income protection |
+| Region | Glasgow / Lanarkshire / Central Scotland |
+| FCA Number | 758771 |
+| Rating | 3/10 |
+| Issues | Uses ancient .shtml file extensions (Server Side Includes from the early 2000s), static HTML architecture, no modern CMS, multiple pages with inconsistent naming conventions (financialadvisorscotland.shtml, financialadvisorcoatbridge.shtml), dated design aesthetic, likely zero mobile optimisation, no modern interactive elements or client portal |
+| Pitch Angle | Father-and-son firm with 40+ years experience but a website stuck in 2005 - .shtml pages scream "we built this ourselves 20 years ago". Clients comparing them to modern IFA sites will lose confidence immediately |
+
+### 23. Independent Financial Solutions (IFS)
+| Field | Details |
+|-------|---------|
+| Website | https://www.ifs-sp.com |
+| Owner | Independent Financial Solutions |
+| Phone | Via website contact page |
+| Email | Via website contact page |
+| Location | 115b Whittingham Lane, Broughton, Preston, Lancashire, PR3 5DD |
+| Services | Pensions, savings & investments, wealth management, mortgages, life assurance, health insurance |
+| Region | Preston, Lancashire |
+| Rating | 3.5/10 |
+| Issues | Copyright footer stuck at 2016, uses .php file extensions suggesting custom/legacy PHP build, website clearly not updated in years, no evidence of modern design framework, dated content management approach, established 2001 but web presence frozen in mid-2010s |
+| Pitch Angle | Premier IFA firm in Preston established since 2001 but their website copyright says 2016 - a full decade without updates. Clients checking their site before a first meeting will question whether the firm is still active |
+
+### 24. Buchanan Johnston Flynn Limited (MoneyHelp)
+| Field | Details |
+|-------|---------|
+| Website | https://www.moneyhelp.co.uk |
+| Owner | Buchanan Johnston Flynn Limited |
+| Phone | 028 9065 6999 |
+| Email | info@moneyhelp.co.uk |
+| Location | 66-68 Holywood Road, Belfast, BT4 1NT |
+| Services | Financial planning, investments, mortgages, equity release, retirement planning, tax advice |
+| Region | Belfast, Northern Ireland |
+| FCA Number | 175588 (via 2plan, ref 461598) |
+| Rating | 4/10 |
+| Issues | Basic template website via 2plan wealth management platform, limited customisation, generic IFA template design shared with hundreds of other 2plan advisers, no unique branding or differentiation, standard stock imagery, minimal personality or trust-building content, domain name (moneyhelp.co.uk) confusable with government MoneyHelper service |
+| Pitch Angle | Established in 1995, nearly 30 years of expertise, but using a cookie-cutter 2plan template website identical to hundreds of other advisers. Their domain "moneyhelp.co.uk" is also confusable with the government's MoneyHelper - they need a distinctive web presence |
+
+### 25. Sean McCabe Financial Adviser Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://seanmccabe.co.uk |
+| Owner | Sean McCabe (Financial Adviser) Limited |
+| Phone | 01270 878755 |
+| Email | paul@seanmccabe.co.uk |
+| Location | 19-21 Crewe Road, Alsager, Stoke-on-Trent, ST7 2EW |
+| Services | Tax & trust planning, taxation planning, savings, savings for children, business pensions, group pensions, stockbroking |
+| Region | Stoke-on-Trent / Alsager, Staffordshire |
+| FCA Number | 494478 |
+| Rating | 4/10 |
+| Issues | Small family-run firm since 2006 with a basic, dated website, minimal web presence, simple layout with limited content, no modern design elements, likely no mobile optimisation, basic stock imagery, no client testimonials or trust signals beyond FCA registration |
+| Pitch Angle | Family-run firm handling people's life savings with a website that looks like it was built when they incorporated in 2006. Free initial consultations are great but the website gives no reason to book one |
+
+### 26. Derbyshire Independent Financial Advisers LLP
+| Field | Details |
+|-------|---------|
+| Website | https://www.derbyshireifa.co.uk |
+| Owner | Derbyshire Independent Financial Advisers LLP |
+| Phone | 01283 703007 |
+| Email | enquiries@derbyshireifa.co.uk |
+| Location | 24 The Green, Findern, Derby, Derbyshire, DE65 6AA |
+| Services | Savings, investments, pensions, life assurance, mortgages |
+| Region | Derby / Derbyshire |
+| FCA Number | 624915 |
+| Rating | 4/10 |
+| Issues | Operates from a residential-looking village address, basic website lacking modern design, minimal content depth, no evidence of modern CMS or responsive framework, over 100 years combined experience claim but website does not reflect professional calibre, limited online presence |
+| Pitch Angle | A firm with 100+ years of combined experience operating from a village address - the website needs to project professionalism and trust to compensate for not being in a city-centre office |
+
+### 27. Friar Gate Independent Financial Services Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://www.friargate.net |
+| Owner | Friar Gate Independent Financial Services Ltd |
+| Phone | 01332 438361 / 01332 380691 |
+| Email | info@friargate.net |
+| Location | 5 Prospect Place, Millennium Way, Pride Park, Derby, DE24 8HG |
+| Services | Investment advice, retirement planning, inheritance tax planning, cost reduction, whole-of-market independent advice |
+| Region | Derby / Derbyshire |
+| Rating | 4/10 |
+| Issues | Uses a .net domain (unusual for a financial firm, suggests early web era registration), incorporated 2004, website design has not kept pace, basic layout, Pride Park business address but website undermines the professional image, no modern interactive elements |
+| Pitch Angle | Fully independent IFA (whole of market access) in a smart Derby business park but the .net domain and dated design make them look like a hobby project. Clients in Pride Park offices expect polished suppliers |
+
+### 28. Structured Financial Planning Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://sfp-ifa.co.uk |
+| Owner | Structured Financial Planning Ltd |
+| Phone | 01261 818597 |
+| Email | info@sfp-ifa.co.uk |
+| Location | 3 Lyon's Den, 28 Low Street, Banff, AB45 1AS (also Banchory, Aberdeen, Fraserburgh, Peterhead) |
+| Services | Pensions, savings & investments, protection (life cover, income protection, critical illness), financial planning |
+| Region | Aberdeen / Banff / North East Scotland |
+| Rating | 4.5/10 |
+| Issues | Basic WordPress or template site, small-town feel to the design, limited visual impact, multiple office locations but the website does not convey scale or professionalism, likely poor mobile experience, community sponsorship content (golf club, football) takes prominence over services |
+| Pitch Angle | Five office locations across North East Scotland but a website that looks like a single-adviser operation. Director has 25+ years experience and advanced qualifications - the site should showcase this credibility |
+
+### 29. HSP Financial Planning Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://www.hsp-ifa.com |
+| Owner | HSP Financial Planning Ltd |
+| Phone | 0116 275 0225 |
+| Email | services@hsp-ifa.com |
+| Location | Whiteacres, Cambridge Road, Whetstone, Leicestershire, LE8 6ZG |
+| Services | Independent financial advice to private and corporate clients, pensions, investments, retirement planning |
+| Region | Leicester / Leicestershire |
+| Rating | 4.5/10 |
+| Issues | Established 1977 but website feels stuck in the 2010s, includes a "useful financial planning websites" links page (a relic of early web design), likely old WordPress or template build, team has 100+ years combined experience but site does not communicate authority, suburban office location needs strong web presence to attract clients |
+| Pitch Angle | Nearly 50 years in business with 100+ years of combined team experience - but their website still has a "useful links" page like it is 2005. A firm this established deserves a site that matches their legacy |
+
+### 30. Financial Professionals (NI) Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://www.financialadvisernorthernireland.com |
+| Owner | Financial Professionals (NI) Ltd |
+| Phone | Belfast: 028 9036 4477 / Lisburn: 028 9261 0536 |
+| Email | info@fpni.co.uk |
+| Location | Belfast and Lisburn, Northern Ireland |
+| Services | Personal pensions, auto enrolment, savings & investments, corporate services |
+| Region | Belfast / Lisburn, Northern Ireland |
+| Rating | 4/10 |
+| Issues | Excessively long domain name (financialadvisernorthernireland.com) is unprofessional and hard to remember, basic template website, claims to be media experts (Belfast Telegraph, Downtown Radio) but the website does not reflect media-savviness, generic design lacking personality, email domain (fpni.co.uk) does not match website domain |
+| Pitch Angle | They contribute to the Belfast Telegraph and Downtown Radio as financial experts but their own website looks like a basic template. If they can be trusted on radio, their site should exude that same authority |
+
+### 31. Digney Grant Financial Planning
+| Field | Details |
+|-------|---------|
+| Website | https://digneygrantfp.com |
+| Owner | Digney Grant Financial Planning Ltd |
+| Phone | 028 3082 8880 |
+| Email | info@digneygrant.co.uk |
+| Location | 41-43 Downshire Ct, Newry, BT34 1FD (also 6 Sugar Island, Daisy Hill, Newry) |
+| Services | Financial planning, mortgage advice, insurance (personal & commercial), whole-of-market independent advice |
+| Region | Newry, Northern Ireland |
+| FCA Number | 702579 |
+| Rating | 4.5/10 |
+| Issues | 40+ years trading but basic website, email domain (digneygrant.co.uk) differs from website domain (digneygrantfp.com) creating brand confusion, two separate addresses for insurance vs financial planning suggest fragmented online presence, only 2 advisers and 2 mortgage brokers - small team with limited web investment, likely template or basic WordPress site |
+| Pitch Angle | Over 40 years as a one-stop shop for insurance and financial planning in Newry - but the website does not convey that heritage. Two different domains and two addresses is confusing for clients trying to find them |
+
+### 32. RMI Independent Financial Advisers
+| Field | Details |
+|-------|---------|
+| Website | https://rmi-ifa.co.uk |
+| Owner | Readymoney Investments Limited (trading as RMI) |
+| Phone | 01858 322101 |
+| Email | bryony@rmi-ifa.co.uk |
+| Location | 71 Burnmill Road, Market Harborough, Leicestershire, LE16 7JG |
+| Services | Financial planning, pensions, investments, tax-efficient solutions, independent whole-of-market advice |
+| Region | Market Harborough / Leicestershire / Midlands |
+| FCA Number | 925064 |
+| Rating | 4.5/10 |
+| Issues | Trading name (RMI) differs from legal entity (Readymoney Investments) creating brand confusion, 50+ years of experience but website does not project that history, Market Harborough location (affluent area) but site looks like a basic IFA template, email uses personal name rather than generic inbox suggesting informality |
+| Pitch Angle | 50+ years of independent advice in affluent Market Harborough but the website does not match the wealth of the local client base. "Readymoney Investments" is a memorable company name being wasted behind "RMI" |
+
+### 33. Retirement & Investment Solutions Ltd (Retinvest)
+| Field | Details |
+|-------|---------|
+| Website | https://www.retinvest.co.uk |
+| Owner | Retirement & Investment Solutions Ltd |
+| Phone | 01786 437 008 |
+| Email | info@retinvest.co.uk |
+| Location | Lomond Court, Castle Business Park, Stirling, FK9 4TU |
+| Services | Pensions & retirement planning, divorce planning, pension transfers, investments, tax & trust planning, equity release, wealth management |
+| Region | Stirling / Central Scotland |
+| Rating | 5/10 |
+| Issues | Decent domain name but website likely using a basic WordPress template, serving multiple areas (Stirling, Falkirk, Dunblane, Fife, West Lothian) but site may not effectively target each locality for SEO, divorce planning specialism is a strong USP not being fully leveraged online, Castle Business Park address is professional but site may not match |
+| Pitch Angle | Divorce planning and pension transfer specialists in Central Scotland - these are high-value, high-emotion services that need a website inspiring confidence and empathy, not a template |
+
+---
+
 ## Updated Recommended Outreach Priority (All Prospects)
 
 ### Tier 1 -- Worst Websites (Immediate Opportunity)
 1. **Pembrokeshire Financial Services** (2/10) - No SSL certificate, financial firm on HTTP, Pembroke, Wales
 2. **FinancialExpertAdvisors** (2.5/10) - Unusable directory, London
-3. **Gillinghams IFA** (3/10) - Dead tech stack (MooTools), PHP pages, Bridport, Dorset
-4. **Castle Investment Consultants** (3.5/10) - 40-year firm, minimal web presence, Totton, Southampton
-5. **Fairway IFA** (3.5/10) - Affluent Surrey location, bare-bones site, East Molesey
-6. **Sussex IFA** (3.5/10) - Generic template, "coming soon" features still pending, Hailsham
+3. **DM Pension & Investment Solutions / Face2Face Advice** (3/10) - .shtml pages from 2005-era, Glasgow
+4. **Gillinghams IFA** (3/10) - Dead tech stack (MooTools), PHP pages, Bridport, Dorset
+5. **Independent Financial Solutions (IFS) Preston** (3.5/10) - Copyright stuck at 2016, legacy PHP, Preston
+6. **Castle Investment Consultants** (3.5/10) - 40-year firm, minimal web presence, Totton, Southampton
+7. **Fairway IFA** (3.5/10) - Affluent Surrey location, bare-bones site, East Molesey
+8. **Sussex IFA** (3.5/10) - Generic template, "coming soon" features still pending, Hailsham
 
 ### Tier 2 -- Dated but Functional (Strong Improvement Case)
-7. **Total Finance** (4/10) - Severely dated, looks abandoned, London
-8. **ABS Financial Planning** (4/10) - Basic Bootstrap template since 2014, Southampton
-9. **Beckworth Financial Services** (4/10) - Care home niche unexploited, Exeter
-10. **City Financial Planning** (4/10) - Premium Bath address, budget website
-11. **Stiles Financial** (4/10) - Brighton market demands better design, Hove
-12. **Cornerstone Financial Planning** (4/10) - 34-year Oxford firm, thin content
-13. **DWJ Wealth Management** (4/10) - Swansea market ripe for domination
-14. **Abacus Financial Options** (4/10) - Multi-county reach, one-page presence, Dorset
-15. **Heaton Financial** (4.5/10) - Medical professional niche wasted, Exeter
+9. **Total Finance** (4/10) - Severely dated, looks abandoned, London
+10. **Buchanan Johnston Flynn / MoneyHelp** (4/10) - Cookie-cutter 2plan template, confusable domain, Belfast
+11. **Financial Professionals NI** (4/10) - Media experts with a template website, domain mismatch, Belfast
+12. **Sean McCabe Financial Adviser** (4/10) - Family firm with 2006-era website, Stoke-on-Trent
+13. **Derbyshire Independent Financial Advisers** (4/10) - 100+ years experience, budget website, Derby
+14. **Friar Gate Independent Financial Services** (4/10) - .net domain, dated design, Pride Park, Derby
+15. **ABS Financial Planning** (4/10) - Basic Bootstrap template since 2014, Southampton
+16. **Beckworth Financial Services** (4/10) - Care home niche unexploited, Exeter
+17. **City Financial Planning** (4/10) - Premium Bath address, budget website
+18. **Stiles Financial** (4/10) - Brighton market demands better design, Hove
+19. **Cornerstone Financial Planning** (4/10) - 34-year Oxford firm, thin content
+20. **DWJ Wealth Management** (4/10) - Swansea market ripe for domination
+21. **Abacus Financial Options** (4/10) - Multi-county reach, one-page presence, Dorset
+22. **Structured Financial Planning** (4.5/10) - 5 offices, single-adviser website, Banff/Aberdeen
+23. **HSP Financial Planning** (4.5/10) - 50 years in business, "useful links" page relic, Leicester
+24. **Digney Grant Financial Planning** (4.5/10) - 40+ years, brand confusion across domains, Newry
+25. **RMI Independent Financial Advisers** (4.5/10) - Affluent area, basic template, Market Harborough
+26. **Heaton Financial** (4.5/10) - Medical professional niche wasted, Exeter
 
 ### Tier 3 -- Worth Approaching
-16. **Alpha Investments** (5/10) - Mayfair office, budget website, London
-17. **Paul Dodd Asset Management** (5/10) - Broken mobile navigation, Leeds/London
-18. **Holder & Combes** (5/10) - Chartered status hidden by generic template, London
-19. **Primavera Financial Partners** (5/10) - Chartered firm, dated site, London
-20. **Aspire Independent** (5/10) - Significant technical debt, London
-21. **Camden Associates** (6/10) - Missing basic contact info, London
+27. **Alpha Investments** (5/10) - Mayfair office, budget website, London
+28. **Paul Dodd Asset Management** (5/10) - Broken mobile navigation, Leeds/London
+29. **Holder & Combes** (5/10) - Chartered status hidden by generic template, London
+30. **Primavera Financial Partners** (5/10) - Chartered firm, dated site, London
+31. **Aspire Independent** (5/10) - Significant technical debt, London
+32. **Retinvest** (5/10) - Divorce planning specialism under-leveraged, Stirling
+33. **Camden Associates** (6/10) - Missing basic contact info, London
 
 ---
 
@@ -352,6 +542,10 @@ Outreach list for financial advisers and wealth managers. Focus on independent f
 5. **"Risk profiler tools"** - Interactive elements that engage prospects
 6. **"Mobile-first"** - Busy professionals researching advisers on phones
 7. **"SEO for high-intent searches"** - "best financial adviser London" is valuable traffic
+8. **"Local SEO domination"** - Outside London, fewer competitors means easier wins for local search rankings
+9. **"Domain & brand consistency"** - Mismatched email domains, website domains, and trading names confuse clients and hurt trust
+10. **"Template trap"** - 2plan/Adviser Portal templates make your firm look identical to hundreds of competitors
+11. **"Heritage storytelling"** - Firms with 30-50+ years of history need websites that tell that story, not hide it behind generic templates
 
 ---
 
