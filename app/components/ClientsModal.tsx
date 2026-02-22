@@ -34,6 +34,7 @@ const sites = [
       { slug: 'riverpark-ifa', name: 'Riverpark IFA', location: 'Glasgow, G40' },
       { slug: 'dwj-wealth', name: 'DWJ Wealth Management', location: 'Gorseinon, Swansea' },
       { slug: 'stiles-financial', name: 'Stiles & Company', location: 'Hove & Maidenhead' },
+      { slug: 'goddard-perry', name: 'Goddard Perry Consulting', location: 'Croydon, CR0' },
     ],
   },
   {

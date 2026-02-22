@@ -689,6 +689,149 @@ Outreach list for financial advisers and wealth managers. Focus on independent f
 
 ---
 
+## London & South East Prospects (February 2026)
+
+### 46. Goddard Perry Consulting
+| Field | Details |
+|-------|---------|
+| Website | https://www.goddardperry.com |
+| Owner | Goddard Perry Consulting Limited |
+| Phone | 020 8603 3700 |
+| Email | contact@goddardperry.com |
+| Location | Corinthian House, 17 Lansdowne Road, Croydon CR0 2BX |
+| Services | Private client financial planning, corporate employee benefits, retirement planning, wealth management, pensions, investments, protection |
+| FCA Number | 125376 |
+| Company No | 1635689 |
+| Rating | 4/10 |
+| Issues | Uses .php file extensions on a separate subdomain (ifa1.gpcfinancialwellbeing.com) for core pages like contact.php, our-team.php, service-financial-wellbeing-services.php. Main site and subdomain have inconsistent branding. Established firm but web presence is fragmented across two domains. Serves both private clients and corporate employee benefits but site doesn't clearly distinguish between the two. |
+| Pitch Angle | Croydon's established IFA with corporate and private client arms -- but the website is split across two domains with .php extensions. A unified, modern site would present a single professional identity for both client types. |
+
+### 47. FinAnalysis Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://finanalysis.co.uk |
+| Owner | FinAnalysis Limited |
+| Phone | 0203 947 6800 / 07818 054 054 |
+| Email | Via contact form (contact.php) |
+| Location | The Coach House, 66-70 Bourne Road, Bexley, Kent DA5 1LU |
+| Services | Pensions, investments, mortgages, protection, corporate financial advice |
+| FCA Number | 611420 |
+| Company No | 07914386 |
+| Rating | 3.5/10 |
+| Issues | Uses .php file extensions throughout (contact.php, how_we_work.php, investments.php, pensions.php, transact.php). Static PHP site with no modern CMS. Basic layout and design from early-mid 2010s. Covers extensive area (Bexley to Petts Wood to Greenwich) but site doesn't reflect geographic reach. No modern interactive elements, no booking system, no client portal. |
+| Pitch Angle | Covers a massive catchment area across Kent and South East London but the .php-based website looks like a hobby project. Over 20,000 funds to choose from but the site gives no confidence in the firm's capabilities. |
+
+### 48. Financial Aims Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://www.financial-aims.com |
+| Owner | Financial Aims Limited |
+| Phone | Via website |
+| Email | Via contact form (contact.php) |
+| Location | Bexley, Kent |
+| Services | Pensions, investments, mortgages, protection |
+| FCA Number | Via FCA Register |
+| Rating | 3.5/10 |
+| Issues | Uses .php file extensions (contact.php, how_we_work.php). Formed in 2009 but website frozen in time. Near-identical layout to FinAnalysis (possibly same web designer/template). Basic brochure site with no modern features. Minimal content depth for SEO. |
+| Pitch Angle | Operating since 2009 with a free consultation offer but the website looks like it was built on day one and never updated. Potential clients comparing Financial Aims to modern competitors will move on immediately. |
+
+### 49. Rose Financial Services Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://rosefinancialservices.co.uk |
+| Owner | Rose Financial Services Limited |
+| Phone | 0800 298 0143 |
+| Email | enquiries@rosefinancialservices.co.uk |
+| Location | 44 Honor Oak Road, Forest Hill, London SE23 3RZ |
+| Services | Financial planning, mortgages, pensions, wealth management, taxation, savings & investments, life assurance, health insurance, general insurance, equity release |
+| Company No | 03272136 |
+| Rating | 4/10 |
+| Issues | Established 1996 but website hasn't kept pace. Basic brochure-style site. Covers a broad area of South London (Brockley, Bromley, Catford, Croydon, Dulwich, Forest Hill, Lewisham, Sydenham) but each area doesn't have its own landing page for local SEO. 10+ service categories poorly presented. No modern lead capture or booking system. |
+| Pitch Angle | 30 years of independent advice across South London, but the website doesn't target any of the 14+ areas they serve. Location-specific landing pages could capture high-intent local search traffic across SE London. |
+
+### 50. DG Financial Services Ltd
+| Field | Details |
+|-------|---------|
+| Website | https://dgfs.biz |
+| Owner | DG Financial Services Ltd |
+| Phone | 01379 454508 |
+| Email | info@dgfs.biz |
+| Location | Diss Business Hub (DBH 29), Hopper Way, Diss, Norfolk IP22 4GT |
+| Services | Pensions, investments, inheritance tax planning, equity release, lifetime mortgages, wealth and personal protection |
+| FCA Number | 523247 |
+| Company No | 06405618 |
+| Rating | 3.5/10 |
+| Issues | Uses a .biz domain -- an unusual and unprofessional-looking TLD for a financial services firm. Copyright footer stuck at 2020. Covers a huge area (Norfolk, Suffolk, Cambridgeshire, North Essex) but the basic site doesn't reflect this reach. Director Russell Golledge runs the practice but site gives little personality or trust signals. |
+| Pitch Angle | A .biz domain for a financial adviser is like wearing a novelty tie to a board meeting. Covers four counties but the website looks like a single-page placeholder. Proper local SEO across Norfolk, Suffolk, Cambridgeshire and Essex would unlock significant organic traffic. |
+
+### 51. Anderson Sinclair & Co LLP
+| Field | Details |
+|-------|---------|
+| Website | https://www.andersonsinclair.co.uk |
+| Owner | Anderson Sinclair & Co LLP |
+| Phone | 01372 379345 |
+| Email | Via website contact page |
+| Location | Leatherhead, Surrey (also Cranleigh and London offices) |
+| Services | Pensions, investments, mortgages, financial planning |
+| Rating | 4.5/10 |
+| Issues | Established 1970 -- over 55 years in business -- but the website is a basic brochure. Family-run business with 60+ years combined experience across partners. Three office locations (Leatherhead, Cranleigh, London) but site doesn't adequately showcase multi-office presence. Covers affluent Surrey areas (Epsom, Guildford, Horsham, Kingston, Oxshott, Sutton) but no location-specific landing pages. |
+| Pitch Angle | Over 55 years as a family-run IFA across Surrey's most affluent towns. Three offices, but the website makes them look like a one-person operation. Their wealthy Surrey clientele expects a premium digital presence. |
+
+### 52. Globe IFA
+| Field | Details |
+|-------|---------|
+| Website | https://globeifa.co.uk |
+| Owner | Globe Independent Financial Advisers Limited |
+| Phone | 020 8891 0711 |
+| Email | hello@globeifa.co.uk |
+| Location | Globe House, 1 Chertsey Road, St Margarets, Twickenham, Middlesex TW1 1LR |
+| Services | Investments, retirement planning, estate planning, protection, mortgages, corporate pensions, US citizen tax compliance |
+| Rating | 4.5/10 |
+| Issues | Established 1994 with 200+ years combined team experience. VouchedFor Top Rated Guide 2025 inclusion. Interesting niches (US citizens in UK, later life planning) but website may not adequately showcase these specialisms. South West London and Home Counties coverage area. |
+| Pitch Angle | 30 years in business, 200+ years combined experience, and a unique US citizen specialism -- but does the website make the most of these differentiators? VouchedFor Top Rated status should be front and centre. |
+
+### 53. Bespoke Advice (Foxgrove Associates)
+| Field | Details |
+|-------|---------|
+| Website | https://bespokeadvice.com |
+| Owner | Foxgrove Associates |
+| Phone | 0208 325 6181 |
+| Email | enquiries@bespokeadvice.com |
+| Location | Bromley office (Hayes village) and Sevenoaks head office |
+| Services | Investments, retirement/pension planning, protection/life assurance, mortgages, financial planning reviews |
+| Rating | 4/10 |
+| Issues | Brand confusion between "Bespoke Advice" and "Foxgrove Associates" -- two names for what appears to be the same firm. WordPress-based site with basic template design. Key adviser Graeme has 25+ years experience but the website doesn't convey this depth. Covers all of London and South East but generic design doesn't target local areas. |
+| Pitch Angle | Two brand names for one firm is confusing for clients. 25+ years of experience hidden behind a basic WordPress template. Bromley and Sevenoaks are affluent areas where clients expect polish from their financial adviser. |
+
+### 54. Morgans IFA
+| Field | Details |
+|-------|---------|
+| Website | https://morgans.co.uk |
+| Owner | Morgans Independent Financial Advisers Ltd |
+| Phone | 020 7491 5060 |
+| Email | info@morgans.co.uk |
+| Location | 85 Tottenham Court Road, London W1T 4TQ |
+| Services | Pension planning, family protection, estate planning, savings & investments, tax-efficient investments, property finance, mortgages, insurance |
+| FCA Number | 540610 (via Charterhouse Independent Financial Advisors LLP) |
+| Rating | 4.5/10 |
+| Issues | Prime Central London location (Tottenham Court Road) but website doesn't match the prestige of the address. Appointed representative of Charterhouse -- site should communicate this network backing as a trust signal. Basic design and layout. In-house specialists in tax-efficient investments and property finance are strong USPs not being leveraged. |
+| Pitch Angle | Tottenham Court Road address, in-house tax and property specialists, but a website that could be any template. Central London competition is fierce -- without a standout digital presence, they're invisible next to larger rivals. |
+
+### 55. CA Financial Services
+| Field | Details |
+|-------|---------|
+| Website | https://cafinancialservices.co.uk |
+| Owner | CA Financial Services Ltd |
+| Phone | Via website |
+| Email | Via website |
+| Location | Kemsing, Sevenoaks, Kent |
+| Services | Independent financial advice across Kent, Sussex, Surrey, and South London |
+| Rating | 4/10 |
+| Issues | Started as a sole trader in 2007, incorporated as CA Financial Services Ltd in 2018. 15+ years experience but website likely basic. Based in a village outside Sevenoaks. Covers a huge area (Kent, Sussex, Surrey, South London) but site probably doesn't target each area for local SEO. Small firm that needs its website to punch above its weight. |
+| Pitch Angle | A sole practitioner covering four counties needs a website that generates leads while they're busy advising clients. Location-specific content for Kent, Sussex, Surrey and South London could multiply their organic search visibility. |
+
+---
+
 ## Updated Recommended Outreach Priority (All Prospects)
 
 ### Tier 1 -- Worst Websites (Immediate Opportunity)
