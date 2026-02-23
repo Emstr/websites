@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Header() {
@@ -72,18 +73,15 @@ export default function Header() {
       <nav className="container-width py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/stiles-financial" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
-              <span className="text-accent font-bold text-xl font-serif">S</span>
-            </div>
-            <div className="hidden sm:block">
-              <p className="text-primary font-bold text-lg leading-tight font-serif">
-                Stiles & Company
-              </p>
-              <p className="text-xs text-gray-500 tracking-wider">
-                FINANCIAL SERVICES
-              </p>
-            </div>
+          <Link href="/stiles-financial" className="flex items-center">
+            <Image
+              src="/images/stiles/logo.png"
+              alt="Stiles & Company Financial Services"
+              width={180}
+              height={60}
+              className="h-12 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

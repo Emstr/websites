@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us | Book a Financial Consultation",
   description:
-    "Contact Castle Investment Consultants for independent financial advice. Visit our office in Totton, Southampton or call 023 8087 3187 for a free consultation.",
+    "Contact Castle Investment Consultants for independent financial advice. Visit our Southampton office or call 023 8033 3265 for a free consultation.",
   openGraph: {
     title: "Contact Us | Castle Investment Consultants",
     description:
-      "Book a free consultation with our experienced financial advisers. Call 023 8087 3187 or visit our Totton, Southampton office.",
+      "Book a free consultation with our experienced financial advisers. Call 023 8033 3265 or visit our Southampton office.",
   },
 };
 
@@ -26,7 +26,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
               Ready to take the next step? Book a complimentary consultation at
-              our Totton office or reach out by phone or email to discuss your
+              our Southampton office or reach out by phone or email to discuss your
               financial planning needs.
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function ContactPage() {
                 Book Your Free Consultation
               </h2>
               <p className="text-gray-600 mb-8">
-                Complete the form below and one of our consultants will contact you to
+                Complete the form below and one of our advisers will contact you to
                 arrange a convenient time for your initial meeting.
               </p>
 
@@ -116,7 +116,7 @@ export default function ContactPage() {
                     className="form-input"
                   >
                     <option value="">Select your preference</option>
-                    <option value="office">Office Visit - 19/21 Junction Road, Totton</option>
+                    <option value="office">Office Visit - Southampton</option>
                     <option value="video">Video Call</option>
                     <option value="phone">Phone Consultation</option>
                   </select>
@@ -132,7 +132,7 @@ export default function ContactPage() {
                     <option value="investments">Investments</option>
                     <option value="mortgages">Mortgages</option>
                     <option value="protection">Protection</option>
-                    <option value="estate-planning">Estate Planning</option>
+                    <option value="long-term-care">Long-Term Care Planning</option>
                     <option value="financial-planning">Financial Planning</option>
                     <option value="other">Other / Not Sure</option>
                   </select>
@@ -179,9 +179,9 @@ export default function ContactPage() {
                     className="mt-1 w-4 h-4 text-accent border-gray-300 rounded focus:ring-accent"
                   />
                   <label htmlFor="consent" className="text-sm text-gray-600">
-                    I consent to Widelist Investments Ltd trading as Castle Investment
-                    Consultants contacting me regarding my enquiry. I understand my
-                    data will be processed in accordance with the{" "}
+                    I consent to Castle Investment Consultants contacting me
+                    regarding my enquiry. I understand my data will be processed in
+                    accordance with the{" "}
                     <a href="/castle-investments/privacy" className="text-accent hover:underline">
                       Privacy Policy
                     </a>
@@ -227,17 +227,13 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <span className="text-sm text-accent font-semibold">Our Office</span>
-                    <h3 className="text-xl font-bold text-primary">Totton, Southampton</h3>
+                    <h3 className="text-xl font-bold text-primary">Southampton, Hampshire</h3>
                   </div>
                 </div>
                 <address className="not-italic text-gray-700 mb-4">
                   <strong>Castle Investment Consultants</strong>
                   <br />
-                  19/21 Junction Road
-                  <br />
-                  Totton, Southampton
-                  <br />
-                  Hants, SO40 9HG
+                  Southampton, Hampshire
                 </address>
                 <div className="space-y-2 text-gray-600 mb-4">
                   <p>
@@ -249,9 +245,8 @@ export default function ContactPage() {
                   </p>
                 </div>
                 <p className="text-sm text-gray-500">
-                  Conveniently located in Totton town centre with free parking
-                  available nearby. We serve clients across Southampton, the New
-                  Forest, and wider Hampshire.
+                  Family-run firm serving clients across Southampton and Hampshire
+                  since 1994. We also offer telephone and video consultations.
                 </p>
               </div>
 
@@ -262,7 +257,7 @@ export default function ContactPage() {
                 </h3>
                 <div className="space-y-4">
                   <a
-                    href="tel:02380873187"
+                    href="tel:02380333265"
                     className="flex items-center gap-3 text-gray-700 hover:text-accent transition-colors"
                   >
                     <div className="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
@@ -281,14 +276,14 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold">023 8087 3187</p>
+                      <p className="font-semibold">023 8033 3265</p>
                       <p className="text-sm text-gray-500">
                         Call us during office hours
                       </p>
                     </div>
                   </a>
                   <a
-                    href="mailto:info@castle-investments.com"
+                    href="mailto:mail@castleinvestments.co.uk"
                     className="flex items-center gap-3 text-gray-700 hover:text-accent transition-colors"
                   >
                     <div className="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
@@ -307,7 +302,7 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold">info@castle-investments.com</p>
+                      <p className="font-semibold">mail@castleinvestments.co.uk</p>
                       <p className="text-sm text-gray-500">
                         Email us anytime
                       </p>
@@ -328,14 +323,14 @@ export default function ContactPage() {
           </h2>
           <div className="aspect-video bg-gray-200 rounded-sm overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.0!2d-1.5076!3d50.9244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDU1JzI4LjAiTiAxwrAzMCcyNy40Ilc!5e0!3m2!1sen!2suk!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.0!2d-1.4040!3d50.9080!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDU0JzI4LjgiTiAxwrAyNCcxNC40Ilc!5e0!3m2!1sen!2suk!4v1"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Castle Investment Consultants Office Location - Totton, Southampton"
+              title="Castle Investment Consultants - Southampton, Hampshire"
             ></iframe>
           </div>
         </div>
@@ -346,11 +341,11 @@ export default function ContactPage() {
         <div className="container-width">
           <div className="fca-notice">
             <p>
-              <strong>Important Notice:</strong> Widelist Investments Ltd trading as
-              Castle Investment Consultants is authorised and regulated by the Financial
-              Conduct Authority. Initial consultations are provided free of charge and
-              without obligation. We will always explain our fees clearly before any work
-              begins.
+              <strong>Important Notice:</strong> Castle Investment Consultants is
+              authorised and regulated by the Financial Conduct Authority (FCA
+              Reference: 171661). Initial consultations are provided free of charge
+              and without obligation. We will always explain our fees clearly before
+              any work begins.
             </p>
           </div>
         </div>

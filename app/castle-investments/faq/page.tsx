@@ -40,7 +40,7 @@ export default function FAQPage() {
         {
           question: "How long has Castle Investment Consultants been operating?",
           answer:
-            "We were founded in 1986, giving us nearly 40 years of experience in providing independent financial advice to clients across Southampton and Hampshire. Our long heritage demonstrates our stability and commitment to client service.",
+            "We were founded in 1994, giving us over 30 years of experience in providing independent financial advice to clients across Southampton and Hampshire. As a family-run firm, our long heritage demonstrates our stability and commitment to client service.",
         },
       ],
     },
@@ -65,7 +65,7 @@ export default function FAQPage() {
         {
           question: "How often will my investments be reviewed?",
           answer:
-            "We typically conduct formal annual reviews, though we monitor portfolios continuously. You're welcome to contact us at any time if your circumstances change or you have questions. Our team of 6+ consultants ensures there's always someone available to help.",
+            "We typically conduct formal annual reviews, though we monitor portfolios continuously. You're welcome to contact us at any time if your circumstances change or you have questions. Our experienced team ensures there's always someone available to help.",
         },
       ],
     },
@@ -233,10 +233,10 @@ export default function FAQPage() {
                 Contact Us
               </Link>
               <a
-                href="tel:02380873187"
+                href="tel:02380333265"
                 className="btn-outline"
               >
-                Call 023 8087 3187
+                Call 023 8033 3265
               </a>
             </div>
           </div>
@@ -251,7 +251,7 @@ export default function FAQPage() {
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
             Book a complimentary meeting to discuss your financial goals with one of
-            our experienced consultants at our Totton office or by phone.
+            our experienced advisers at our Southampton office or by phone.
           </p>
           <Link href="/castle-investments/contact" className="btn-accent">
             Book Your Free Consultation

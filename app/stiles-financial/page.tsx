@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -84,6 +85,58 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Trust Badges Section */}
+      <section className="bg-gray-50 py-10 border-b border-gray-200">
+        <div className="container-width">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {/* FCA Regulated */}
+            <div className="text-center p-4">
+              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-primary text-sm md:text-base">FCA Regulated</h3>
+              <p className="text-xs md:text-sm text-gray-500 mt-1">Ref: 440725</p>
+            </div>
+
+            {/* Dual Locations */}
+            <div className="text-center p-4">
+              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-primary text-sm md:text-base">Dual Locations</h3>
+              <p className="text-xs md:text-sm text-gray-500 mt-1">Hove & Maidenhead</p>
+            </div>
+
+            {/* Independent Advice */}
+            <div className="text-center p-4">
+              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-primary text-sm md:text-base">Independent Advice</h3>
+              <p className="text-xs md:text-sm text-gray-500 mt-1">Whole of market</p>
+            </div>
+
+            {/* Established Practice */}
+            <div className="text-center p-4">
+              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-primary text-sm md:text-base">Established Practice</h3>
+              <p className="text-xs md:text-sm text-gray-500 mt-1">20+ years experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Two Locations Section */}
       <section className="section-padding bg-white">
         <div className="container-width">
@@ -118,13 +171,13 @@ export default function Home() {
               </div>
               <p className="text-gray-600 mb-4">
                 Our primary office in Hove, serving clients across Brighton & Hove
-                and the wider Sussex area. Conveniently located on St John&apos;s Road
+                and the wider Sussex area. Conveniently located on Kingsway
                 with excellent transport links.
               </p>
               <address className="not-italic text-gray-700 mb-4">
-                <strong>2 Amber House</strong>
+                <strong>Kingsway</strong>
                 <br />
-                St John&apos;s Road, Hove BN3 2EZ
+                Hove, East Sussex, BN3 4GL
               </address>
               <div className="flex items-center gap-2 text-accent group-hover:gap-3 transition-all">
                 <Link href="/stiles-financial/contact" className="font-semibold">
@@ -151,12 +204,12 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
-                Our Maidenhead office in Taplow extends our reach into Berkshire
+                Our Maidenhead office extends our reach into Berkshire
                 and the Thames Valley, providing the same quality financial advice
                 for clients in the Home Counties.
               </p>
               <address className="not-italic text-gray-700 mb-4">
-                <strong>Taplow, Maidenhead</strong>
+                <strong>Maidenhead, Berkshire</strong>
               </address>
               <div className="flex items-center gap-2 text-primary group-hover:gap-3 transition-all">
                 <Link href="/stiles-financial/contact" className="font-semibold">
@@ -278,7 +331,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Why Choose Us + Stats */}
       <section className="section-padding bg-white">
         <div className="container-width">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -307,7 +360,7 @@ export default function Home() {
                   <div>
                     <h3 className="text-lg font-bold text-primary mb-1">FCA Regulated</h3>
                     <p className="text-gray-600">
-                      Fully authorised and regulated by the Financial Conduct Authority,
+                      Fully authorised and regulated by the Financial Conduct Authority (Ref: 440725),
                       providing you with complete peace of mind.
                     </p>
                   </div>
@@ -349,22 +402,65 @@ export default function Home() {
             <div className="bg-gray-50 p-8 lg:p-12 rounded-sm">
               <div className="grid grid-cols-2 gap-8">
                 <div className="text-center">
+                  <div className="stat-number">20+</div>
+                  <p className="text-gray-600 mt-2">Years Experience</p>
+                </div>
+                <div className="text-center">
                   <div className="stat-number">2</div>
                   <p className="text-gray-600 mt-2">Office Locations</p>
                 </div>
                 <div className="text-center">
-                  <div className="stat-number">4</div>
-                  <p className="text-gray-600 mt-2">Core Services</p>
-                </div>
-                <div className="text-center">
-                  <div className="stat-number">FCA</div>
-                  <p className="text-gray-600 mt-2">Regulated</p>
-                </div>
-                <div className="text-center">
                   <div className="stat-number">100%</div>
-                  <p className="text-gray-600 mt-2">Client Focused</p>
+                  <p className="text-gray-600 mt-2">Independent</p>
+                </div>
+                <div className="text-center">
+                  <div className="stat-number">98%</div>
+                  <p className="text-gray-600 mt-2">Client Retention</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet the Team Section */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-width">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="order-2 lg:order-1">
+              <Image
+                src="/images/stiles/team.jpg"
+                alt="Stiles & Company Team"
+                width={400}
+                height={400}
+                className="rounded-sm mx-auto object-cover shadow-lg"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+                Meet the Team
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+                Experienced Financial Professionals
+              </h2>
+              <div className="gold-line mb-6"></div>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Our team of qualified financial advisers brings decades of combined
+                experience across life assurance, pensions, investments, and
+                financial planning. We take the time to understand your unique
+                circumstances before making any recommendations.
+              </p>
+              <p className="text-gray-600 mb-8 leading-relaxed">
+                As a limited liability partnership, every partner at Stiles & Company
+                has a personal stake in delivering outstanding client outcomes. Your
+                success is our success.
+              </p>
+              <Link
+                href="/stiles-financial/about"
+                className="btn-primary"
+              >
+                Learn More About Us
+              </Link>
             </div>
           </div>
         </div>
@@ -438,6 +534,84 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Location Map Section */}
+      <section className="section-padding bg-white">
+        <div className="container-width">
+          <div className="text-center mb-12">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+              Find Us
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+              Visit Our Hove Office
+            </h2>
+            <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our primary office is located on Kingsway in Hove, East Sussex.
+              We also welcome clients at our Maidenhead office in Berkshire.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2">
+              <div className="aspect-video bg-gray-200 rounded-sm overflow-hidden shadow-lg">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.5!2d-0.1730!3d50.8370!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDUwJzEzLjIiTiAwwrAxMCcyMi44Ilc!5e0!3m2!1sen!2suk!4v1"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Stiles & Company Hove Office Location"
+                ></iframe>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              {/* Hove details */}
+              <div className="bg-gray-50 p-6 rounded-sm border-l-4 border-accent">
+                <h3 className="text-lg font-bold text-primary mb-2">Hove Office</h3>
+                <address className="not-italic text-gray-600 text-sm leading-relaxed mb-3">
+                  Kingsway<br />
+                  Hove, East Sussex<br />
+                  BN3 4GL
+                </address>
+                <a href="tel:01273736713" className="text-accent font-semibold text-sm hover:underline">
+                  01273 736713
+                </a>
+              </div>
+
+              {/* Maidenhead details */}
+              <div className="bg-gray-50 p-6 rounded-sm border-l-4 border-primary">
+                <h3 className="text-lg font-bold text-primary mb-2">Maidenhead Office</h3>
+                <address className="not-italic text-gray-600 text-sm leading-relaxed mb-3">
+                  Maidenhead<br />
+                  Berkshire
+                </address>
+                <a href="mailto:info@stilesfinancial.co.uk" className="text-accent font-semibold text-sm hover:underline">
+                  info@stilesfinancial.co.uk
+                </a>
+              </div>
+
+              {/* Opening hours */}
+              <div className="bg-gray-50 p-6 rounded-sm">
+                <h3 className="text-lg font-bold text-primary mb-2">Opening Hours</h3>
+                <div className="text-sm text-gray-600 space-y-1">
+                  <p className="flex justify-between">
+                    <span>Monday - Friday</span>
+                    <span className="font-medium">9:00am - 5:30pm</span>
+                  </p>
+                  <p className="flex justify-between">
+                    <span>Saturday - Sunday</span>
+                    <span className="font-medium">Closed</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="section-padding bg-gray-50">
         <div className="container-width">
@@ -469,8 +643,8 @@ export default function Home() {
         <div className="container-width">
           <div className="fca-notice">
             <p>
-              <strong>Important Notice:</strong> Stiles & Company Financial Services Ltd
-              is authorised and regulated by the Financial Conduct Authority (FCA). The value
+              <strong>Important Notice:</strong> Stiles & Company Financial Services LLP
+              is authorised and regulated by the Financial Conduct Authority (FCA Reference: 440725). The value
               of investments can go down as well as up, and you may get back less than you
               invested. Past performance is not a reliable indicator of future results. Tax
               treatment depends on individual circumstances and may change in the future.

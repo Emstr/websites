@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -24,18 +25,28 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Whole-of-market independent financial advice from our office in
-              Totton, Southampton. Trusted advisers since 1986.
+              Independent financial advice from a family-run firm serving
+              Southampton and Hampshire since 1994. Over 30 years of trusted
+              guidance for your financial future.
             </p>
-            <div className="flex items-center gap-2 text-sm text-gray-400">
-              <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span>FCA Regulated</span>
+            <div className="flex items-center gap-3 mb-4">
+              <Image
+                src="/images/castle/ifa-badge.jpg"
+                alt="IFA Professional Badge"
+                width={48}
+                height={48}
+                className="rounded"
+              />
+              <div className="flex items-center gap-2 text-sm text-gray-400">
+                <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                <span>FCA Regulated (Ref: 171661)</span>
+              </div>
             </div>
           </div>
 
@@ -65,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/castle-investments/services" className="footer-link">
-                  Estate Planning
+                  Long-Term Care Planning
                 </Link>
               </li>
             </ul>
@@ -110,16 +121,14 @@ export default function Footer() {
               <div>
                 <p className="text-accent font-semibold mb-1">Our Office</p>
                 <address className="not-italic text-gray-300 text-sm">
-                  19/21 Junction Road
+                  Southampton
                   <br />
-                  Totton, Southampton
-                  <br />
-                  Hants, SO40 9HG
+                  Hampshire
                 </address>
               </div>
               <div className="pt-2">
                 <a
-                  href="tel:02380873187"
+                  href="tel:02380333265"
                   className="flex items-center gap-2 text-gray-300 hover:text-accent transition-colors"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -130,10 +139,10 @@ export default function Footer() {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  023 8087 3187
+                  023 8033 3265
                 </a>
                 <a
-                  href="mailto:info@castle-investments.com"
+                  href="mailto:mail@castleinvestments.co.uk"
                   className="flex items-center gap-2 text-gray-300 hover:text-accent transition-colors mt-2"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -144,8 +153,12 @@ export default function Footer() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  info@castle-investments.com
+                  mail@castleinvestments.co.uk
                 </a>
+              </div>
+              <div className="pt-2 text-sm text-gray-400">
+                <p>Family-run since 1994</p>
+                <p>30+ years of independent advice</p>
               </div>
             </div>
           </div>
@@ -157,9 +170,9 @@ export default function Footer() {
         <div className="container-width py-6">
           <div className="bg-primary/50 rounded-sm p-4 text-sm text-gray-300">
             <p className="mb-2">
-              <strong className="text-white">Important Information:</strong> Widelist
-              Investments Ltd trading as Castle Investment Consultants is authorised and
-              regulated by the Financial Conduct Authority (FCA).
+              <strong className="text-white">Important Information:</strong> Castle
+              Investment Consultants is authorised and regulated by the Financial Conduct
+              Authority (FCA Reference: 171661).
             </p>
             <p>
               The value of investments and the income from them can go down as well as
@@ -179,8 +192,7 @@ export default function Footer() {
         <div className="container-width py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
             <p>
-              &copy; {currentYear} Widelist Investments Ltd trading as Castle Investment
-              Consultants. All rights reserved.
+              &copy; {currentYear} Castle Investment Consultants. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link href="/castle-investments/privacy" className="hover:text-accent transition-colors">

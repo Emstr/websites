@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,18 +11,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
-                <span className="text-accent font-bold text-xl font-serif">S</span>
-              </div>
-              <div>
-                <p className="text-white font-bold text-lg leading-tight font-serif">
-                  Stiles & Company
-                </p>
-                <p className="text-xs text-gray-400 tracking-wider">
-                  FINANCIAL SERVICES
-                </p>
-              </div>
+            <div className="mb-6">
+              <Image
+                src="/images/stiles/logo.png"
+                alt="Stiles & Company Financial Services"
+                width={180}
+                height={60}
+                className="h-12 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Established financial advisers providing life assurance, pensions,
@@ -106,17 +103,17 @@ export default function Footer() {
               <div>
                 <p className="text-accent font-semibold mb-1">Hove Office</p>
                 <address className="not-italic text-gray-300 text-sm">
-                  2 Amber House
+                  Kingsway
                   <br />
-                  St John&apos;s Road
+                  Hove, East Sussex
                   <br />
-                  Hove, BN3 2EZ
+                  BN3 4GL
                 </address>
               </div>
               <div>
                 <p className="text-accent font-semibold mb-1">Maidenhead Office</p>
                 <address className="not-italic text-gray-300 text-sm">
-                  Taplow, Maidenhead
+                  Maidenhead, Berkshire
                 </address>
               </div>
               <div className="pt-2">
@@ -160,8 +157,8 @@ export default function Footer() {
           <div className="bg-primary/50 rounded-sm p-4 text-sm text-gray-300">
             <p className="mb-2">
               <strong className="text-white">Important Information:</strong> Stiles
-              & Company Financial Services Ltd is authorised and regulated by the
-              Financial Conduct Authority (FCA).
+              & Company Financial Services LLP is authorised and regulated by the
+              Financial Conduct Authority (FCA Reference: 440725).
             </p>
             <p>
               The value of investments and the income from them can go down as well as
@@ -181,7 +178,7 @@ export default function Footer() {
         <div className="container-width py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
             <p>
-              &copy; {currentYear} Stiles & Company Financial Services Ltd. All
+              &copy; {currentYear} Stiles & Company Financial Services LLP. All
               rights reserved.
             </p>
             <div className="flex items-center gap-6">

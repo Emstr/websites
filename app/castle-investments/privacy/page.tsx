@@ -61,13 +61,11 @@ export default function PrivacyPage() {
             <address className="not-italic text-gray-600 mb-6 bg-gray-50 p-4 rounded-sm">
               Widelist Investments Ltd trading as Castle Investment Consultants
               <br />
-              19/21 Junction Road
+              Southampton, Hampshire
               <br />
-              Totton, Southampton, Hants SO40 9HG
+              Email: mail@castleinvestments.co.uk
               <br />
-              Email: info@castle-investments.com
-              <br />
-              Phone: 023 8087 3187
+              Phone: 023 8033 3265
             </address>
 
             <h2 className="text-2xl font-bold text-primary mb-4 mt-10">
@@ -288,13 +286,11 @@ export default function PrivacyPage() {
             <address className="not-italic text-gray-600 mb-6 bg-gray-50 p-4 rounded-sm">
               Widelist Investments Ltd trading as Castle Investment Consultants
               <br />
-              19/21 Junction Road
+              Southampton, Hampshire
               <br />
-              Totton, Southampton, Hants SO40 9HG
+              Email: mail@castleinvestments.co.uk
               <br />
-              Email: info@castle-investments.com
-              <br />
-              Phone: 023 8087 3187
+              Phone: 023 8033 3265
             </address>
           </div>
         </div>

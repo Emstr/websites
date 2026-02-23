@@ -116,8 +116,8 @@ export default function ContactPage() {
                     className="form-input"
                   >
                     <option value="">Select your preference</option>
-                    <option value="hove">Hove - 2 Amber House, St John&apos;s Road</option>
-                    <option value="maidenhead">Maidenhead - Taplow</option>
+                    <option value="hove">Hove - Kingsway, BN3 4GL</option>
+                    <option value="maidenhead">Maidenhead, Berkshire</option>
                     <option value="video">Video Call</option>
                     <option value="phone">Phone Consultation</option>
                   </select>
@@ -178,7 +178,7 @@ export default function ContactPage() {
                     className="mt-1 w-4 h-4 text-accent border-gray-300 rounded focus:ring-accent"
                   />
                   <label htmlFor="consent" className="text-sm text-gray-600">
-                    I consent to Stiles & Company Financial Services Ltd contacting
+                    I consent to Stiles & Company Financial Services LLP contacting
                     me regarding my enquiry. I understand my data will be processed in
                     accordance with the{" "}
                     <a href="/stiles-financial/privacy" className="text-accent hover:underline">
@@ -224,15 +224,13 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <address className="not-italic text-gray-700 mb-4">
-                  <strong>Stiles & Company Financial Services Ltd</strong>
+                  <strong>Stiles & Company Financial Services LLP</strong>
                   <br />
-                  2 Amber House
+                  Kingsway
                   <br />
-                  St John&apos;s Road
+                  Hove, East Sussex
                   <br />
-                  Hove
-                  <br />
-                  BN3 2EZ
+                  BN3 4GL
                 </address>
                 <div className="space-y-2 text-gray-600 mb-4">
                   <p>
@@ -244,7 +242,7 @@ export default function ContactPage() {
                   </p>
                 </div>
                 <p className="text-sm text-gray-500">
-                  Conveniently located on St John&apos;s Road in Hove, serving clients
+                  Conveniently located on Kingsway in Hove, serving clients
                   across Brighton & Hove and the wider Sussex area.
                 </p>
               </div>
@@ -281,9 +279,9 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <address className="not-italic text-gray-700 mb-4">
-                  <strong>Stiles & Company Financial Services Ltd</strong>
+                  <strong>Stiles & Company Financial Services LLP</strong>
                   <br />
-                  Taplow, Maidenhead
+                  Maidenhead, Berkshire
                 </address>
                 <div className="space-y-2 text-gray-600 mb-4">
                   <p>
@@ -373,7 +371,7 @@ export default function ContactPage() {
           </h2>
           <div className="aspect-video bg-gray-200 rounded-sm overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.5!2d-0.1766!3d50.8352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDUwJzA2LjciTiAwwrAxMCczNS44Ilc!5e0!3m2!1sen!2suk!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.5!2d-0.1730!3d50.8370!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDUwJzEzLjIiTiAwwrAxMCcyMi44Ilc!5e0!3m2!1sen!2suk!4v1"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -392,7 +390,7 @@ export default function ContactPage() {
           <div className="fca-notice">
             <p>
               <strong>Important Notice:</strong> Stiles & Company Financial Services
-              Ltd is authorised and regulated by the Financial Conduct Authority. Initial
+              LLP is authorised and regulated by the Financial Conduct Authority (FCA Reference: 440725). Initial
               consultations are provided free of charge and without obligation. We will
               always explain our fees clearly before any work begins.
             </p>

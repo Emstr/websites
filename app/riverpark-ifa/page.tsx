@@ -1,10 +1,26 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
+  const teamMembers = [
+    { name: "Stuart McGeoch", role: "Financial Adviser", image: "/images/riverpark/stuart-mcgeoch.png" },
+    { name: "Tom Mooney", role: "Financial Adviser", image: "/images/riverpark/tom-mooney.png" },
+    { name: "Lesley Logan", role: "Office Manager", image: "/images/riverpark/lesley-logan.png" },
+    { name: "Iain McDonald", role: "Financial Adviser", image: "/images/riverpark/iain-mcdonald.png" },
+    { name: "Douglas McDiarmid", role: "Financial Adviser", image: "/images/riverpark/douglas-mcdiarmid.png" },
+    { name: "Simon Sayeed", role: "Financial Adviser", image: "/images/riverpark/simon-sayeed.png" },
+    { name: "Donald Watt", role: "Financial Adviser", image: "/images/riverpark/donald-watt.png" },
+  ];
+
   return (
     <>
       {/* Hero Section */}
       <section className="hero-gradient min-h-[90vh] flex items-center relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image src="/images/riverpark/hero-glasgow.jpg" alt="Glasgow" fill className="object-cover opacity-20" />
+        </div>
+
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div
@@ -81,6 +97,50 @@ export default function Home() {
             <circle cx="200" cy="200" r="140" stroke="#b8860b" strokeWidth="1" fill="none" />
             <circle cx="200" cy="200" r="100" stroke="#b8860b" strokeWidth="0.5" fill="none" />
           </svg>
+        </div>
+      </section>
+
+      {/* Trust Badges */}
+      <section className="bg-gray-50 py-10 border-b border-gray-200">
+        <div className="container-width">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="text-center p-6">
+              <div className="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-primary text-sm mb-1">FCA Regulated</h3>
+              <p className="text-xs text-gray-500">Authorised & regulated by the Financial Conduct Authority</p>
+            </div>
+            <div className="text-center p-6">
+              <div className="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-primary text-sm mb-1">Free Consultation</h3>
+              <p className="text-xs text-gray-500">No-obligation initial meeting at no cost to you</p>
+            </div>
+            <div className="text-center p-6">
+              <div className="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-primary text-sm mb-1">Independent Advice</h3>
+              <p className="text-xs text-gray-500">Not tied to any provider -- whole-of-market recommendations</p>
+            </div>
+            <div className="text-center p-6">
+              <div className="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-primary text-sm mb-1">30+ Years Experience</h3>
+              <p className="text-xs text-gray-500">Each adviser brings over 30 years of individual expertise</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -371,18 +431,56 @@ export default function Home() {
                 </div>
                 <div className="text-center">
                   <div className="stat-number">30+</div>
-                  <p className="text-gray-600 mt-2">Years Adviser Experience</p>
+                  <p className="text-gray-600 mt-2">Years Per Adviser</p>
                 </div>
                 <div className="text-center">
-                  <div className="stat-number">FCA</div>
-                  <p className="text-gray-600 mt-2">Regulated</p>
+                  <div className="stat-number">7</div>
+                  <p className="text-gray-600 mt-2">Expert Advisers</p>
                 </div>
                 <div className="text-center">
-                  <div className="stat-number">Free</div>
-                  <p className="text-gray-600 mt-2">Freephone Available</p>
+                  <div className="stat-number">100%</div>
+                  <p className="text-gray-600 mt-2">Independent</p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Our Team */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-width">
+          <div className="text-center mb-16">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+              Our Team
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+              Meet the Riverpark Team
+            </h2>
+            <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our team of experienced professionals is dedicated to helping you
+              achieve your financial goals. Every adviser brings decades of
+              expertise to your service.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
+            {teamMembers.map((member) => (
+              <div key={member.name} className="text-center">
+                <div className="w-40 h-40 mx-auto mb-4 relative">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    width={160}
+                    height={160}
+                    className="rounded-full mx-auto object-cover w-40 h-40"
+                  />
+                </div>
+                <h3 className="font-bold text-primary text-lg">{member.name}</h3>
+                <p className="text-gray-500 text-sm">{member.role}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -450,6 +548,71 @@ export default function Home() {
                   <p className="text-sm text-gray-500">Retired, Lanarkshire</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Location / Map Section */}
+      <section className="section-padding bg-white">
+        <div className="container-width">
+          <div className="text-center mb-12">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+              Find Us
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+              Visit Our Glasgow Office
+            </h2>
+            <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our office is conveniently located at 4 Rogart Street, Glasgow.
+              We welcome clients for face-to-face meetings by appointment.
+            </p>
+          </div>
+          <div className="grid lg:grid-cols-2 gap-8 items-stretch">
+            <div className="bg-gray-50 p-8 rounded-sm flex flex-col justify-center">
+              <div className="mb-6">
+                <Image
+                  src="/images/riverpark/building.jpg"
+                  alt="Riverpark IFA Office Building"
+                  width={600}
+                  height={400}
+                  className="rounded-sm w-full object-cover"
+                />
+              </div>
+              <address className="not-italic text-gray-700 mb-4">
+                <strong className="text-primary text-lg">Riverpark IFA</strong>
+                <br />
+                Suite 3 (1-6), 4 Rogart Street
+                <br />
+                Glasgow G40 2AA
+              </address>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a href="tel:01415543881" className="flex items-center gap-2 text-accent font-semibold">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  0141 554 3881
+                </a>
+                <a href="mailto:enquiries@riverparkifa.com" className="flex items-center gap-2 text-primary font-semibold">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  enquiries@riverparkifa.com
+                </a>
+              </div>
+            </div>
+            <div className="aspect-video lg:aspect-auto rounded-sm overflow-hidden min-h-[400px]">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.5!2d-4.2285!3d55.8470!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDUwJzQ5LjIiTiA0wrAxMyc0Mi42Ilc!5e0!3m2!1sen!2suk!4v1"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Riverpark IFA Glasgow Office Location"
+              ></iframe>
             </div>
           </div>
         </div>

@@ -129,8 +129,8 @@ export default function ServicesPage() {
               Whole-of-Market Financial Advice
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              From pensions to estate planning, our 6+ experienced consultants
-              provide independent financial advice tailored to your unique
+              From pensions to long-term care planning, our experienced team
+              provides independent financial advice tailored to your unique
               circumstances and aspirations.
             </p>
           </div>
@@ -149,7 +149,7 @@ export default function ServicesPage() {
               As independent financial advisers, we have access to the whole of the
               market, allowing us to find the best solutions for your individual needs.
               All our advice is regulated by the FCA, and we have been serving clients
-              in Southampton and Hampshire since 1986.
+              in Southampton and Hampshire since 1994.
             </p>
           </div>
 
@@ -285,8 +285,8 @@ export default function ServicesPage() {
             <Link href="/castle-investments/contact" className="btn-accent">
               Book Free Consultation
             </Link>
-            <a href="tel:02380873187" className="btn-outline border-white text-white hover:bg-white hover:text-primary">
-              Call 023 8087 3187
+            <a href="tel:02380333265" className="btn-outline border-white text-white hover:bg-white hover:text-primary">
+              Call 023 8033 3265
             </a>
           </div>
         </div>

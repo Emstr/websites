@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Header() {
@@ -73,17 +74,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/dwj-wealth" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
-              <span className="text-accent font-bold text-lg font-serif">DWJ</span>
-            </div>
-            <div className="hidden sm:block">
-              <p className="text-primary font-bold text-lg leading-tight font-serif">
-                DWJ Wealth Management
-              </p>
-              <p className="text-xs text-gray-500 tracking-wider">
-                TAILORED FINANCIAL ADVICE
-              </p>
-            </div>
+            <Image src="/images/dwj/logo.png" alt="DWJ Wealth Management" width={150} height={40} className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

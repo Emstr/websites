@@ -1,10 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       {/* Hero Section */}
       <section className="hero-gradient min-h-[90vh] flex items-center relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/castle/castle-1.jpg"
+            alt=""
+            fill
+            className="object-cover opacity-10"
+          />
+        </div>
+
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div
@@ -20,19 +31,19 @@ export default function Home() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-px bg-accent"></div>
               <span className="text-accent font-semibold tracking-wider uppercase text-sm">
-                Trusted Since 1986
+                Family-Run Since 1994
               </span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              40 Years of Trusted{" "}
+              30 Years of Trusted{" "}
               <span className="text-gold-gradient">Financial Advice</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed max-w-3xl">
-              Whole-of-market independent financial advice from 6+ experienced
-              consultants. Pensions, investments, mortgages, protection and
-              estate planning in Southampton and Hampshire.
+              Independent financial advice from a family-run firm you can trust.
+              Pensions, investments, mortgages, protection and long-term care
+              planning in Southampton and Hampshire.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -68,7 +79,7 @@ export default function Home() {
                 <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span>Totton, Southampton</span>
+                <span>Southampton, Hampshire</span>
               </div>
             </div>
           </div>
@@ -84,57 +95,92 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Office Section */}
+      {/* Trust Badges */}
+      <section className="bg-gray-50 py-10 border-b border-gray-200">
+        <div className="container-width">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="text-center p-4">
+              <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <p className="font-bold text-primary text-sm">FCA Regulated</p>
+              <p className="text-xs text-gray-500 mt-1">Ref: 171661</p>
+            </div>
+            <div className="text-center p-4">
+              <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <p className="font-bold text-primary text-sm">Est. 1994</p>
+              <p className="text-xs text-gray-500 mt-1">30+ years experience</p>
+            </div>
+            <div className="text-center p-4">
+              <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <p className="font-bold text-primary text-sm">Independent Advice</p>
+              <p className="text-xs text-gray-500 mt-1">Whole of market access</p>
+            </div>
+            <div className="text-center p-4">
+              <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <p className="font-bold text-primary text-sm">Southampton Based</p>
+              <p className="text-xs text-gray-500 mt-1">Serving Hampshire</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Heritage / About Section */}
       <section className="section-padding bg-white">
         <div className="container-width">
-          <div className="text-center mb-16">
-            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
-              Conveniently Located
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
-              Serving Southampton &amp; Hampshire
-            </h2>
-            <div className="gold-line-center mb-6"></div>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Visit our established office in Totton, Southampton for a
-              face-to-face consultation with one of our experienced financial
-              advisers. We also offer telephone and video consultations for your
-              convenience.
-            </p>
-          </div>
-
-          <div className="max-w-2xl mx-auto">
-            <div className="location-card group">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <span className="text-sm text-accent font-semibold">Our Office</span>
-                  <h3 className="text-2xl font-bold text-primary">Totton, Southampton</h3>
-                </div>
-              </div>
-              <p className="text-gray-600 mb-4">
-                Our established office in Totton has been serving clients across
-                Southampton and Hampshire for nearly 40 years. Conveniently
-                located with free parking available nearby.
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+                Our Heritage
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+                A Trusted Name Since 1994
+              </h2>
+              <div className="gold-line mb-6"></div>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                For over 30 years, Castle Investment Consultants has been providing
+                independent financial advice to families and businesses in Southampton
+                and across Hampshire. As a family-run firm, we understand that trust is
+                earned through decades of honest, personalised service.
               </p>
-              <address className="not-italic text-gray-700 mb-4">
-                <strong>19/21 Junction Road</strong>
-                <br />
-                Totton, Southampton, Hants SO40 9HG
-              </address>
-              <div className="flex items-center gap-2 text-accent group-hover:gap-3 transition-all">
-                <Link href="/castle-investments/contact" className="font-semibold">
-                  Book an Appointment
-                </Link>
+              <p className="text-gray-600 mb-8 leading-relaxed">
+                Our whole-of-market approach means we search the entire market to find
+                the best solutions for your individual needs. Whether you need advice on
+                pensions, investments, mortgages, protection, or long-term care planning,
+                our experienced team is here to guide you every step of the way.
+              </p>
+              <Link
+                href="/castle-investments/about"
+                className="text-accent font-semibold hover:text-accent-dark inline-flex items-center gap-2"
+              >
+                Learn More About Us
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-              </div>
+              </Link>
+            </div>
+            <div className="relative h-80 rounded-sm overflow-hidden shadow-xl">
+              <Image
+                src="/images/castle/castle-2.jpg"
+                alt="Castle Investment Consultants - Trusted since 1994"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -153,8 +199,8 @@ export default function Home() {
             <div className="gold-line-center mb-6"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               As whole-of-market independent advisers, we search the entire market
-              to find the best solutions for your individual needs. Our 6+
-              experienced consultants cover all areas of financial planning.
+              to find the best solutions for your individual needs. Our experienced
+              team covers all areas of financial planning.
             </p>
           </div>
 
@@ -243,17 +289,18 @@ export default function Home() {
               </Link>
             </div>
 
-            {/* Estate Planning */}
+            {/* Long-Term Care */}
             <div className="card-premium p-8">
               <div className="service-icon">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-primary mb-3">Estate Planning</h3>
+              <h3 className="text-xl font-bold text-primary mb-3">Long-Term Care</h3>
               <p className="text-gray-600 mb-4">
-                Inheritance tax planning and wealth transfer strategies to
-                protect your assets and provide for future generations.
+                Specialist long-term care planning to protect your assets and
+                ensure you or your loved ones receive the best possible care
+                provision.
               </p>
               <Link href="/castle-investments/services" className="text-accent font-semibold hover:text-accent-700 inline-flex items-center gap-2">
                 Learn More
@@ -301,15 +348,16 @@ export default function Home() {
                 Why Castle Investments
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
-                Nearly 40 Years of Trusted Advice
+                A Family Firm You Can Trust
               </h2>
               <div className="gold-line mb-6"></div>
               <p className="text-lg text-gray-600 mb-8">
-                Founded in 1986, Castle Investment Consultants has been providing
+                Founded in 1994, Castle Investment Consultants has been providing
                 whole-of-market independent financial advice to clients across
-                Southampton and Hampshire for nearly four decades. Our team of 6+
-                experienced consultants ensures you receive expert, personalised
-                guidance for every aspect of your financial life.
+                Southampton and Hampshire for over three decades. As a family-run
+                practice, we pride ourselves on building lasting relationships
+                and delivering personalised guidance for every aspect of your
+                financial life.
               </p>
 
               <div className="space-y-6">
@@ -322,8 +370,8 @@ export default function Home() {
                   <div>
                     <h3 className="text-lg font-bold text-primary mb-1">FCA Regulated</h3>
                     <p className="text-gray-600">
-                      Fully authorised and regulated by the Financial Conduct Authority,
-                      providing you with complete peace of mind and FSCS protection.
+                      Fully authorised and regulated by the Financial Conduct Authority
+                      (Ref: 171661), providing you with complete peace of mind and FSCS protection.
                     </p>
                   </div>
                 </div>
@@ -346,14 +394,14 @@ export default function Home() {
                 <div className="flex gap-4">
                   <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-primary mb-1">Established Heritage</h3>
+                    <h3 className="text-lg font-bold text-primary mb-1">Family-Run Heritage</h3>
                     <p className="text-gray-600">
-                      Nearly 40 years serving the Southampton community, building
-                      lasting relationships and adapting to changing financial landscapes.
+                      Over 30 years serving the Southampton community as a family business,
+                      building lasting relationships and adapting to changing financial landscapes.
                     </p>
                   </div>
                 </div>
@@ -363,20 +411,20 @@ export default function Home() {
             <div className="bg-gray-50 p-8 lg:p-12 rounded-sm">
               <div className="grid grid-cols-2 gap-8">
                 <div className="text-center">
-                  <div className="stat-number">40+</div>
+                  <div className="stat-number">30+</div>
                   <p className="text-gray-600 mt-2">Years Experience</p>
                 </div>
                 <div className="text-center">
-                  <div className="stat-number">6+</div>
-                  <p className="text-gray-600 mt-2">Consultants</p>
+                  <div className="stat-number">1994</div>
+                  <p className="text-gray-600 mt-2">Year Established</p>
                 </div>
                 <div className="text-center">
-                  <div className="stat-number">Whole</div>
-                  <p className="text-gray-600 mt-2">of Market</p>
+                  <div className="stat-number">100%</div>
+                  <p className="text-gray-600 mt-2">Independent</p>
                 </div>
                 <div className="text-center">
-                  <div className="stat-number">FCA</div>
-                  <p className="text-gray-600 mt-2">Regulated</p>
+                  <div className="stat-number">98%</div>
+                  <p className="text-gray-600 mt-2">Client Satisfaction</p>
                 </div>
               </div>
             </div>
@@ -427,16 +475,16 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-semibold text-primary">Sarah H.</p>
-                  <p className="text-sm text-gray-500">NHS Professional, Totton</p>
+                  <p className="text-sm text-gray-500">NHS Professional, Hampshire</p>
                 </div>
               </div>
             </div>
 
             <div className="testimonial-card">
               <p className="text-gray-600 mb-6 italic">
-                &quot;Their estate planning advice gave us peace of mind about our
-                family&apos;s future. The whole-of-market approach means we know
-                we&apos;re getting the best options available.&quot;
+                &quot;Their long-term care planning advice gave us peace of mind
+                about our parents&apos; future. The whole-of-market approach means
+                we know we&apos;re getting the best options available.&quot;
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
@@ -452,6 +500,86 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Location Section with Google Maps */}
+      <section className="section-padding bg-white">
+        <div className="container-width">
+          <div className="text-center mb-16">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+              Conveniently Located
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+              Visit Us in Southampton
+            </h2>
+            <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our Southampton office provides a welcoming environment for
+              face-to-face consultations. We also offer telephone and video
+              appointments for your convenience.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+            <div className="location-card">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <span className="text-sm text-accent font-semibold">Our Office</span>
+                  <h3 className="text-2xl font-bold text-primary">Southampton, Hampshire</h3>
+                </div>
+              </div>
+              <address className="not-italic text-gray-700 mb-4">
+                <strong>Castle Investment Consultants</strong>
+                <br />
+                Southampton, Hampshire
+              </address>
+              <div className="space-y-3 mb-6">
+                <a
+                  href="tel:02380333265"
+                  className="flex items-center gap-2 text-gray-700 hover:text-accent transition-colors"
+                >
+                  <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <span className="font-semibold">023 8033 3265</span>
+                </a>
+                <a
+                  href="mailto:mail@castleinvestments.co.uk"
+                  className="flex items-center gap-2 text-gray-700 hover:text-accent transition-colors"
+                >
+                  <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <span className="font-semibold">mail@castleinvestments.co.uk</span>
+                </a>
+              </div>
+              <Link
+                href="/castle-investments/contact"
+                className="btn-accent w-full text-center"
+              >
+                Book an Appointment
+              </Link>
+            </div>
+            <div className="aspect-video bg-gray-200 rounded-sm overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.0!2d-1.4040!3d50.9080!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDU0JzI4LjgiTiAxwrAyNCcxNC40Ilc!5e0!3m2!1sen!2suk!4v1"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Castle Investment Consultants - Southampton, Hampshire"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="section-padding bg-gray-50">
         <div className="container-width">
@@ -460,19 +588,19 @@ export default function Home() {
               Ready to Secure Your Financial Future?
             </h2>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Book a complimentary initial consultation at our Totton office or
-              by phone. We&apos;ll discuss your goals and how our team of
-              experienced consultants can help you achieve them.
+              Book a complimentary initial consultation at our Southampton office or
+              by phone. We&apos;ll discuss your goals and how our experienced
+              team can help you achieve them.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link href="/castle-investments/contact" className="btn-accent">
                 Book Free Consultation
               </Link>
               <a
-                href="tel:02380873187"
+                href="tel:02380333265"
                 className="btn-outline"
               >
-                Call 023 8087 3187
+                Call 023 8033 3265
               </a>
             </div>
           </div>
@@ -483,14 +611,23 @@ export default function Home() {
       <section className="py-8 bg-gray-100">
         <div className="container-width">
           <div className="fca-notice">
-            <p>
-              <strong>Important Notice:</strong> Widelist Investments Ltd trading as
-              Castle Investment Consultants is authorised and regulated by the Financial
-              Conduct Authority (FCA). The value of investments can go down as well as
-              up, and you may get back less than you invested. Past performance is not a
-              reliable indicator of future results. Tax treatment depends on individual
-              circumstances and may change in the future.
-            </p>
+            <div className="flex items-start gap-4">
+              <Image
+                src="/images/castle/ifa-badge.jpg"
+                alt="IFA Professional"
+                width={60}
+                height={60}
+                className="rounded flex-shrink-0"
+              />
+              <p>
+                <strong>Important Notice:</strong> Castle Investment Consultants is
+                authorised and regulated by the Financial Conduct Authority (FCA
+                Reference: 171661). The value of investments can go down as well as
+                up, and you may get back less than you invested. Past performance is not a
+                reliable indicator of future results. Tax treatment depends on individual
+                circumstances and may change in the future.
+              </p>
+            </div>
           </div>
         </div>
       </section>

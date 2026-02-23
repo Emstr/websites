@@ -1,18 +1,64 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "About Us | Independent Financial Advisers Since 1928",
+  title: "About Us | Keeley & Co Financial Advisers Birmingham",
   description:
-    "Learn about Keeley & Co - independent financial advisers in Birmingham's Jewellery Quarter since 1928. Chartered Financial Planner Luella Keeley leads a team of 6 dedicated staff.",
+    "Learn about Keeley & Co Financial Advisers - independent financial advisers in Birmingham city centre. Director Luella Keeley leads a team of 6 expert advisers. FCA Ref: 932437.",
   openGraph: {
-    title: "About Us | Keeley & Co",
+    title: "About Us | Keeley & Co Financial Advisers",
     description:
-      "Nearly a century of independent financial advice from Birmingham's Jewellery Quarter. Chartered Financial Planner on staff.",
+      "Independent financial advice from the heart of Birmingham. Expert team of 6 advisers specialising in wealth management, retirement and protection.",
   },
 };
 
 export default function AboutPage() {
+  const team = [
+    {
+      name: "Luella Keeley",
+      role: "Director",
+      image: "/images/keeley/luella-keeley.png",
+      description:
+        "Luella leads the team at Keeley & Co, bringing extensive experience in wealth management and financial planning. She is passionate about delivering truly independent advice that puts clients first.",
+    },
+    {
+      name: "Alexandra Llewellyn",
+      role: "Financial Adviser",
+      image: "/images/keeley/alexandra-llewellyn.png",
+      description:
+        "Alexandra specialises in retirement planning and pension advice, helping clients navigate the complexities of securing their financial future.",
+    },
+    {
+      name: "Paul Bagnall",
+      role: "Financial Adviser",
+      image: "/images/keeley/paul-bagnall.png",
+      description:
+        "Paul brings deep expertise in investment management and wealth planning, working with clients to build and protect their portfolios.",
+    },
+    {
+      name: "James Rowley",
+      role: "Financial Adviser",
+      image: "/images/keeley/james-rowley.png",
+      description:
+        "James focuses on mortgage advice and protection planning, ensuring clients find the right solutions for their property and family needs.",
+    },
+    {
+      name: "Oona Ormsby",
+      role: "Financial Adviser",
+      image: "/images/keeley/oona-ormsby.png",
+      description:
+        "Oona provides comprehensive financial planning advice, helping individuals and families align their finances with their life goals.",
+    },
+    {
+      name: "Rachel Bennett",
+      role: "Financial Adviser",
+      image: "/images/keeley/rachel-bennett.png",
+      description:
+        "Rachel specialises in protection and insurance advice, ensuring families and businesses have the right cover in place.",
+    },
+  ];
+
   return (
     <>
       {/* Hero Section */}
@@ -23,13 +69,12 @@ export default function AboutPage() {
               About Us
             </span>
             <h1 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
-              Nearly a Century of Trusted Advice
+              Your Trusted Financial Advisers in Birmingham
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Founded in 1928, Keeley & Co has been a cornerstone of independent
-              financial advice in Birmingham for nearly 100 years. From our home in
-              the prestigious Jewellery Quarter, we continue to guide families and
-              businesses with the same values that have defined us from the start.
+              Keeley & Co Financial Advisers is an established Birmingham practice
+              providing truly independent financial advice. Our team of six expert
+              advisers is dedicated to helping you achieve your financial goals.
             </p>
           </div>
         </div>
@@ -44,48 +89,47 @@ export default function AboutPage() {
                 Our Story
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
-                A Legacy of Financial Wisdom Since 1928
+                Independent Advice You Can Trust
               </h2>
               <div className="gold-line mb-6"></div>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Keeley & Co was founded in 1928, at a time when Birmingham&apos;s
-                Jewellery Quarter was the beating heart of British craftsmanship.
-                Just as the master craftspeople around us built things to last, we
-                built our practice on the same enduring principles: trust, expertise,
-                and an unwavering commitment to our clients.
+                Keeley & Co Financial Advisers is built on the principle that
+                financial advice should always put the client first. As a truly
+                independent practice, we are not tied to any product provider,
+                which means we can search the whole market to find solutions that
+                genuinely work for you.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Nearly a century later, those founding values remain at the core of
-                everything we do. Through world wars, recessions, booms and busts,
-                we have been a steady hand guiding our clients through every economic
-                cycle. Many of our client relationships now span multiple generations
-                — a testament to the trust families place in our advice.
+                Based in the heart of Birmingham on New Street, our team of six
+                experienced advisers covers the full spectrum of financial planning
+                needs &mdash; from wealth management and retirement planning to
+                protection and mortgages. We take the time to understand your
+                unique circumstances before making any recommendations.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Today, under the leadership of Chartered Financial Planner Luella
-                Keeley, our team of 6 dedicated professionals continues this proud
-                tradition. We combine the wisdom of experience with modern financial
-                planning techniques to provide the very best independent advice
-                available.
+                Under the leadership of Director Luella Keeley, our practice
+                combines professional expertise with a personal, client-focused
+                approach. We believe in building lasting relationships, providing
+                clear and transparent advice, and always acting in your best
+                interests.
               </p>
             </div>
-            <div className="bg-gray-50 p-8 lg:p-12 rounded-sm">
-              <div className="grid grid-cols-2 gap-8">
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">1928</div>
-                  <p className="text-gray-600 mt-2 font-medium">Year Founded</p>
+            <div>
+              <Image
+                src="/images/keeley/about.jpg"
+                alt="Keeley & Co Financial Advisers - About Us"
+                width={600}
+                height={400}
+                className="rounded-sm shadow-lg w-full h-auto"
+              />
+              <div className="grid grid-cols-2 gap-4 mt-6">
+                <div className="text-center p-6 bg-gray-50 rounded-sm">
+                  <div className="stat-number">10+</div>
+                  <p className="text-gray-600 mt-2 font-medium">Years Experience</p>
                 </div>
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">95+</div>
-                  <p className="text-gray-600 mt-2 font-medium">Years of Service</p>
-                </div>
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">2</div>
-                  <p className="text-gray-600 mt-2 font-medium">Qualified Advisers</p>
-                </div>
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
+                <div className="text-center p-6 bg-gray-50 rounded-sm">
                   <div className="stat-number">6</div>
-                  <p className="text-gray-600 mt-2 font-medium">Dedicated Staff</p>
+                  <p className="text-gray-600 mt-2 font-medium">Expert Advisers</p>
                 </div>
               </div>
             </div>
@@ -101,56 +145,72 @@ export default function AboutPage() {
               Our Team
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
-              Led by Chartered Expertise
+              Meet Your Advisers
             </h2>
             <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our team of six experienced financial advisers brings expertise
+              across wealth management, retirement, protection and mortgages.
+            </p>
           </div>
 
-          <div className="max-w-3xl mx-auto">
-            <div className="card-premium p-8 lg:p-12 text-center">
-              <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-primary font-bold text-3xl font-serif">LK</span>
-              </div>
-              <h3 className="text-2xl font-bold text-primary mb-2">Luella Keeley</h3>
-              <p className="text-accent font-semibold mb-4">Chartered Financial Planner</p>
-              <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto mb-6">
-                Luella Keeley carries forward the family tradition of financial
-                excellence. As a Chartered Financial Planner — the gold standard
-                qualification in financial planning — she brings both deep professional
-                expertise and a personal understanding of each client&apos;s needs.
-                Under her leadership, the firm continues to provide the independent,
-                client-first advice that has defined Keeley & Co for nearly a century.
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <span className="inline-flex items-center gap-1 text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
-                  <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  Chartered Financial Planner
-                </span>
-                <span className="inline-flex items-center gap-1 text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
-                  <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  FCA Registered
-                </span>
-                <span className="inline-flex items-center gap-1 text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
-                  <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  Independent Adviser
-                </span>
+          {/* Director - Featured */}
+          <div className="max-w-3xl mx-auto mb-12">
+            <div className="card-premium p-8 lg:p-12">
+              <div className="flex flex-col md:flex-row gap-8 items-center">
+                <div className="flex-shrink-0">
+                  <Image
+                    src="/images/keeley/luella-keeley.png"
+                    alt="Luella Keeley"
+                    width={160}
+                    height={160}
+                    className="rounded-full object-cover w-36 h-36 border-4 border-accent/20"
+                  />
+                </div>
+                <div className="text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-primary mb-1">Luella Keeley</h3>
+                  <p className="text-accent font-semibold mb-4">Director</p>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Luella leads the team at Keeley & Co, bringing extensive
+                    experience in wealth management and financial planning. She is
+                    passionate about delivering truly independent advice that puts
+                    clients first.
+                  </p>
+                  <div className="flex flex-wrap justify-center md:justify-start gap-3">
+                    <span className="inline-flex items-center gap-1 text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
+                      <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                      FCA Registered
+                    </span>
+                    <span className="inline-flex items-center gap-1 text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
+                      <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                      Independent Adviser
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="mt-12 text-center">
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our team of 6 includes 2 qualified financial advisers supported by
-              dedicated administrative and client services professionals. Every member
-              of the Keeley & Co team is committed to providing the highest standard
-              of service.
-            </p>
+          {/* Other Team Members */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {team.slice(1).map((member) => (
+              <div key={member.name} className="card-premium p-6 text-center">
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  width={160}
+                  height={160}
+                  className="rounded-full mx-auto mb-4 object-cover w-28 h-28 border-3 border-gray-200"
+                />
+                <h3 className="text-lg font-bold text-primary mb-1">{member.name}</h3>
+                <p className="text-accent font-semibold text-sm mb-3">{member.role}</p>
+                <p className="text-gray-600 text-sm leading-relaxed">{member.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -171,18 +231,8 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="card-premium p-8">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg
-                  className="w-8 h-8 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                  />
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-primary mb-3">Independence</h3>
@@ -195,90 +245,22 @@ export default function AboutPage() {
 
             <div className="card-premium p-8">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg
-                  className="w-8 h-8 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-                  />
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-primary mb-3">Personal Service</h3>
               <p className="text-gray-600">
-                With just 6 staff, every client is known personally to our team. We take
-                time to understand your circumstances, goals, and concerns before
-                making any recommendations.
+                Every client is known personally to our team. We take time to
+                understand your circumstances, goals, and concerns before making
+                any recommendations.
               </p>
             </div>
 
             <div className="card-premium p-8">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg
-                  className="w-8 h-8 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-primary mb-3">Heritage</h3>
-              <p className="text-gray-600">
-                Founded in 1928, our nearly century-long heritage gives us a perspective
-                that no newcomer can match. We have guided clients through every market
-                condition imaginable.
-              </p>
-            </div>
-
-            <div className="card-premium p-8">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg
-                  className="w-8 h-8 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-primary mb-3">Chartered Expertise</h3>
-              <p className="text-gray-600">
-                Our Chartered Financial Planner designation represents the highest
-                level of qualification in financial planning, ensuring you receive
-                the most competent advice available.
-              </p>
-            </div>
-
-            <div className="card-premium p-8">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg
-                  className="w-8 h-8 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
-                  />
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-primary mb-3">Transparency</h3>
@@ -291,144 +273,69 @@ export default function AboutPage() {
 
             <div className="card-premium p-8">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                <svg
-                  className="w-8 h-8 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                  />
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Expertise</h3>
+              <p className="text-gray-600">
+                Our team covers the full spectrum of financial advice, from wealth
+                management and pensions to mortgages and protection, ensuring you
+                receive the most competent advice available.
+              </p>
+            </div>
+
+            <div className="card-premium p-8">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-primary mb-3">Integrity</h3>
               <p className="text-gray-600">
-                For nearly a century, our reputation has been built on doing the right
-                thing for our clients. Integrity is not a buzzword for us — it is our
-                foundation.
+                Our reputation is built on doing the right thing for our clients.
+                Integrity is not a buzzword for us &mdash; it is the foundation
+                of everything we do.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Our Location */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-width">
-          <div className="text-center mb-16">
-            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
-              Our Location
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
-              The Jewellery Quarter, Birmingham
-            </h2>
-            <div className="gold-line-center mb-6"></div>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our office sits in the heart of Birmingham&apos;s historic Jewellery
-              Quarter, a neighbourhood renowned for its heritage of craftsmanship
-              and attention to detail — values that perfectly reflect our approach
-              to financial planning.
-            </p>
-          </div>
-
-          <div className="max-w-3xl mx-auto">
-            <div className="bg-gradient-to-br from-primary to-secondary p-8 lg:p-12 rounded-sm text-white">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
-                  <svg
-                    className="w-6 h-6 text-white"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span className="text-accent font-semibold text-sm">Since 1928</span>
-                  <h3 className="text-2xl font-bold">Jewellery Quarter, Birmingham</h3>
-                </div>
+            <div className="card-premium p-8">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
               </div>
-              <p className="text-gray-200 mb-6 leading-relaxed">
-                Located at 6 St Pauls Terrace on Northwood Street, our office is in
-                the heart of one of Birmingham&apos;s most prestigious and historic
-                districts. The Jewellery Quarter has been home to skilled craftspeople
-                and trusted professionals for centuries — and we are proud to be part
-                of that tradition.
+              <h3 className="text-xl font-bold text-primary mb-3">Birmingham Based</h3>
+              <p className="text-gray-600">
+                Located on New Street in the heart of Birmingham city centre, we are
+                easily accessible for clients across Birmingham and the wider West
+                Midlands region.
               </p>
-              <address className="not-italic text-gray-200 mb-6">
-                6 St Pauls Terrace, Northwood St
-                <br />
-                Birmingham B3 1TH
-              </address>
-              <ul className="space-y-2 text-gray-200">
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  Near Jewellery Quarter station
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  Historic Jewellery Quarter district
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  Serving Birmingham & the West Midlands
-                </li>
-              </ul>
             </div>
           </div>
         </div>
       </section>
 
       {/* Regulation */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-width">
           <div className="max-w-4xl mx-auto text-center">
             <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg
-                className="w-10 h-10 text-primary"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1.5}
-                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                />
+              <svg className="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              FCA Regulated
+              FCA Regulated (Ref: 932437)
             </h2>
             <div className="gold-line-center mb-6"></div>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Keeley & Co is authorised and regulated by the Financial Conduct
-              Authority (FCA). This means we adhere to the highest standards of
-              professional conduct and our clients benefit from the protections
-              provided by the Financial Services Compensation Scheme (FSCS).
+              Keeley & Co Financial Advisers is authorised and regulated by the
+              Financial Conduct Authority (FCA Reference: 932437). This means we
+              adhere to the highest standards of professional conduct and our
+              clients benefit from the protections provided by the Financial
+              Services Compensation Scheme (FSCS).
             </p>
             <p className="text-gray-600 leading-relaxed">
               You can verify our regulatory status on the FCA Register. Our regulation
@@ -446,18 +353,18 @@ export default function AboutPage() {
             Ready to Discuss Your Financial Future?
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Book a complimentary consultation and discover how nearly a century of
-            experience can help you achieve your financial goals.
+            Book a complimentary consultation and discover how our team of expert
+            advisers can help you achieve your financial goals.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/keeley-financial-advisers/contact" className="btn-accent">
               Book Free Consultation
             </Link>
             <a
-              href="tel:01212361288"
+              href="tel:01217964472"
               className="btn-outline border-white text-white hover:bg-white hover:text-primary"
             >
-              Call 0121 236 1288
+              Call 0121 796 4472
             </a>
           </div>
         </div>

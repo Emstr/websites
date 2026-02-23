@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Us | Established Financial Advisers in Hove & Maidenhead",
@@ -66,23 +67,38 @@ export default function AboutPage() {
                 the Financial Ombudsman Service.
               </p>
             </div>
-            <div className="bg-gray-50 p-8 lg:p-12 rounded-sm">
-              <div className="grid grid-cols-2 gap-8">
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">2</div>
-                  <p className="text-gray-600 mt-2 font-medium">Office Locations</p>
+            <div className="space-y-6">
+              <Image
+                src="/images/stiles/team.jpg"
+                alt="Stiles & Company Team"
+                width={400}
+                height={400}
+                className="rounded-sm w-full object-cover shadow-lg"
+              />
+              <div className="grid grid-cols-2 gap-4">
+                <Image
+                  src="/images/stiles/sidebar-1.jpg"
+                  alt="Financial planning consultation"
+                  width={194}
+                  height={171}
+                  className="rounded-sm w-full object-cover shadow-md"
+                />
+                <Image
+                  src="/images/stiles/sidebar-2.jpg"
+                  alt="Professional financial advice"
+                  width={194}
+                  height={171}
+                  className="rounded-sm w-full object-cover shadow-md"
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="text-center p-4 bg-gray-50 rounded-sm">
+                  <div className="stat-number text-3xl lg:text-4xl">20+</div>
+                  <p className="text-gray-600 mt-1 text-sm font-medium">Years Experience</p>
                 </div>
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">4</div>
-                  <p className="text-gray-600 mt-2 font-medium">Core Services</p>
-                </div>
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">FCA</div>
-                  <p className="text-gray-600 mt-2 font-medium">Regulated</p>
-                </div>
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">100%</div>
-                  <p className="text-gray-600 mt-2 font-medium">Client Focused</p>
+                <div className="text-center p-4 bg-gray-50 rounded-sm">
+                  <div className="stat-number text-3xl lg:text-4xl">98%</div>
+                  <p className="text-gray-600 mt-1 text-sm font-medium">Client Retention</p>
                 </div>
               </div>
             </div>
@@ -293,16 +309,16 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-gray-200 mb-6 leading-relaxed">
-                Our primary office in Hove is situated in Amber House on St John&apos;s
-                Road. Serving clients across the Brighton & Hove area and wider Sussex,
+                Our primary office in Hove is situated on Kingsway.
+                Serving clients across the Brighton & Hove area and wider Sussex,
                 this is where the majority of our client meetings take place.
               </p>
               <address className="not-italic text-gray-200 mb-6">
-                2 Amber House
+                Kingsway
                 <br />
-                St John&apos;s Road
+                Hove, East Sussex
                 <br />
-                Hove, BN3 2EZ
+                BN3 4GL
               </address>
               <ul className="space-y-2 text-gray-200">
                 <li className="flex items-center gap-2">
@@ -356,12 +372,12 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Our Maidenhead office in Taplow provides convenient access for clients
+                Our Maidenhead office provides convenient access for clients
                 in Berkshire and the Thames Valley. The same quality of advice and
                 personal service in a location that suits clients in the Home Counties.
               </p>
               <address className="not-italic text-gray-700 mb-6">
-                Taplow, Maidenhead
+                Maidenhead, Berkshire
               </address>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
@@ -412,8 +428,8 @@ export default function AboutPage() {
             </h2>
             <div className="gold-line-center mb-6"></div>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Stiles & Company Financial Services Ltd is authorised and regulated by
-              the Financial Conduct Authority (FCA). This means we adhere to the
+              Stiles & Company Financial Services LLP is authorised and regulated by
+              the Financial Conduct Authority (FCA Reference: 440725). This means we adhere to the
               highest standards of professional conduct and our clients benefit from the
               protections provided by the Financial Services Compensation Scheme (FSCS).
             </p>

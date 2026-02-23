@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Header() {
@@ -87,17 +88,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/riverpark-ifa" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
-              <span className="text-accent font-bold text-xl font-serif">R</span>
-            </div>
-            <div className="hidden sm:block">
-              <p className="text-primary font-bold text-lg leading-tight font-serif">
-                Riverpark IFA
-              </p>
-              <p className="text-xs text-gray-500 tracking-wider">
-                FINANCIAL CONSULTANTS
-              </p>
-            </div>
+            <Image src="/images/riverpark/logo.png" alt="Riverpark IFA" width={120} height={40} className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

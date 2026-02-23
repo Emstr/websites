@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,23 +11,19 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
-                <span className="text-accent font-bold text-xl font-serif">K</span>
-              </div>
-              <div>
-                <p className="text-white font-bold text-lg leading-tight font-serif">
-                  Keeley & Co
-                </p>
-                <p className="text-xs text-gray-400 tracking-wider">
-                  FINANCIAL ADVISERS
-                </p>
-              </div>
+            <div className="mb-6">
+              <Image
+                src="/images/keeley/logo.jpg"
+                alt="Keeley & Co Financial Advisers"
+                width={140}
+                height={40}
+                className="h-10 w-auto brightness-200"
+              />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Independent financial advisers serving Birmingham and the West
-              Midlands since 1928. Nearly a century of trusted financial guidance
-              from the Jewellery Quarter.
+              Midlands. Specialist advice on wealth management, retirement,
+              protection and mortgages.
             </p>
             <div className="flex items-center gap-2 text-sm text-gray-400">
               <svg className="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
@@ -36,7 +33,7 @@ export default function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>FCA Regulated</span>
+              <span>FCA Regulated (Ref: 932437)</span>
             </div>
           </div>
 
@@ -121,16 +118,16 @@ export default function Footer() {
               <div>
                 <p className="text-accent font-semibold mb-1">Our Office</p>
                 <address className="not-italic text-gray-300 text-sm">
-                  6 St Pauls Terrace
+                  2nd Floor, 67a New Street
                   <br />
-                  Northwood St
+                  Birmingham
                   <br />
-                  Birmingham B3 1TH
+                  B2 4DU
                 </address>
               </div>
               <div className="pt-2">
                 <a
-                  href="tel:01212361288"
+                  href="tel:01217964472"
                   className="flex items-center gap-2 text-gray-300 hover:text-accent transition-colors"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -141,10 +138,10 @@ export default function Footer() {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  0121 236 1288
+                  0121 796 4472
                 </a>
                 <a
-                  href="mailto:contact@keeleys.co.uk"
+                  href="mailto:enquiries@keeleyandco.co.uk"
                   className="flex items-center gap-2 text-gray-300 hover:text-accent transition-colors mt-2"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,7 +152,7 @@ export default function Footer() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  contact@keeleys.co.uk
+                  enquiries@keeleyandco.co.uk
                 </a>
               </div>
             </div>
@@ -169,8 +166,8 @@ export default function Footer() {
           <div className="bg-primary/50 rounded-sm p-4 text-sm text-gray-300">
             <p className="mb-2">
               <strong className="text-white">Important Information:</strong> Keeley
-              & Co is authorised and regulated by the Financial Conduct Authority
-              (FCA).
+              & Co Financial Advisers is authorised and regulated by the Financial
+              Conduct Authority (FCA Reference: 932437).
             </p>
             <p>
               The value of investments and the income from them can go down as well as

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Us | Experienced Independent Financial Advisers in Glasgow",
@@ -254,8 +255,54 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Our Location */}
+      {/* Our Team */}
       <section className="section-padding bg-white">
+        <div className="container-width">
+          <div className="text-center mb-16">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+              Our People
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+              Meet the Team
+            </h2>
+            <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our team of experienced professionals is committed to delivering
+              outstanding financial advice. Each adviser brings decades of
+              personal expertise to every client relationship.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
+            {[
+              { name: "Stuart McGeoch", role: "Financial Adviser", image: "/images/riverpark/stuart-mcgeoch.png" },
+              { name: "Tom Mooney", role: "Financial Adviser", image: "/images/riverpark/tom-mooney.png" },
+              { name: "Lesley Logan", role: "Office Manager", image: "/images/riverpark/lesley-logan.png" },
+              { name: "Iain McDonald", role: "Financial Adviser", image: "/images/riverpark/iain-mcdonald.png" },
+              { name: "Douglas McDiarmid", role: "Financial Adviser", image: "/images/riverpark/douglas-mcdiarmid.png" },
+              { name: "Simon Sayeed", role: "Financial Adviser", image: "/images/riverpark/simon-sayeed.png" },
+              { name: "Donald Watt", role: "Financial Adviser", image: "/images/riverpark/donald-watt.png" },
+            ].map((member) => (
+              <div key={member.name} className="text-center">
+                <div className="w-40 h-40 mx-auto mb-4 relative">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    width={160}
+                    height={160}
+                    className="rounded-full mx-auto object-cover w-40 h-40"
+                  />
+                </div>
+                <h3 className="font-bold text-primary text-lg">{member.name}</h3>
+                <p className="text-gray-500 text-sm">{member.role}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Our Location */}
+      <section className="section-padding bg-gray-50">
         <div className="container-width">
           <div className="text-center mb-16">
             <span className="text-accent font-semibold tracking-wider uppercase text-sm">

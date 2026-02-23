@@ -39,8 +39,7 @@ export default function TermsPage() {
             <p className="text-gray-600 mb-6">
               Widelist Investments Ltd trading as Castle Investment Consultants is
               authorised and regulated by the Financial Conduct Authority (FCA). Our
-              registered office is at 19/21 Junction Road, Totton, Southampton, Hants
-              SO40 9HG.
+              office is in Southampton, Hampshire.
             </p>
             <p className="text-gray-600 mb-6">
               You can check our regulatory status on the FCA Register at
@@ -220,13 +219,11 @@ export default function TermsPage() {
             <address className="not-italic text-gray-600 mb-6 bg-gray-50 p-4 rounded-sm">
               Complaints Manager
               <br />
-              Widelist Investments Ltd trading as Castle Investment Consultants
+              Castle Investment Consultants
               <br />
-              19/21 Junction Road
+              Southampton, Hampshire
               <br />
-              Totton, Southampton, Hants SO40 9HG
-              <br />
-              Email: info@castle-investments.com
+              Email: mail@castleinvestments.co.uk
             </address>
             <p className="text-gray-600 mb-6">
               We will acknowledge your complaint within 5 working days and aim to
@@ -301,13 +298,13 @@ export default function TermsPage() {
               For any questions about these terms, please contact us:
             </p>
             <address className="not-italic text-gray-600 mb-6 bg-gray-50 p-4 rounded-sm">
-              Widelist Investments Ltd trading as Castle Investment Consultants
+              Castle Investment Consultants
               <br />
-              19/21 Junction Road, Totton, Southampton, Hants SO40 9HG
+              Southampton, Hampshire
               <br />
-              Phone: 023 8087 3187
+              Phone: 023 8033 3265
               <br />
-              Email: info@castle-investments.com
+              Email: mail@castleinvestments.co.uk
             </address>
           </div>
         </div>

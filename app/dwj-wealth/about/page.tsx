@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Us | Wealth Management Advisers in Swansea",
@@ -70,20 +71,20 @@ export default function AboutPage() {
             <div className="bg-gray-50 p-8 lg:p-12 rounded-sm">
               <div className="grid grid-cols-2 gap-8">
                 <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">FCA</div>
-                  <p className="text-gray-600 mt-2 font-medium">Regulated</p>
-                </div>
-                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
-                  <div className="stat-number">2</div>
-                  <p className="text-gray-600 mt-2 font-medium">Client Types</p>
+                  <div className="stat-number">15+</div>
+                  <p className="text-gray-600 mt-2 font-medium">Years Experience</p>
                 </div>
                 <div className="text-center p-6 bg-white rounded-sm shadow-sm">
                   <div className="stat-number">4</div>
-                  <p className="text-gray-600 mt-2 font-medium">Core Services</p>
+                  <p className="text-gray-600 mt-2 font-medium">Expert Team Members</p>
                 </div>
                 <div className="text-center p-6 bg-white rounded-sm shadow-sm">
                   <div className="stat-number">100%</div>
-                  <p className="text-gray-600 mt-2 font-medium">Tailored Advice</p>
+                  <p className="text-gray-600 mt-2 font-medium">Personalised Service</p>
+                </div>
+                <div className="text-center p-6 bg-white rounded-sm shadow-sm">
+                  <div className="stat-number">98%</div>
+                  <p className="text-gray-600 mt-2 font-medium">Client Satisfaction</p>
                 </div>
               </div>
             </div>
@@ -91,38 +92,110 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Leadership */}
+      {/* Our Team */}
       <section className="section-padding bg-gray-50">
         <div className="container-width">
           <div className="text-center mb-16">
             <span className="text-accent font-semibold tracking-wider uppercase text-sm">
-              Leadership
+              Our Team
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
-              Meet Our CEO
+              Meet the DWJ Team
             </h2>
             <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              A dedicated team of professionals committed to delivering
+              exceptional financial advice and client service.
+            </p>
           </div>
 
-          <div className="max-w-3xl mx-auto">
-            <div className="card-premium p-8 lg:p-12 text-center">
-              <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-primary font-bold text-2xl font-serif">DWJ</span>
+          {/* Lead Adviser - Featured */}
+          <div className="max-w-3xl mx-auto mb-12">
+            <div className="card-premium p-8 lg:p-12">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="flex-shrink-0">
+                  <Image
+                    src="/images/dwj/danni-watts-jones.jpg"
+                    alt="Danni Watts-Jones"
+                    width={200}
+                    height={200}
+                    className="rounded-full object-cover w-40 h-40"
+                  />
+                </div>
+                <div className="text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-primary mb-2">Danni Watts-Jones</h3>
+                  <p className="text-accent font-semibold mb-4">Lead Financial Adviser</p>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Danni Watts-Jones founded DWJ Wealth Management with a commitment to
+                    delivering exceptional financial advice to clients across Swansea and
+                    South Wales. With a passion for helping both individuals and businesses
+                    achieve their financial goals, Danni has built a practice rooted in
+                    personal service and professional expertise.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    Under Danni&apos;s leadership, DWJ Wealth Management has established
+                    itself as a trusted name for tailored wealth management, serving a
+                    diverse client base that includes private individuals, families, and
+                    corporate clients.
+                  </p>
+                </div>
               </div>
-              <h3 className="text-2xl font-bold text-primary mb-2">Danni Watts-Jones</h3>
-              <p className="text-accent font-semibold mb-6">CEO, DWJ Wealth Management Ltd</p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Danni Watts-Jones leads DWJ Wealth Management with a commitment to
-                delivering exceptional financial advice to clients across Swansea and
-                South Wales. With a passion for helping both individuals and businesses
-                achieve their financial goals, Danni has built a practice rooted in
-                personal service and professional expertise.
+            </div>
+          </div>
+
+          {/* Rest of Team */}
+          <div className="grid sm:grid-cols-3 gap-8">
+            {/* Terry Watts-Jones */}
+            <div className="card-premium p-8 text-center">
+              <Image
+                src="/images/dwj/terry-watts-jones.jpg"
+                alt="Terry Watts-Jones"
+                width={200}
+                height={200}
+                className="rounded-full mx-auto mb-4 object-cover w-36 h-36"
+              />
+              <h3 className="text-xl font-bold text-primary mb-1">Terry Watts-Jones</h3>
+              <p className="text-accent font-semibold text-sm mb-3">Financial Adviser</p>
+              <p className="text-gray-600 text-sm">
+                With deep experience in wealth management, Terry provides
+                expert guidance for both private and corporate clients, helping
+                them navigate complex financial decisions with confidence.
               </p>
-              <p className="text-gray-600 leading-relaxed">
-                Under Danni&apos;s leadership, DWJ Wealth Management has established
-                itself as a trusted name for tailored wealth management, serving a
-                diverse client base that includes private individuals, families, and
-                corporate clients seeking comprehensive financial solutions.
+            </div>
+
+            {/* Nanette Mantle */}
+            <div className="card-premium p-8 text-center">
+              <Image
+                src="/images/dwj/nanette-mantle.jpg"
+                alt="Nanette Mantle"
+                width={200}
+                height={200}
+                className="rounded-full mx-auto mb-4 object-cover w-36 h-36"
+              />
+              <h3 className="text-xl font-bold text-primary mb-1">Nanette Mantle</h3>
+              <p className="text-accent font-semibold text-sm mb-3">Client Support Manager</p>
+              <p className="text-gray-600 text-sm">
+                Nanette ensures every client receives exceptional support throughout
+                their journey with DWJ Wealth Management, managing communications
+                and coordinating reviews.
+              </p>
+            </div>
+
+            {/* Kathryn Shears */}
+            <div className="card-premium p-8 text-center">
+              <Image
+                src="/images/dwj/kathryn-shears.jpg"
+                alt="Kathryn Shears"
+                width={200}
+                height={200}
+                className="rounded-full mx-auto mb-4 object-cover w-36 h-36"
+              />
+              <h3 className="text-xl font-bold text-primary mb-1">Kathryn Shears</h3>
+              <p className="text-accent font-semibold text-sm mb-3">Practice Manager</p>
+              <p className="text-gray-600 text-sm">
+                Kathryn manages the day-to-day operations of the practice,
+                ensuring everything runs smoothly and efficiently for both
+                the team and our valued clients.
               </p>
             </div>
           </div>

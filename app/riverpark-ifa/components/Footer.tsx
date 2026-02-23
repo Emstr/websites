@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,17 +12,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
-                <span className="text-accent font-bold text-xl font-serif">R</span>
-              </div>
-              <div>
-                <p className="text-white font-bold text-lg leading-tight font-serif">
-                  Riverpark IFA
-                </p>
-                <p className="text-xs text-gray-400 tracking-wider">
-                  FINANCIAL CONSULTANTS
-                </p>
-              </div>
+              <Image src="/images/riverpark/logo.png" alt="Riverpark IFA" width={120} height={40} className="h-8 w-auto brightness-200" />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Independent financial advisers serving Glasgow and wider Scotland

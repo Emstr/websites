@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,18 +11,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-primary rounded-sm flex items-center justify-center">
-                <span className="text-accent font-bold text-lg font-serif">DWJ</span>
-              </div>
-              <div>
-                <p className="text-white font-bold text-lg leading-tight font-serif">
-                  DWJ Wealth
-                </p>
-                <p className="text-xs text-gray-400 tracking-wider">
-                  MANAGEMENT
-                </p>
-              </div>
+            <div className="mb-6">
+              <Image src="/images/dwj/logo.png" alt="DWJ Wealth Management" width={150} height={40} className="h-10 w-auto brightness-0 invert" />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Tailored wealth management for private and corporate clients

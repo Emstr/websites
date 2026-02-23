@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Book a Financial Consultation",
+  title: "Contact Us | Keeley & Co Financial Advisers Birmingham",
   description:
-    "Contact Keeley & Co for expert financial advice. Visit our office in Birmingham's Jewellery Quarter. Call 0121 236 1288 for a free consultation.",
+    "Contact Keeley & Co Financial Advisers for expert financial advice. Visit our office at 67a New Street, Birmingham. Call 0121 796 4472 for a free consultation.",
   openGraph: {
-    title: "Contact Us | Keeley & Co",
+    title: "Contact Us | Keeley & Co Financial Advisers",
     description:
-      "Book a free consultation with our Chartered Financial Planner at our Jewellery Quarter office. Call 0121 236 1288.",
+      "Book a free consultation at our Birmingham city centre office. Call 0121 796 4472.",
   },
 };
 
@@ -26,7 +26,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
               Ready to take the next step? Book a complimentary consultation at our
-              Jewellery Quarter office or reach out to discuss your financial
+              Birmingham city centre office or reach out to discuss your financial
               planning needs.
             </p>
           </div>
@@ -133,7 +133,7 @@ export default function ContactPage() {
                     className="form-input"
                   >
                     <option value="">Select your preference</option>
-                    <option value="office">In-Person at our Jewellery Quarter Office</option>
+                    <option value="office">In-Person at our New Street Office</option>
                     <option value="video">Video Call</option>
                     <option value="phone">Phone Consultation</option>
                   </select>
@@ -227,19 +227,19 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <span className="text-sm text-accent font-semibold">
-                      Jewellery Quarter
+                      City Centre
                     </span>
                     <h3 className="text-xl font-bold text-primary">Birmingham</h3>
                   </div>
                 </div>
                 <address className="not-italic text-gray-700 mb-4">
-                  <strong>Keeley & Co</strong>
+                  <strong>Keeley & Co Financial Advisers</strong>
                   <br />
-                  6 St Pauls Terrace
+                  2nd Floor, 67a New Street
                   <br />
-                  Northwood St
+                  Birmingham
                   <br />
-                  Birmingham B3 1TH
+                  B2 4DU
                 </address>
                 <div className="space-y-2 text-gray-600 mb-4">
                   <p>
@@ -251,8 +251,8 @@ export default function ContactPage() {
                   </p>
                 </div>
                 <p className="text-sm text-gray-500">
-                  Located in Birmingham&apos;s historic Jewellery Quarter, near
-                  Jewellery Quarter railway and metro stations.
+                  Located in the heart of Birmingham city centre, just off New
+                  Street near Birmingham New Street station.
                 </p>
               </div>
 
@@ -263,7 +263,7 @@ export default function ContactPage() {
                 </h3>
                 <div className="space-y-4">
                   <a
-                    href="tel:01212361288"
+                    href="tel:01217964472"
                     className="flex items-center gap-3 text-gray-700 hover:text-accent transition-colors"
                   >
                     <div className="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
@@ -282,14 +282,14 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold">0121 236 1288</p>
+                      <p className="font-semibold">0121 796 4472</p>
                       <p className="text-sm text-gray-500">
                         Call us during office hours
                       </p>
                     </div>
                   </a>
                   <a
-                    href="mailto:contact@keeleys.co.uk"
+                    href="mailto:enquiries@keeleyandco.co.uk"
                     className="flex items-center gap-3 text-gray-700 hover:text-accent transition-colors"
                   >
                     <div className="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
@@ -308,7 +308,7 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold">contact@keeleys.co.uk</p>
+                      <p className="font-semibold">enquiries@keeleyandco.co.uk</p>
                       <p className="text-sm text-gray-500">
                         Email us anytime
                       </p>
@@ -329,14 +329,14 @@ export default function ContactPage() {
           </h2>
           <div className="aspect-video bg-gray-200 rounded-sm overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.5!2d-1.9078!3d52.4862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDI5JzEwLjMiTiAxwrA1NCcyOC4xIlc!5e0!3m2!1sen!2suk!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.5!2d-1.8985!3d52.4795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDI4JzQ2LjIiTiAxwrA1Myc1NC42Ilc!5e0!3m2!1sen!2suk!4v1"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Keeley & Co Office Location - Jewellery Quarter, Birmingham"
+              title="Keeley & Co Office Location - New Street, Birmingham"
             ></iframe>
           </div>
         </div>
@@ -347,10 +347,11 @@ export default function ContactPage() {
         <div className="container-width">
           <div className="fca-notice">
             <p>
-              <strong>Important Notice:</strong> Keeley & Co is authorised and
-              regulated by the Financial Conduct Authority. Initial consultations are
-              provided free of charge and without obligation. We will always explain
-              our fees clearly before any work begins.
+              <strong>Important Notice:</strong> Keeley & Co Financial Advisers is
+              authorised and regulated by the Financial Conduct Authority (FCA
+              Reference: 932437). Initial consultations are provided free of
+              charge and without obligation. We will always explain our fees
+              clearly before any work begins.
             </p>
           </div>
         </div>
