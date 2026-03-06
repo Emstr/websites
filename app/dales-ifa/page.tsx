@@ -1,0 +1,543 @@
+import Link from "next/link";
+
+export default function Home() {
+  return (
+    <>
+      {/* Hero Section */}
+      <section className="hero-gradient min-h-[90vh] flex items-center relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+            }}
+          />
+        </div>
+
+        <div className="container-width relative z-10">
+          <div className="max-w-4xl">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-px bg-accent"></div>
+              <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+                Nottingham & Newark
+              </span>
+            </div>
+
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+              Independent Financial Advice{" "}
+              <span className="text-gold-gradient">You Can Trust</span>
+            </h1>
+
+            <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed max-w-3xl">
+              Expert mortgage, pension, equity release, investment and protection
+              advice from our offices in Nottingham and Newark. Whole-of-market
+              guidance tailored to your needs.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 mb-12">
+              <Link
+                href="/dales-ifa/contact"
+                className="btn-accent text-lg"
+              >
+                Book Free Consultation
+              </Link>
+              <Link
+                href="/dales-ifa/services"
+                className="btn-outline border-white text-white hover:bg-white hover:text-primary text-lg"
+              >
+                Our Services
+              </Link>
+            </div>
+
+            {/* Trust Indicators */}
+            <div className="flex flex-wrap items-center gap-8 text-white/80">
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>FCA Regulated</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>Whole-of-Market</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>Equity Release Council Member</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Decorative Element */}
+        <div className="absolute bottom-0 right-0 w-1/3 h-full opacity-10">
+          <svg viewBox="0 0 400 400" className="w-full h-full">
+            <circle cx="200" cy="200" r="180" stroke="#d4a017" strokeWidth="2" fill="none" />
+            <circle cx="200" cy="200" r="140" stroke="#d4a017" strokeWidth="1" fill="none" />
+            <circle cx="200" cy="200" r="100" stroke="#d4a017" strokeWidth="0.5" fill="none" />
+          </svg>
+        </div>
+      </section>
+
+      {/* Two Locations Section */}
+      <section className="section-padding bg-white">
+        <div className="container-width">
+          <div className="text-center mb-16">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+              Conveniently Located
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+              Two Offices Across Nottinghamshire
+            </h2>
+            <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Visit us at our Nottingham office in West Bridgford or our Newark
+              office in the town centre. Face-to-face advice, wherever suits you
+              best.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Nottingham Office */}
+            <div className="location-card group">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                </div>
+                <div>
+                  <span className="text-sm text-accent font-semibold">Head Office</span>
+                  <h3 className="text-2xl font-bold text-primary">Nottingham</h3>
+                </div>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Our Nottingham office at Bridgford Business Centre in West
+                Bridgford provides a professional, welcoming environment for
+                clients across the Nottingham area.
+              </p>
+              <address className="not-italic text-gray-700 mb-4">
+                <strong>Bridgford Business Centre</strong>
+                <br />
+                29 Bridgford Road, West Bridgford
+                <br />
+                Nottingham NG2 6AU
+              </address>
+              <p className="text-sm text-gray-500 mb-4">
+                <a href="tel:01158320265" className="hover:text-accent transition-colors">
+                  0115 832 0265
+                </a>
+              </p>
+              <div className="flex items-center gap-2 text-accent group-hover:gap-3 transition-all">
+                <Link href="/dales-ifa/contact" className="font-semibold">
+                  Book Nottingham Appointment
+                </Link>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </div>
+
+            {/* Newark Office */}
+            <div className="location-card group">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <span className="text-sm text-primary font-semibold">Newark Office</span>
+                  <h3 className="text-2xl font-bold text-primary">Newark</h3>
+                </div>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Our Newark office at Central Buildings on Middle Gate offers
+                convenient access for clients in Newark, Southwell, and the
+                surrounding areas of north Nottinghamshire.
+              </p>
+              <address className="not-italic text-gray-700 mb-4">
+                <strong>Central Buildings</strong>
+                <br />
+                Middle Gate
+                <br />
+                Newark NG24 1AG
+              </address>
+              <p className="text-sm text-gray-500 mb-4">
+                <a href="tel:01636870069" className="hover:text-accent transition-colors">
+                  01636 870 069
+                </a>
+              </p>
+              <div className="flex items-center gap-2 text-primary group-hover:gap-3 transition-all">
+                <Link href="/dales-ifa/contact" className="font-semibold">
+                  Book Newark Appointment
+                </Link>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Overview */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-width">
+          <div className="text-center mb-16">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+              Our Expertise
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+              Comprehensive Financial Advice
+            </h2>
+            <div className="gold-line-center mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              From mortgages to retirement planning, we provide independent,
+              whole-of-market advice tailored to your unique circumstances and
+              goals.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Mortgages */}
+            <div className="card-premium p-8">
+              <div className="service-icon">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Mortgages</h3>
+              <p className="text-gray-600 mb-4">
+                Whole-of-market mortgage advice for purchases, remortgages,
+                buy-to-let and first-time buyers. We find the right deal for you.
+              </p>
+              <Link href="/dales-ifa/services" className="text-accent font-semibold hover:text-accent-dark inline-flex items-center gap-2">
+                Learn More
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+
+            {/* Pensions */}
+            <div className="card-premium p-8">
+              <div className="service-icon">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Pensions</h3>
+              <p className="text-gray-600 mb-4">
+                Expert pension advice including workplace pensions, SIPPs,
+                drawdown strategies and retirement income planning.
+              </p>
+              <Link href="/dales-ifa/services" className="text-accent font-semibold hover:text-accent-dark inline-flex items-center gap-2">
+                Learn More
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+
+            {/* Equity Release */}
+            <div className="card-premium p-8 border-2 border-accent/20 relative">
+              <div className="absolute top-4 right-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
+                Specialist
+              </div>
+              <div className="service-icon">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Equity Release</h3>
+              <p className="text-gray-600 mb-4">
+                As an Equity Release Council member, we provide specialist advice
+                on releasing equity from your home safely and responsibly.
+              </p>
+              <Link href="/dales-ifa/services" className="text-accent font-semibold hover:text-accent-dark inline-flex items-center gap-2">
+                Learn More
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+
+            {/* Investments */}
+            <div className="card-premium p-8">
+              <div className="service-icon">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Investments</h3>
+              <p className="text-gray-600 mb-4">
+                Independent investment advice to help you grow your wealth,
+                including ISAs, bonds and bespoke portfolio solutions.
+              </p>
+              <Link href="/dales-ifa/services" className="text-accent font-semibold hover:text-accent-dark inline-flex items-center gap-2">
+                Learn More
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+
+            {/* Protection */}
+            <div className="card-premium p-8">
+              <div className="service-icon">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-3">Protection</h3>
+              <p className="text-gray-600 mb-4">
+                Life assurance, critical illness cover, income protection and
+                family protection planning to safeguard what matters most.
+              </p>
+              <Link href="/dales-ifa/services" className="text-accent font-semibold hover:text-accent-dark inline-flex items-center gap-2">
+                Learn More
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+
+            {/* Equity Release Council Badge */}
+            <div className="card-premium p-8 bg-gradient-to-br from-primary/5 to-accent/5 flex flex-col items-center justify-center text-center">
+              <div className="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mb-4">
+                <svg className="w-10 h-10 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-primary mb-2">Equity Release Council</h3>
+              <p className="text-gray-600 text-sm">
+                Proud member of the Equity Release Council, ensuring the highest
+                standards of advice and consumer protection for equity release
+                customers.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Link href="/dales-ifa/services" className="btn-primary">
+              View All Services
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="section-padding bg-white">
+        <div className="container-width">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+                Why DALES IFA
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mt-4 mb-4">
+                Trusted Advice from an Experienced Adviser
+              </h2>
+              <div className="gold-line mb-6"></div>
+              <p className="text-lg text-gray-600 mb-8">
+                With over 16 years of experience, Philip Dales provides
+                personal, independent financial advice from two convenient
+                Nottinghamshire locations. As a whole-of-market adviser, we work
+                solely in your best interests.
+              </p>
+
+              <div className="space-y-6">
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-primary mb-1">FCA Regulated</h3>
+                    <p className="text-gray-600">
+                      Fully authorised and regulated by the Financial Conduct
+                      Authority (FCA Ref: 496107), giving you complete peace of
+                      mind.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-primary mb-1">Whole-of-Market</h3>
+                    <p className="text-gray-600">
+                      We&apos;re not tied to any provider, allowing us to recommend
+                      the best solutions from the entire market for your
+                      situation.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-primary mb-1">Equity Release Council Member</h3>
+                    <p className="text-gray-600">
+                      Our membership ensures the highest standards of equity
+                      release advice, with built-in consumer safeguards.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-8 lg:p-12 rounded-sm">
+              <div className="grid grid-cols-2 gap-8">
+                <div className="text-center">
+                  <div className="stat-number">16+</div>
+                  <p className="text-gray-600 mt-2">Years Experience</p>
+                </div>
+                <div className="text-center">
+                  <div className="stat-number">2</div>
+                  <p className="text-gray-600 mt-2">Office Locations</p>
+                </div>
+                <div className="text-center">
+                  <div className="stat-number">100%</div>
+                  <p className="text-gray-600 mt-2">Independent</p>
+                </div>
+                <div className="text-center">
+                  <div className="stat-number">5</div>
+                  <p className="text-gray-600 mt-2">Service Areas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="section-padding bg-primary">
+        <div className="container-width">
+          <div className="text-center mb-16">
+            <span className="text-accent font-semibold tracking-wider uppercase text-sm">
+              Client Testimonials
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mt-4 mb-4">
+              What Our Clients Say
+            </h2>
+            <div className="gold-line-center mb-6"></div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="testimonial-card">
+              <p className="text-gray-600 mb-6 italic">
+                &quot;Philip made the whole mortgage process so straightforward.
+                His whole-of-market approach meant we got a brilliant deal we
+                wouldn&apos;t have found on our own. Highly recommend.&quot;
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <span className="text-primary font-bold">DT</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-primary">David T.</p>
+                  <p className="text-sm text-gray-500">First-time Buyer, Nottingham</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="testimonial-card">
+              <p className="text-gray-600 mb-6 italic">
+                &quot;The equity release advice we received was exceptional.
+                Philip explained everything clearly and we felt completely
+                confident in our decision. A truly professional service.&quot;
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <span className="text-primary font-bold">MW</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-primary">Margaret W.</p>
+                  <p className="text-sm text-gray-500">Retiree, Newark</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="testimonial-card">
+              <p className="text-gray-600 mb-6 italic">
+                &quot;Having two offices made it really convenient for us.
+                Philip&apos;s pension advice has given us real clarity about
+                retirement. We know exactly where we stand now.&quot;
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <span className="text-primary font-bold">JR</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-primary">John R.</p>
+                  <p className="text-sm text-gray-500">Business Owner, West Bridgford</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-width">
+          <div className="bg-white rounded-sm shadow-2xl p-8 lg:p-16 text-center border-t-4 border-accent">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+              Ready to Take Control of Your Finances?
+            </h2>
+            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+              Book a complimentary initial consultation at our Nottingham or
+              Newark office. We&apos;ll discuss your goals and how we can help
+              you achieve them.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <Link href="/dales-ifa/contact" className="btn-accent">
+                Book Free Consultation
+              </Link>
+              <a
+                href="tel:03337729607"
+                className="btn-outline"
+              >
+                Call 0333 772 9607
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FCA Notice */}
+      <section className="py-8 bg-gray-100">
+        <div className="container-width">
+          <div className="fca-notice">
+            <p>
+              <strong>Important Notice:</strong> P N Dales Ltd (trading as DALES
+              IFA) is authorised and regulated by the Financial Conduct Authority
+              (FCA Ref: 496107). Your home may be repossessed if you do not keep up
+              repayments on your mortgage. The value of investments can go down as
+              well as up, and you may get back less than you invested. Past
+              performance is not a reliable indicator of future results. Tax
+              treatment depends on individual circumstances and may change in the
+              future.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
