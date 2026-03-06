@@ -63,6 +63,7 @@ const sites = [
       { slug: 'sean-mccabe-ifa', name: 'Sean McCabe Financial', location: 'Alsager, Stoke-on-Trent' },
       { slug: 'david-williams-ifa', name: 'David Williams IFA', location: 'Northampton' },
       { slug: 'hsp-financial', name: 'HSP Financial Planning', location: 'Whetstone, Leicester' },
+      { slug: 'rmi-ifa', name: 'RMI Independent Financial Advisers', location: 'Market Harborough' },
       { slug: 'castlegate-financial', name: 'Castlegate Financial Management', location: 'Grantham, East Midlands' },
       { slug: 'smg-financial', name: 'SMG Financial Services', location: 'Harewood, Leeds' },
       { slug: 'bartlett-wealth', name: 'Bartlett Wealth Management', location: 'Horsforth, Leeds' },
@@ -70,6 +71,8 @@ const sites = [
       { slug: 'ifs-preston', name: 'Independent Financial Solutions', location: 'Preston, Lancashire' },
       { slug: 'dales-ifa', name: 'DALES IFA', location: 'Nottingham & Newark' },
       { slug: 'iab-manchester', name: 'The Independent Advice Bureau', location: 'Manchester, M19' },
+      { slug: 'westside-ifa', name: 'Westside IFS', location: 'Walkley, Sheffield' },
+      { slug: 'shepherd-ifa', name: 'Shepherd IFA', location: 'Ringinglow, Sheffield' },
     ],
   },
   {
@@ -84,6 +87,8 @@ const sites = [
       { slug: 'chris-leach-ifa', name: 'Chris Leach & Associates', location: 'Cardiff, CF15' },
       { slug: 'pembrokeshire-ifa', name: 'Pembrokeshire Financial Services', location: 'Pembroke, Wales' },
       { slug: 'moneyhelp-belfast', name: 'MoneyHelp', location: 'Belfast' },
+      { slug: 'fpni-belfast', name: 'Financial Professionals NI', location: 'Belfast & Lisburn' },
+      { slug: 'digney-grant', name: 'Digney Grant Financial Planning', location: 'Newry, NI' },
     ],
   },
   {
