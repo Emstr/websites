@@ -50,6 +50,7 @@ const sites = [
       { slug: 'beckworth-ifa', name: 'Beckworth Financial Services', location: 'Exeter, Devon' },
       { slug: 'heaton-financial', name: 'Heaton Financial', location: 'Exeter, Devon' },
       { slug: 'cornerstone-ifa', name: 'Cornerstone Financial Planning', location: 'Witney, Oxford' },
+      { slug: 'harold-stephens', name: 'Harold Stephens Financial Planning', location: 'Bristol' },
     ],
   },
   {
@@ -75,6 +76,8 @@ const sites = [
       { slug: 'shepherd-ifa', name: 'Shepherd IFA', location: 'Ringinglow, Sheffield' },
       { slug: 'hamnett-wealth', name: 'Hamnett Wealth Management', location: 'Sheffield' },
       { slug: 'rsj-financial', name: 'RSJ Financial Planning', location: 'Liverpool' },
+      { slug: 'spectrum-ifs', name: 'Spectrum IFS', location: 'South Liverpool' },
+      { slug: 'chris-lunt-ifa', name: 'Chris Lunt IFA', location: 'Lydiate, Liverpool' },
     ],
   },
   {
@@ -86,8 +89,10 @@ const sites = [
       { slug: 'aveton-gifford-ifa', name: 'Aveton Gifford Associates', location: 'Edinburgh & Coatbridge' },
       { slug: 'fis-glasgow', name: 'Financial Independent Solutions', location: 'Bothwell, Glasgow' },
       { slug: 'ifa-centre-glasgow', name: 'IFA Centre', location: 'Glasgow & Paisley' },
+      { slug: 'prosperity-financial', name: 'Prosperity Financial Solutions', location: 'West End, Glasgow' },
       { slug: 'retinvest-stirling', name: 'Retinvest', location: 'Stirling' },
       { slug: 'dwj-wealth', name: 'DWJ Wealth Management', location: 'Gorseinon, Swansea' },
+      { slug: 'abram-partnership', name: 'The Abram Partnership', location: 'Cardiff, Wales' },
       { slug: 'chris-leach-ifa', name: 'Chris Leach & Associates', location: 'Cardiff, CF15' },
       { slug: 'lowndes-halsden', name: 'Lowndes Halsden', location: 'Cardiff, Wales' },
       { slug: 'pembrokeshire-ifa', name: 'Pembrokeshire Financial Services', location: 'Pembroke, Wales' },
