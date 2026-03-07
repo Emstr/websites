@@ -78,6 +78,8 @@ const sites = [
       { slug: 'rsj-financial', name: 'RSJ Financial Planning', location: 'Liverpool' },
       { slug: 'spectrum-ifs', name: 'Spectrum IFS', location: 'South Liverpool' },
       { slug: 'chris-lunt-ifa', name: 'Chris Lunt IFA', location: 'Lydiate, Liverpool' },
+      { slug: 'integral-financial-planning', name: 'Integral Financial Planning', location: 'Nottingham' },
+      { slug: 'endeavour-financial-planning', name: 'Endeavour Financial Planning', location: 'Wirral, Liverpool' },
     ],
   },
   {
@@ -96,6 +98,7 @@ const sites = [
       { slug: 'chris-leach-ifa', name: 'Chris Leach & Associates', location: 'Cardiff, CF15' },
       { slug: 'lowndes-halsden', name: 'Lowndes Halsden', location: 'Cardiff, Wales' },
       { slug: 'pembrokeshire-ifa', name: 'Pembrokeshire Financial Services', location: 'Pembroke, Wales' },
+      { slug: 'whitchurch-ifa', name: 'Whitchurch IFA', location: 'Cardiff, Wales' },
       { slug: 'moneyhelp-belfast', name: 'MoneyHelp', location: 'Belfast' },
       { slug: 'fpni-belfast', name: 'Financial Professionals NI', location: 'Belfast & Lisburn' },
       { slug: 'digney-grant', name: 'Digney Grant Financial Planning', location: 'Newry, NI' },
